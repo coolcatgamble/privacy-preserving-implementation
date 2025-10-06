@@ -33,6 +33,9 @@ wheels/
 *.jpeg
 *.gif
 
+# Excel outputs (generated files)
+k_anonymity_report.xlsx
+
 # IDE
 .vscode/
 .idea/

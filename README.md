@@ -10,7 +10,7 @@ This project implements **k-anonymity**, a privacy model that protects against r
 
 - ✅ K-anonymity algorithm with generalization and suppression
 - ✅ Privacy and utility metrics calculation
-- ✅ Interactive Jupyter notebook with visualizations
+- ✅ Excel export with embedded charts and formatted sheets
 - ✅ Comprehensive data transformation analysis
 - ✅ Real-world medical dataset example
 
@@ -18,7 +18,7 @@ This project implements **k-anonymity**, a privacy model that protects against r
 
 - `k_anonymity_implementation.py` - Core k-anonymity algorithm and analysis
 - `k_anonymity_visualisations.py` - Visualization suite for privacy-utility tradeoffs
-- `k_anonymity_interactive.ipynb` - Interactive Jupyter notebook (recommended)
+- `export_to_excel.py` - Excel export script with embedded charts (recommended)
 
 ## Installation
 
@@ -28,26 +28,31 @@ git clone https://github.com/YOUR_USERNAME/k-anonymity-implementation.git
 cd k-anonymity-implementation
 
 # Install dependencies
-pip install pandas numpy matplotlib seaborn jupyter
+pip install pandas numpy matplotlib seaborn openpyxl
 ```
 
 ## Usage
 
-### Option 1: Interactive Jupyter Notebook (Recommended)
+### Option 1: Excel Report (Recommended)
 
 ```bash
-jupyter notebook k_anonymity_interactive.ipynb
+python3 export_to_excel.py
 ```
 
-Run cells step-by-step to explore k-anonymity with inline visualizations and explanations.
+Generates `k_anonymity_report.xlsx` with:
+- 5 sheets: Original data, K=3 anonymized, K=5 anonymized, metrics comparison, equivalence classes
+- 4 embedded charts: Privacy protection, re-identification probability, information loss, precision loss
+- Professional formatting and styling
+
+Open the generated Excel file in Microsoft Excel, Google Sheets, or any spreadsheet application.
 
 ### Option 2: Python Scripts
 
 ```bash
-# Run k-anonymity implementation
+# Run k-anonymity implementation (console output)
 python3 k_anonymity_implementation.py
 
-# Generate visualizations
+# Generate PNG visualizations
 python3 k_anonymity_visualisations.py
 ```
 
@@ -122,7 +127,7 @@ Higher k values provide:
 - numpy
 - matplotlib
 - seaborn
-- jupyter (for notebook)
+- openpyxl (for Excel export)
 
 ## License
 
