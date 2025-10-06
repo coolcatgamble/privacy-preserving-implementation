@@ -35,6 +35,7 @@ wheels/
 
 # Excel outputs (generated files)
 k_anonymity_report.xlsx
+ldiversity_report.xlsx
 
 # IDE
 .vscode/
