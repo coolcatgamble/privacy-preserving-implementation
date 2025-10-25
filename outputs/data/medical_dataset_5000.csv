@@ -1,0 +1,5001 @@
+PatientID,ZipCode,Age,Gender,Disease
+P00001,02142,36,Male,Obesity
+P00002,02119,18,Male,Asthma
+P00003,02111,38,Female,Mental Health
+P00004,02109,58,Male,Heart Disease
+P00005,02139,53,Male,Heart Disease
+P00006,02139,51,Male,Heart Disease
+P00007,02138,40,Female,Cancer
+P00008,02115,25,Male,Mental Health
+P00009,02109,52,Female,Heart Disease
+P00010,02111,32,Male,Cancer
+P00011,02138,77,Female,Asthma
+P00012,02119,53,Female,Mental Health
+P00013,02115,36,Male,Cancer
+P00014,02140,35,Female,Obesity
+P00015,02139,43,Male,Diabetes
+P00016,02139,41,Male,Diabetes
+P00017,02141,61,Female,Hypertension
+P00018,02108,47,Male,Diabetes
+P00019,02143,34,Male,Heart Disease
+P00020,02141,73,Male,Asthma
+P00021,02109,45,Male,Asthma
+P00022,02139,56,Female,Asthma
+P00023,02141,35,Male,Diabetes
+P00024,02142,50,Female,Hypertension
+P00025,02143,49,Female,Diabetes
+P00026,02113,18,Male,Heart Disease
+P00027,02140,75,Male,Hypertension
+P00028,02108,64,Female,Heart Disease
+P00029,02109,39,Male,Heart Disease
+P00030,02138,28,Male,Asthma
+P00031,02109,50,Male,Heart Disease
+P00032,02139,46,Female,Obesity
+P00033,02138,50,Female,Hypertension
+P00034,02118,47,Male,COPD
+P00035,02119,52,Male,Heart Disease
+P00036,02114,66,Female,Hypertension
+P00037,02141,53,Female,Diabetes
+P00038,02138,29,Female,Arthritis
+P00039,02110,65,Female,Diabetes
+P00040,02143,69,Male,Diabetes
+P00041,02139,90,Female,Arthritis
+P00042,02108,28,Male,Diabetes
+P00043,02138,48,Male,Heart Disease
+P00044,02116,18,Female,Diabetes
+P00045,02140,53,Male,Cancer
+P00046,02110,36,Female,Diabetes
+P00047,02141,73,Male,Diabetes
+P00048,02108,33,Female,Heart Disease
+P00049,02108,19,Female,Hypertension
+P00050,02139,37,Male,Asthma
+P00051,02119,18,Female,Diabetes
+P00052,02113,56,Male,Diabetes
+P00053,02118,18,Female,Heart Disease
+P00054,02116,45,Male,Heart Disease
+P00055,02109,18,Female,Heart Disease
+P00056,02118,40,Male,Hypertension
+P00057,02138,69,Male,Hypertension
+P00058,02140,50,Male,Mental Health
+P00059,02138,32,Male,Heart Disease
+P00060,02141,44,Female,Hypertension
+P00061,02142,45,Female,Hypertension
+P00062,02141,52,Female,Hypertension
+P00063,02114,24,Male,Arthritis
+P00064,02142,53,Female,Heart Disease
+P00065,02141,18,Male,Heart Disease
+P00066,02108,35,Female,Cancer
+P00067,02139,37,Female,Diabetes
+P00068,02114,54,Male,Heart Disease
+P00069,02138,45,Male,Diabetes
+P00070,02120,23,Male,Diabetes
+P00071,02113,30,Female,Cancer
+P00072,02140,47,Female,Heart Disease
+P00073,02138,43,Female,Diabetes
+P00074,02114,36,Male,Hypertension
+P00075,02111,37,Female,Hypertension
+P00076,02111,55,Female,Obesity
+P00077,02113,37,Male,Heart Disease
+P00078,02138,43,Female,Obesity
+P00079,02142,77,Male,Hypertension
+P00080,02139,23,Male,Asthma
+P00081,02115,18,Female,Diabetes
+P00082,02109,56,Male,Hypertension
+P00083,02141,34,Female,Arthritis
+P00084,02138,40,Female,Arthritis
+P00085,02141,33,Male,Heart Disease
+P00086,02141,41,Female,Heart Disease
+P00087,02111,68,Female,Hypertension
+P00088,02110,57,Male,Mental Health
+P00089,02116,57,Male,Diabetes
+P00090,02143,23,Male,Cancer
+P00091,02139,27,Male,Cancer
+P00092,02111,18,Male,Asthma
+P00093,02113,32,Male,Hypertension
+P00094,02109,59,Male,Diabetes
+P00095,02113,52,Female,Obesity
+P00096,02108,41,Male,Cancer
+P00097,02108,44,Female,Asthma
+P00098,02143,34,Female,Diabetes
+P00099,02138,48,Female,Cancer
+P00100,02139,56,Male,Diabetes
+P00101,02138,20,Female,Heart Disease
+P00102,02110,49,Female,Cancer
+P00103,02141,58,Female,Hypertension
+P00104,02108,38,Male,Cancer
+P00105,02116,55,Male,Diabetes
+P00106,02140,87,Female,Hypertension
+P00107,02142,43,Male,Diabetes
+P00108,02113,50,Male,Hypertension
+P00109,02140,33,Male,Diabetes
+P00110,02138,47,Female,Cancer
+P00111,02141,51,Female,Asthma
+P00112,02139,47,Male,Diabetes
+P00113,02118,29,Female,Diabetes
+P00114,02114,48,Female,Cancer
+P00115,02110,66,Female,Cancer
+P00116,02115,51,Female,Cancer
+P00117,02114,59,Female,Cancer
+P00118,02139,41,Female,Diabetes
+P00119,02116,56,Male,Diabetes
+P00120,02108,49,Female,Diabetes
+P00121,02114,30,Male,Heart Disease
+P00122,02116,49,Male,Cancer
+P00123,02141,30,Female,Heart Disease
+P00124,02139,35,Female,Mental Health
+P00125,02140,47,Female,Arthritis
+P00126,02143,49,Male,Arthritis
+P00127,02114,27,Male,Mental Health
+P00128,02115,60,Female,Diabetes
+P00129,02138,53,Male,Arthritis
+P00130,02108,34,Female,Heart Disease
+P00131,02142,21,Male,Heart Disease
+P00132,02140,42,Male,Asthma
+P00133,02139,38,Female,Heart Disease
+P00134,02141,46,Male,COPD
+P00135,02118,39,Male,Cancer
+P00136,02141,18,Male,Asthma
+P00137,02108,39,Female,Heart Disease
+P00138,02111,40,Female,Cancer
+P00139,02142,54,Male,Heart Disease
+P00140,02120,34,Male,Arthritis
+P00141,02119,70,Female,Heart Disease
+P00142,02140,18,Male,Cancer
+P00143,02108,64,Female,Heart Disease
+P00144,02141,41,Male,Heart Disease
+P00145,02141,57,Male,Hypertension
+P00146,02138,46,Female,Heart Disease
+P00147,02109,62,Male,Asthma
+P00148,02108,39,Female,Heart Disease
+P00149,02138,28,Male,Diabetes
+P00150,02141,66,Male,Hypertension
+P00151,02116,43,Female,Diabetes
+P00152,02140,48,Male,Diabetes
+P00153,02139,63,Female,Asthma
+P00154,02108,29,Male,Heart Disease
+P00155,02120,53,Female,Heart Disease
+P00156,02140,36,Female,Diabetes
+P00157,02110,43,Male,Diabetes
+P00158,02113,46,Female,Hypertension
+P00159,02140,22,Female,Diabetes
+P00160,02111,33,Male,Asthma
+P00161,02142,65,Female,Heart Disease
+P00162,02110,58,Female,Diabetes
+P00163,02110,44,Male,Diabetes
+P00164,02108,48,Male,Cancer
+P00165,02138,40,Male,Obesity
+P00166,02115,65,Male,Hypertension
+P00167,02141,41,Female,COPD
+P00168,02139,48,Female,Diabetes
+P00169,02138,62,Female,Heart Disease
+P00170,02109,33,Male,Heart Disease
+P00171,02110,68,Male,Diabetes
+P00172,02138,22,Female,Diabetes
+P00173,02108,69,Female,Heart Disease
+P00174,02140,39,Female,Diabetes
+P00175,02110,41,Male,Diabetes
+P00176,02139,18,Male,Heart Disease
+P00177,02111,38,Male,Diabetes
+P00178,02142,29,Female,Arthritis
+P00179,02118,35,Male,Diabetes
+P00180,02139,42,Female,Cancer
+P00181,02141,59,Female,Cancer
+P00182,02139,48,Male,Diabetes
+P00183,02118,49,Female,Heart Disease
+P00184,02115,28,Female,Diabetes
+P00185,02140,31,Female,Hypertension
+P00186,02110,71,Male,Diabetes
+P00187,02114,33,Male,Heart Disease
+P00188,02108,69,Male,Heart Disease
+P00189,02108,41,Male,Arthritis
+P00190,02140,45,Female,Diabetes
+P00191,02138,61,Female,Cancer
+P00192,02116,64,Male,Hypertension
+P00193,02116,43,Female,Arthritis
+P00194,02110,39,Female,Hypertension
+P00195,02141,44,Male,Hypertension
+P00196,02141,50,Male,Mental Health
+P00197,02111,58,Female,Cancer
+P00198,02116,45,Female,Heart Disease
+P00199,02116,54,Female,Heart Disease
+P00200,02113,69,Male,Asthma
+P00201,02110,50,Male,Arthritis
+P00202,02138,49,Male,Hypertension
+P00203,02139,22,Female,Hypertension
+P00204,02116,18,Female,Cancer
+P00205,02109,50,Male,Diabetes
+P00206,02138,43,Female,Cancer
+P00207,02139,37,Female,Heart Disease
+P00208,02110,48,Female,Obesity
+P00209,02138,44,Female,Asthma
+P00210,02139,61,Male,Cancer
+P00211,02108,46,Female,Diabetes
+P00212,02111,33,Male,Heart Disease
+P00213,02110,59,Male,Diabetes
+P00214,02140,41,Female,Cancer
+P00215,02111,52,Female,Cancer
+P00216,02140,37,Female,Diabetes
+P00217,02141,35,Female,Cancer
+P00218,02113,46,Female,Asthma
+P00219,02110,45,Female,Heart Disease
+P00220,02115,52,Male,Hypertension
+P00221,02110,40,Female,Asthma
+P00222,02109,18,Female,Hypertension
+P00223,02138,38,Male,Cancer
+P00224,02142,56,Male,Hypertension
+P00225,02140,40,Female,COPD
+P00226,02140,41,Female,Heart Disease
+P00227,02120,59,Female,Hypertension
+P00228,02142,34,Female,Heart Disease
+P00229,02116,21,Male,Heart Disease
+P00230,02110,42,Female,Diabetes
+P00231,02114,37,Female,Heart Disease
+P00232,02108,30,Female,Obesity
+P00233,02109,42,Female,Mental Health
+P00234,02108,52,Female,Diabetes
+P00235,02140,44,Female,Cancer
+P00236,02111,49,Female,Hypertension
+P00237,02141,72,Male,Asthma
+P00238,02138,39,Female,Cancer
+P00239,02110,49,Male,Heart Disease
+P00240,02139,37,Male,Asthma
+P00241,02118,32,Female,Asthma
+P00242,02119,36,Male,Hypertension
+P00243,02116,37,Female,Mental Health
+P00244,02142,50,Male,Mental Health
+P00245,02138,80,Male,Hypertension
+P00246,02118,34,Female,Cancer
+P00247,02143,38,Male,COPD
+P00248,02119,44,Female,Diabetes
+P00249,02119,50,Male,Diabetes
+P00250,02115,48,Male,Heart Disease
+P00251,02141,64,Male,Arthritis
+P00252,02142,18,Male,Asthma
+P00253,02115,18,Female,Heart Disease
+P00254,02141,37,Male,COPD
+P00255,02139,61,Female,Asthma
+P00256,02108,21,Female,Arthritis
+P00257,02118,18,Female,Heart Disease
+P00258,02111,53,Female,Hypertension
+P00259,02109,48,Male,Cancer
+P00260,02138,28,Male,Hypertension
+P00261,02109,30,Female,Cancer
+P00262,02121,30,Female,Asthma
+P00263,02139,46,Female,Diabetes
+P00264,02108,35,Female,Arthritis
+P00265,02115,52,Male,Heart Disease
+P00266,02113,18,Male,Diabetes
+P00267,02111,32,Female,Heart Disease
+P00268,02111,28,Female,Diabetes
+P00269,02142,41,Male,Diabetes
+P00270,02141,36,Female,Asthma
+P00271,02114,56,Male,Cancer
+P00272,02114,18,Male,Diabetes
+P00273,02115,45,Female,Cancer
+P00274,02116,53,Female,Heart Disease
+P00275,02108,72,Female,Heart Disease
+P00276,02108,37,Male,Cancer
+P00277,02114,49,Male,Cancer
+P00278,02110,18,Female,Asthma
+P00279,02111,18,Male,Diabetes
+P00280,02114,57,Female,Asthma
+P00281,02116,44,Female,Cancer
+P00282,02141,62,Female,Obesity
+P00283,02142,24,Male,Heart Disease
+P00284,02138,52,Female,Hypertension
+P00285,02109,73,Male,Cancer
+P00286,02138,51,Male,COPD
+P00287,02143,49,Male,Heart Disease
+P00288,02108,45,Male,Hypertension
+P00289,02141,21,Female,Diabetes
+P00290,02109,65,Male,Hypertension
+P00291,02138,35,Male,Heart Disease
+P00292,02138,52,Female,Heart Disease
+P00293,02114,21,Male,Hypertension
+P00294,02142,27,Female,Diabetes
+P00295,02139,66,Male,Heart Disease
+P00296,02108,39,Male,Diabetes
+P00297,02113,66,Female,Heart Disease
+P00298,02140,43,Male,Obesity
+P00299,02109,18,Female,Hypertension
+P00300,02138,58,Male,Asthma
+P00301,02138,36,Male,Diabetes
+P00302,02108,55,Male,Mental Health
+P00303,02108,45,Male,Hypertension
+P00304,02110,21,Male,Hypertension
+P00305,02111,47,Female,Hypertension
+P00306,02120,77,Female,Asthma
+P00307,02108,52,Male,Hypertension
+P00308,02141,44,Male,Diabetes
+P00309,02114,61,Female,Heart Disease
+P00310,02141,48,Female,Cancer
+P00311,02143,48,Female,Hypertension
+P00312,02138,28,Female,Heart Disease
+P00313,02138,48,Male,Diabetes
+P00314,02119,60,Male,Hypertension
+P00315,02115,32,Female,Arthritis
+P00316,02111,66,Female,Heart Disease
+P00317,02142,43,Female,Diabetes
+P00318,02139,31,Male,Arthritis
+P00319,02139,59,Female,Cancer
+P00320,02140,40,Female,Diabetes
+P00321,02108,56,Male,Arthritis
+P00322,02111,40,Female,Hypertension
+P00323,02110,44,Male,Hypertension
+P00324,02141,52,Male,Obesity
+P00325,02119,49,Male,Mental Health
+P00326,02111,18,Male,Diabetes
+P00327,02108,28,Male,Heart Disease
+P00328,02109,58,Female,Diabetes
+P00329,02142,43,Male,Heart Disease
+P00330,02140,37,Female,Heart Disease
+P00331,02142,24,Male,Diabetes
+P00332,02113,28,Male,Mental Health
+P00333,02138,18,Female,Arthritis
+P00334,02139,43,Female,Hypertension
+P00335,02138,36,Female,Hypertension
+P00336,02138,30,Female,Heart Disease
+P00337,02115,43,Male,Heart Disease
+P00338,02111,50,Male,Heart Disease
+P00339,02143,76,Female,Asthma
+P00340,02138,22,Female,Heart Disease
+P00341,02108,62,Female,Arthritis
+P00342,02143,59,Female,Cancer
+P00343,02139,33,Female,Heart Disease
+P00344,02143,48,Male,Heart Disease
+P00345,02142,38,Female,Cancer
+P00346,02109,47,Female,Mental Health
+P00347,02110,67,Female,Cancer
+P00348,02138,54,Male,Diabetes
+P00349,02142,52,Male,Hypertension
+P00350,02109,38,Male,Diabetes
+P00351,02108,22,Male,COPD
+P00352,02115,41,Female,Asthma
+P00353,02110,63,Male,Cancer
+P00354,02139,22,Male,Diabetes
+P00355,02138,29,Male,Cancer
+P00356,02110,46,Female,Diabetes
+P00357,02138,30,Female,Heart Disease
+P00358,02109,33,Male,Diabetes
+P00359,02118,38,Male,Mental Health
+P00360,02109,24,Male,Cancer
+P00361,02142,30,Female,Heart Disease
+P00362,02110,55,Male,Arthritis
+P00363,02143,25,Female,Diabetes
+P00364,02108,21,Male,Heart Disease
+P00365,02118,35,Male,Diabetes
+P00366,02142,55,Female,Hypertension
+P00367,02119,42,Male,Hypertension
+P00368,02116,38,Female,Hypertension
+P00369,02140,45,Male,Cancer
+P00370,02138,18,Female,Diabetes
+P00371,02139,52,Female,Asthma
+P00372,02138,50,Female,Heart Disease
+P00373,02138,38,Male,Asthma
+P00374,02110,60,Male,Cancer
+P00375,02138,28,Male,Cancer
+P00376,02141,61,Female,Hypertension
+P00377,02115,47,Female,Cancer
+P00378,02138,39,Male,Heart Disease
+P00379,02114,44,Male,Arthritis
+P00380,02141,43,Female,Heart Disease
+P00381,02139,63,Male,Heart Disease
+P00382,02111,28,Male,Hypertension
+P00383,02109,33,Male,Asthma
+P00384,02115,60,Female,Heart Disease
+P00385,02111,36,Female,Mental Health
+P00386,02114,58,Female,Obesity
+P00387,02141,70,Male,Cancer
+P00388,02139,38,Female,Hypertension
+P00389,02113,55,Female,Asthma
+P00390,02114,27,Male,Diabetes
+P00391,02121,56,Female,Hypertension
+P00392,02142,47,Male,Mental Health
+P00393,02142,52,Male,Obesity
+P00394,02113,35,Male,Mental Health
+P00395,02141,20,Male,Diabetes
+P00396,02118,52,Female,Heart Disease
+P00397,02115,18,Male,Diabetes
+P00398,02143,40,Male,Diabetes
+P00399,02113,59,Male,Diabetes
+P00400,02113,47,Female,Diabetes
+P00401,02139,74,Female,Cancer
+P00402,02116,60,Female,Asthma
+P00403,02108,35,Female,Asthma
+P00404,02114,45,Male,Asthma
+P00405,02141,44,Male,Heart Disease
+P00406,02116,21,Female,Heart Disease
+P00407,02142,30,Male,Asthma
+P00408,02138,36,Male,Hypertension
+P00409,02116,18,Female,Hypertension
+P00410,02138,45,Male,Heart Disease
+P00411,02141,41,Male,Diabetes
+P00412,02119,19,Male,Cancer
+P00413,02119,51,Male,Arthritis
+P00414,02109,55,Female,Mental Health
+P00415,02110,48,Female,Hypertension
+P00416,02143,40,Female,Hypertension
+P00417,02141,53,Female,Arthritis
+P00418,02141,55,Male,Hypertension
+P00419,02110,49,Male,Hypertension
+P00420,02113,32,Male,Mental Health
+P00421,02114,49,Male,Asthma
+P00422,02113,62,Female,Mental Health
+P00423,02138,36,Female,Heart Disease
+P00424,02108,76,Male,Hypertension
+P00425,02138,37,Male,Arthritis
+P00426,02108,45,Male,Heart Disease
+P00427,02143,34,Male,Asthma
+P00428,02116,48,Male,Heart Disease
+P00429,02142,18,Female,Asthma
+P00430,02139,36,Female,Cancer
+P00431,02139,28,Female,Heart Disease
+P00432,02113,47,Male,Hypertension
+P00433,02109,59,Male,Cancer
+P00434,02139,54,Female,Cancer
+P00435,02138,18,Female,Diabetes
+P00436,02111,75,Female,Arthritis
+P00437,02138,49,Female,Hypertension
+P00438,02114,33,Female,Hypertension
+P00439,02111,47,Female,Heart Disease
+P00440,02138,47,Male,Mental Health
+P00441,02138,34,Female,Heart Disease
+P00442,02120,47,Male,Hypertension
+P00443,02142,35,Male,Asthma
+P00444,02142,38,Female,Heart Disease
+P00445,02114,34,Male,Hypertension
+P00446,02118,23,Male,Heart Disease
+P00447,02120,47,Male,Asthma
+P00448,02113,53,Male,Hypertension
+P00449,02142,52,Male,Arthritis
+P00450,02138,57,Male,Arthritis
+P00451,02113,49,Male,Cancer
+P00452,02108,37,Male,Asthma
+P00453,02143,57,Female,Hypertension
+P00454,02116,24,Male,Diabetes
+P00455,02139,31,Male,Cancer
+P00456,02108,30,Female,Mental Health
+P00457,02138,61,Female,Diabetes
+P00458,02143,59,Female,Diabetes
+P00459,02138,52,Male,Diabetes
+P00460,02139,61,Female,Diabetes
+P00461,02139,31,Female,Heart Disease
+P00462,02110,50,Female,Hypertension
+P00463,02113,43,Female,Hypertension
+P00464,02109,57,Female,Hypertension
+P00465,02119,43,Female,Diabetes
+P00466,02142,39,Female,Cancer
+P00467,02141,53,Male,Arthritis
+P00468,02115,58,Female,Obesity
+P00469,02140,34,Female,Hypertension
+P00470,02119,44,Male,Heart Disease
+P00471,02138,29,Female,Obesity
+P00472,02119,18,Male,Cancer
+P00473,02138,48,Male,Diabetes
+P00474,02116,54,Female,Heart Disease
+P00475,02108,48,Male,Heart Disease
+P00476,02121,18,Male,Heart Disease
+P00477,02138,39,Male,Heart Disease
+P00478,02108,18,Male,Mental Health
+P00479,02119,65,Male,Hypertension
+P00480,02108,28,Male,Cancer
+P00481,02109,63,Male,Arthritis
+P00482,02111,59,Female,Asthma
+P00483,02143,31,Female,Arthritis
+P00484,02109,28,Male,Obesity
+P00485,02109,50,Female,Diabetes
+P00486,02116,32,Male,Obesity
+P00487,02138,46,Male,Asthma
+P00488,02141,37,Male,Heart Disease
+P00489,02119,18,Female,Cancer
+P00490,02116,18,Female,Cancer
+P00491,02143,48,Male,Mental Health
+P00492,02109,36,Male,Diabetes
+P00493,02141,36,Male,Hypertension
+P00494,02139,55,Female,Heart Disease
+P00495,02143,62,Female,Diabetes
+P00496,02142,40,Male,Heart Disease
+P00497,02109,39,Female,Hypertension
+P00498,02138,52,Male,Asthma
+P00499,02120,24,Female,Heart Disease
+P00500,02120,48,Female,Hypertension
+P00501,02111,53,Male,Heart Disease
+P00502,02108,55,Female,Heart Disease
+P00503,02141,18,Female,Hypertension
+P00504,02114,33,Male,Heart Disease
+P00505,02110,31,Male,Hypertension
+P00506,02139,46,Female,Heart Disease
+P00507,02116,52,Male,Heart Disease
+P00508,02114,67,Male,Hypertension
+P00509,02118,37,Male,Hypertension
+P00510,02111,37,Female,Heart Disease
+P00511,02109,62,Female,Hypertension
+P00512,02142,49,Female,Arthritis
+P00513,02118,64,Female,Asthma
+P00514,02115,49,Male,Heart Disease
+P00515,02138,27,Female,Hypertension
+P00516,02138,25,Female,Cancer
+P00517,02142,21,Male,Heart Disease
+P00518,02114,54,Male,Arthritis
+P00519,02120,62,Male,Mental Health
+P00520,02139,72,Female,Arthritis
+P00521,02109,57,Female,Arthritis
+P00522,02142,62,Female,Asthma
+P00523,02119,36,Female,Cancer
+P00524,02115,27,Male,Cancer
+P00525,02115,57,Female,Asthma
+P00526,02143,51,Female,Cancer
+P00527,02142,46,Male,Diabetes
+P00528,02141,50,Female,Diabetes
+P00529,02138,49,Male,Arthritis
+P00530,02115,64,Female,Heart Disease
+P00531,02114,64,Female,Cancer
+P00532,02121,53,Female,Obesity
+P00533,02121,57,Female,Cancer
+P00534,02108,52,Male,COPD
+P00535,02113,38,Female,Cancer
+P00536,02118,56,Male,Heart Disease
+P00537,02115,24,Female,Arthritis
+P00538,02140,60,Female,Diabetes
+P00539,02143,27,Female,Diabetes
+P00540,02139,49,Male,Diabetes
+P00541,02119,32,Female,Diabetes
+P00542,02109,53,Female,Diabetes
+P00543,02140,44,Female,Diabetes
+P00544,02110,21,Male,Cancer
+P00545,02109,51,Male,Asthma
+P00546,02142,36,Male,Diabetes
+P00547,02139,58,Female,Heart Disease
+P00548,02110,45,Female,Cancer
+P00549,02108,50,Female,Cancer
+P00550,02113,30,Male,Mental Health
+P00551,02108,36,Male,Heart Disease
+P00552,02115,38,Female,Arthritis
+P00553,02108,57,Female,Hypertension
+P00554,02109,70,Female,Cancer
+P00555,02115,32,Female,Heart Disease
+P00556,02142,61,Male,Diabetes
+P00557,02139,18,Female,Heart Disease
+P00558,02138,27,Female,Diabetes
+P00559,02113,30,Female,Hypertension
+P00560,02109,24,Male,Asthma
+P00561,02111,21,Male,Asthma
+P00562,02140,51,Male,Hypertension
+P00563,02139,41,Female,Hypertension
+P00564,02138,50,Male,Diabetes
+P00565,02142,55,Male,Obesity
+P00566,02109,48,Male,Hypertension
+P00567,02142,54,Female,Diabetes
+P00568,02143,43,Male,Heart Disease
+P00569,02116,27,Female,Cancer
+P00570,02141,60,Male,Hypertension
+P00571,02108,36,Male,Heart Disease
+P00572,02113,30,Female,Arthritis
+P00573,02142,42,Male,Cancer
+P00574,02109,31,Male,Cancer
+P00575,02115,38,Male,Heart Disease
+P00576,02118,50,Female,Diabetes
+P00577,02139,50,Female,Mental Health
+P00578,02118,31,Male,Arthritis
+P00579,02108,37,Male,Diabetes
+P00580,02140,61,Female,Heart Disease
+P00581,02143,52,Female,Diabetes
+P00582,02120,76,Male,Diabetes
+P00583,02108,62,Female,Cancer
+P00584,02141,62,Female,Obesity
+P00585,02110,24,Female,Diabetes
+P00586,02140,56,Male,Heart Disease
+P00587,02138,44,Male,Arthritis
+P00588,02139,36,Male,Heart Disease
+P00589,02139,47,Female,Obesity
+P00590,02139,59,Female,Cancer
+P00591,02139,52,Male,Mental Health
+P00592,02110,31,Female,Heart Disease
+P00593,02139,56,Female,Heart Disease
+P00594,02141,35,Female,Hypertension
+P00595,02116,48,Female,Hypertension
+P00596,02143,40,Female,Diabetes
+P00597,02110,41,Male,Obesity
+P00598,02139,56,Female,Arthritis
+P00599,02140,29,Female,Cancer
+P00600,02138,74,Male,Heart Disease
+P00601,02139,18,Male,Asthma
+P00602,02141,36,Female,Asthma
+P00603,02139,50,Male,Diabetes
+P00604,02138,53,Female,Mental Health
+P00605,02139,43,Male,Heart Disease
+P00606,02143,44,Male,Diabetes
+P00607,02140,51,Male,Heart Disease
+P00608,02142,41,Male,Asthma
+P00609,02108,65,Female,Cancer
+P00610,02111,57,Female,Diabetes
+P00611,02138,58,Male,Heart Disease
+P00612,02114,30,Male,Heart Disease
+P00613,02109,43,Male,Heart Disease
+P00614,02138,40,Male,Hypertension
+P00615,02115,29,Female,Heart Disease
+P00616,02118,50,Male,Diabetes
+P00617,02138,36,Male,Arthritis
+P00618,02141,54,Female,Hypertension
+P00619,02114,28,Male,Asthma
+P00620,02113,70,Male,Heart Disease
+P00621,02139,31,Male,Diabetes
+P00622,02140,48,Female,Hypertension
+P00623,02142,56,Female,Heart Disease
+P00624,02108,36,Female,Heart Disease
+P00625,02109,57,Male,Arthritis
+P00626,02142,26,Male,Mental Health
+P00627,02143,66,Female,Heart Disease
+P00628,02113,45,Female,Diabetes
+P00629,02138,36,Female,Obesity
+P00630,02140,40,Male,Heart Disease
+P00631,02111,57,Male,Cancer
+P00632,02116,36,Female,Obesity
+P00633,02108,33,Female,Obesity
+P00634,02108,41,Female,Hypertension
+P00635,02139,27,Female,Heart Disease
+P00636,02143,72,Female,Heart Disease
+P00637,02108,36,Female,Arthritis
+P00638,02140,57,Female,Mental Health
+P00639,02140,48,Female,Cancer
+P00640,02142,30,Female,Asthma
+P00641,02138,44,Male,Asthma
+P00642,02141,56,Male,Cancer
+P00643,02140,42,Female,Arthritis
+P00644,02141,62,Male,Cancer
+P00645,02139,60,Female,Hypertension
+P00646,02116,58,Male,Heart Disease
+P00647,02109,38,Male,Asthma
+P00648,02110,28,Female,Hypertension
+P00649,02113,35,Male,Diabetes
+P00650,02108,47,Male,Asthma
+P00651,02138,53,Male,Cancer
+P00652,02108,18,Female,Mental Health
+P00653,02109,44,Male,Heart Disease
+P00654,02113,47,Female,Cancer
+P00655,02143,40,Male,Heart Disease
+P00656,02139,64,Female,Mental Health
+P00657,02141,51,Male,Heart Disease
+P00658,02142,64,Male,Cancer
+P00659,02110,41,Male,Asthma
+P00660,02109,59,Male,Diabetes
+P00661,02142,69,Female,Obesity
+P00662,02120,64,Male,Arthritis
+P00663,02109,28,Male,Diabetes
+P00664,02140,41,Female,Heart Disease
+P00665,02139,39,Male,Diabetes
+P00666,02139,52,Male,Diabetes
+P00667,02140,55,Female,Arthritis
+P00668,02139,32,Female,Obesity
+P00669,02139,46,Male,Heart Disease
+P00670,02141,18,Male,Hypertension
+P00671,02139,66,Female,Hypertension
+P00672,02116,37,Male,Heart Disease
+P00673,02138,45,Female,Diabetes
+P00674,02108,40,Male,Diabetes
+P00675,02142,62,Female,Hypertension
+P00676,02120,18,Male,Cancer
+P00677,02139,44,Female,Cancer
+P00678,02142,43,Male,Heart Disease
+P00679,02119,38,Female,Asthma
+P00680,02115,70,Male,Cancer
+P00681,02114,31,Male,Arthritis
+P00682,02140,56,Female,Diabetes
+P00683,02139,50,Female,Arthritis
+P00684,02110,63,Female,Arthritis
+P00685,02118,34,Male,Diabetes
+P00686,02108,34,Female,Diabetes
+P00687,02109,61,Male,Mental Health
+P00688,02141,51,Female,Cancer
+P00689,02113,21,Female,Mental Health
+P00690,02139,36,Male,Asthma
+P00691,02141,50,Female,Cancer
+P00692,02143,57,Female,Heart Disease
+P00693,02108,34,Male,Diabetes
+P00694,02140,18,Female,Obesity
+P00695,02139,52,Male,Diabetes
+P00696,02109,26,Female,Heart Disease
+P00697,02141,18,Male,Cancer
+P00698,02109,18,Male,Asthma
+P00699,02139,57,Male,Diabetes
+P00700,02108,46,Female,Diabetes
+P00701,02108,41,Female,Hypertension
+P00702,02138,65,Female,Heart Disease
+P00703,02141,54,Male,Asthma
+P00704,02139,69,Male,Diabetes
+P00705,02138,24,Female,Arthritis
+P00706,02120,44,Female,Asthma
+P00707,02141,20,Male,Cancer
+P00708,02114,41,Male,Diabetes
+P00709,02140,41,Female,Hypertension
+P00710,02110,54,Male,Diabetes
+P00711,02113,45,Female,Diabetes
+P00712,02109,54,Female,Arthritis
+P00713,02143,55,Female,Hypertension
+P00714,02142,77,Female,Arthritis
+P00715,02141,40,Male,Heart Disease
+P00716,02118,30,Female,Heart Disease
+P00717,02115,48,Female,Obesity
+P00718,02119,32,Male,Hypertension
+P00719,02139,67,Female,Hypertension
+P00720,02111,40,Male,Hypertension
+P00721,02118,36,Female,Heart Disease
+P00722,02139,37,Male,Cancer
+P00723,02138,55,Female,Heart Disease
+P00724,02113,42,Male,Hypertension
+P00725,02109,35,Male,Hypertension
+P00726,02115,69,Female,Mental Health
+P00727,02139,32,Female,Hypertension
+P00728,02114,45,Male,Heart Disease
+P00729,02140,54,Male,Hypertension
+P00730,02139,20,Male,Heart Disease
+P00731,02139,52,Female,Heart Disease
+P00732,02114,29,Female,Heart Disease
+P00733,02110,57,Female,Hypertension
+P00734,02108,30,Female,Heart Disease
+P00735,02142,55,Female,Hypertension
+P00736,02115,61,Male,Mental Health
+P00737,02142,57,Male,Cancer
+P00738,02114,48,Female,Heart Disease
+P00739,02143,41,Female,Heart Disease
+P00740,02142,36,Female,Cancer
+P00741,02143,67,Female,Arthritis
+P00742,02141,34,Female,Heart Disease
+P00743,02113,29,Female,Asthma
+P00744,02108,54,Male,Hypertension
+P00745,02140,33,Male,Hypertension
+P00746,02116,30,Female,Obesity
+P00747,02142,23,Female,Asthma
+P00748,02108,37,Male,Arthritis
+P00749,02116,43,Male,Diabetes
+P00750,02109,48,Male,Hypertension
+P00751,02139,59,Male,Cancer
+P00752,02118,52,Female,Diabetes
+P00753,02109,42,Male,Hypertension
+P00754,02141,42,Female,Heart Disease
+P00755,02139,52,Male,Heart Disease
+P00756,02114,64,Female,Diabetes
+P00757,02109,46,Male,Asthma
+P00758,02108,37,Female,Mental Health
+P00759,02116,30,Female,Hypertension
+P00760,02113,23,Female,Cancer
+P00761,02139,54,Male,Heart Disease
+P00762,02141,53,Male,Mental Health
+P00763,02140,53,Male,Hypertension
+P00764,02113,43,Male,Asthma
+P00765,02138,66,Female,Asthma
+P00766,02109,37,Female,Diabetes
+P00767,02113,59,Female,Hypertension
+P00768,02115,44,Female,Obesity
+P00769,02141,35,Male,Heart Disease
+P00770,02114,53,Male,Cancer
+P00771,02139,51,Male,Obesity
+P00772,02115,50,Female,Diabetes
+P00773,02139,46,Female,Arthritis
+P00774,02142,44,Male,Mental Health
+P00775,02114,80,Male,Asthma
+P00776,02139,62,Female,Heart Disease
+P00777,02140,55,Female,Diabetes
+P00778,02111,46,Female,Heart Disease
+P00779,02111,60,Male,Arthritis
+P00780,02110,52,Male,Arthritis
+P00781,02111,45,Female,Cancer
+P00782,02108,40,Female,Diabetes
+P00783,02140,43,Male,Heart Disease
+P00784,02141,18,Female,Asthma
+P00785,02139,48,Female,Asthma
+P00786,02116,37,Male,Mental Health
+P00787,02109,68,Male,Asthma
+P00788,02142,45,Male,Arthritis
+P00789,02143,27,Male,Asthma
+P00790,02118,44,Female,Cancer
+P00791,02139,29,Male,Diabetes
+P00792,02109,52,Female,Mental Health
+P00793,02108,49,Female,Cancer
+P00794,02109,59,Male,Diabetes
+P00795,02138,33,Male,Heart Disease
+P00796,02115,45,Female,Diabetes
+P00797,02118,24,Female,Hypertension
+P00798,02109,55,Female,Diabetes
+P00799,02111,52,Male,Heart Disease
+P00800,02118,52,Male,Hypertension
+P00801,02111,45,Female,Heart Disease
+P00802,02139,51,Female,Asthma
+P00803,02109,69,Male,Hypertension
+P00804,02109,40,Female,Hypertension
+P00805,02143,47,Male,Heart Disease
+P00806,02111,28,Female,Diabetes
+P00807,02118,31,Female,Diabetes
+P00808,02118,46,Male,Asthma
+P00809,02143,61,Female,Asthma
+P00810,02139,41,Male,Heart Disease
+P00811,02120,41,Male,Cancer
+P00812,02115,38,Male,Heart Disease
+P00813,02139,36,Male,COPD
+P00814,02118,49,Male,Obesity
+P00815,02115,22,Female,Hypertension
+P00816,02108,64,Female,Cancer
+P00817,02109,35,Male,Asthma
+P00818,02142,55,Female,Asthma
+P00819,02138,25,Female,Cancer
+P00820,02141,55,Female,Obesity
+P00821,02114,55,Female,Hypertension
+P00822,02138,50,Male,Cancer
+P00823,02141,30,Male,Arthritis
+P00824,02142,48,Female,Cancer
+P00825,02108,27,Male,Asthma
+P00826,02116,41,Male,Heart Disease
+P00827,02141,60,Male,Diabetes
+P00828,02141,56,Male,Heart Disease
+P00829,02111,45,Male,Hypertension
+P00830,02143,30,Female,Hypertension
+P00831,02140,54,Male,COPD
+P00832,02143,45,Female,Cancer
+P00833,02139,18,Female,Asthma
+P00834,02139,56,Male,Diabetes
+P00835,02108,44,Male,Arthritis
+P00836,02142,63,Male,Cancer
+P00837,02116,28,Male,Cancer
+P00838,02142,18,Male,Diabetes
+P00839,02109,49,Male,Hypertension
+P00840,02110,49,Female,Cancer
+P00841,02138,19,Female,Hypertension
+P00842,02110,30,Male,Mental Health
+P00843,02139,86,Male,Arthritis
+P00844,02119,40,Female,Obesity
+P00845,02139,55,Female,Cancer
+P00846,02142,35,Female,Obesity
+P00847,02138,18,Female,Arthritis
+P00848,02121,42,Male,Diabetes
+P00849,02108,41,Male,Diabetes
+P00850,02109,39,Female,Heart Disease
+P00851,02138,43,Male,Heart Disease
+P00852,02113,48,Female,Heart Disease
+P00853,02140,42,Female,Heart Disease
+P00854,02116,26,Female,Cancer
+P00855,02140,52,Male,Diabetes
+P00856,02140,18,Female,Diabetes
+P00857,02138,18,Female,Asthma
+P00858,02143,56,Male,Arthritis
+P00859,02109,52,Male,Obesity
+P00860,02138,44,Female,Cancer
+P00861,02113,24,Female,Hypertension
+P00862,02143,34,Male,Diabetes
+P00863,02108,41,Male,Heart Disease
+P00864,02143,21,Female,Heart Disease
+P00865,02142,33,Female,Diabetes
+P00866,02108,54,Female,COPD
+P00867,02139,66,Female,Heart Disease
+P00868,02139,38,Male,Heart Disease
+P00869,02115,56,Female,Heart Disease
+P00870,02118,18,Male,Cancer
+P00871,02142,54,Female,Diabetes
+P00872,02141,32,Female,Hypertension
+P00873,02110,49,Male,Heart Disease
+P00874,02142,41,Male,Diabetes
+P00875,02138,64,Female,Heart Disease
+P00876,02139,31,Male,Hypertension
+P00877,02111,54,Male,Heart Disease
+P00878,02110,40,Female,Asthma
+P00879,02138,42,Male,Hypertension
+P00880,02140,42,Female,Asthma
+P00881,02140,32,Male,Diabetes
+P00882,02110,44,Female,Diabetes
+P00883,02138,44,Male,Heart Disease
+P00884,02139,48,Male,Hypertension
+P00885,02114,46,Female,Hypertension
+P00886,02139,56,Female,Hypertension
+P00887,02110,58,Male,Asthma
+P00888,02140,29,Male,Arthritis
+P00889,02138,58,Female,Asthma
+P00890,02140,27,Female,Heart Disease
+P00891,02111,53,Female,Cancer
+P00892,02115,54,Female,Heart Disease
+P00893,02115,18,Female,Cancer
+P00894,02142,46,Male,Diabetes
+P00895,02110,37,Female,Heart Disease
+P00896,02140,33,Female,Arthritis
+P00897,02141,65,Male,Cancer
+P00898,02116,35,Male,Diabetes
+P00899,02138,32,Male,Heart Disease
+P00900,02138,46,Male,Hypertension
+P00901,02140,55,Male,Mental Health
+P00902,02138,42,Female,Hypertension
+P00903,02139,62,Female,Obesity
+P00904,02109,52,Female,Heart Disease
+P00905,02143,18,Male,Hypertension
+P00906,02116,37,Male,Asthma
+P00907,02114,36,Female,Hypertension
+P00908,02141,52,Male,Heart Disease
+P00909,02140,18,Female,Hypertension
+P00910,02142,83,Female,Cancer
+P00911,02109,52,Male,Asthma
+P00912,02140,47,Male,Asthma
+P00913,02109,62,Male,Asthma
+P00914,02142,80,Female,Cancer
+P00915,02108,58,Female,Heart Disease
+P00916,02143,59,Female,Diabetes
+P00917,02141,46,Male,Asthma
+P00918,02118,42,Female,Obesity
+P00919,02113,37,Male,Heart Disease
+P00920,02139,32,Male,Hypertension
+P00921,02115,34,Female,Diabetes
+P00922,02108,24,Female,Heart Disease
+P00923,02116,43,Male,Hypertension
+P00924,02114,19,Male,Cancer
+P00925,02143,47,Male,Heart Disease
+P00926,02138,44,Male,Asthma
+P00927,02140,47,Male,Asthma
+P00928,02108,37,Female,Obesity
+P00929,02110,90,Female,Heart Disease
+P00930,02140,65,Female,Hypertension
+P00931,02139,26,Female,Diabetes
+P00932,02115,48,Female,Diabetes
+P00933,02120,35,Female,Hypertension
+P00934,02108,29,Female,Asthma
+P00935,02139,24,Male,Heart Disease
+P00936,02141,51,Female,Obesity
+P00937,02138,34,Female,Asthma
+P00938,02116,59,Female,Asthma
+P00939,02139,59,Female,Asthma
+P00940,02109,65,Male,Diabetes
+P00941,02141,32,Female,Asthma
+P00942,02108,52,Male,Diabetes
+P00943,02110,54,Female,Arthritis
+P00944,02114,37,Male,Heart Disease
+P00945,02140,33,Male,Diabetes
+P00946,02138,69,Male,Hypertension
+P00947,02139,48,Female,Diabetes
+P00948,02116,54,Male,Diabetes
+P00949,02115,32,Female,Hypertension
+P00950,02109,26,Male,Arthritis
+P00951,02109,36,Female,Hypertension
+P00952,02110,43,Female,Diabetes
+P00953,02139,29,Male,Heart Disease
+P00954,02116,44,Male,Diabetes
+P00955,02142,19,Female,Hypertension
+P00956,02142,28,Female,Asthma
+P00957,02108,55,Female,Heart Disease
+P00958,02138,54,Male,Heart Disease
+P00959,02139,39,Female,Diabetes
+P00960,02111,29,Female,Diabetes
+P00961,02138,29,Male,Diabetes
+P00962,02109,39,Male,Asthma
+P00963,02140,54,Male,Diabetes
+P00964,02142,58,Female,Hypertension
+P00965,02141,37,Female,Cancer
+P00966,02142,27,Male,Heart Disease
+P00967,02111,49,Male,Cancer
+P00968,02141,32,Male,Hypertension
+P00969,02109,37,Male,Diabetes
+P00970,02143,64,Male,Asthma
+P00971,02110,57,Female,Heart Disease
+P00972,02118,47,Male,Arthritis
+P00973,02111,25,Male,Hypertension
+P00974,02140,48,Female,Cancer
+P00975,02138,60,Female,Arthritis
+P00976,02140,39,Female,Asthma
+P00977,02109,65,Male,Cancer
+P00978,02138,64,Male,Asthma
+P00979,02108,69,Female,Diabetes
+P00980,02109,49,Female,Hypertension
+P00981,02141,53,Male,Heart Disease
+P00982,02113,66,Female,Heart Disease
+P00983,02139,51,Female,Arthritis
+P00984,02138,37,Male,Heart Disease
+P00985,02111,38,Female,Heart Disease
+P00986,02108,48,Female,Asthma
+P00987,02110,25,Male,Heart Disease
+P00988,02143,42,Female,Diabetes
+P00989,02140,61,Female,Hypertension
+P00990,02114,18,Female,Hypertension
+P00991,02114,68,Male,Asthma
+P00992,02111,61,Male,Hypertension
+P00993,02141,38,Female,Hypertension
+P00994,02109,53,Male,Asthma
+P00995,02142,45,Male,Hypertension
+P00996,02138,63,Male,Cancer
+P00997,02116,59,Male,Arthritis
+P00998,02139,23,Female,Diabetes
+P00999,02119,53,Male,Diabetes
+P01000,02143,41,Female,Heart Disease
+P01001,02139,46,Male,Cancer
+P01002,02108,34,Female,Heart Disease
+P01003,02115,71,Male,Hypertension
+P01004,02111,60,Female,Asthma
+P01005,02114,33,Female,Hypertension
+P01006,02110,24,Male,Diabetes
+P01007,02111,39,Female,Asthma
+P01008,02115,51,Male,Diabetes
+P01009,02140,48,Female,Asthma
+P01010,02108,63,Female,Cancer
+P01011,02140,56,Female,Heart Disease
+P01012,02120,59,Female,Mental Health
+P01013,02118,49,Male,Heart Disease
+P01014,02138,24,Male,COPD
+P01015,02111,42,Male,Heart Disease
+P01016,02118,60,Female,Diabetes
+P01017,02139,44,Female,Heart Disease
+P01018,02109,52,Male,Heart Disease
+P01019,02116,40,Female,Asthma
+P01020,02138,29,Male,Cancer
+P01021,02111,43,Male,Asthma
+P01022,02141,49,Female,Diabetes
+P01023,02118,35,Male,Diabetes
+P01024,02120,41,Female,Cancer
+P01025,02118,30,Male,Diabetes
+P01026,02143,61,Female,Cancer
+P01027,02115,40,Male,Cancer
+P01028,02115,66,Male,Heart Disease
+P01029,02141,67,Female,Asthma
+P01030,02114,43,Female,Asthma
+P01031,02138,29,Male,Cancer
+P01032,02109,18,Male,Heart Disease
+P01033,02140,22,Female,Diabetes
+P01034,02139,24,Male,Diabetes
+P01035,02138,65,Female,Diabetes
+P01036,02111,46,Female,Heart Disease
+P01037,02141,50,Male,Asthma
+P01038,02111,18,Male,Cancer
+P01039,02138,27,Female,Hypertension
+P01040,02141,58,Male,Heart Disease
+P01041,02108,49,Female,Mental Health
+P01042,02114,42,Male,Heart Disease
+P01043,02141,53,Female,Asthma
+P01044,02109,69,Male,Obesity
+P01045,02116,41,Female,Asthma
+P01046,02109,46,Male,COPD
+P01047,02140,47,Male,Cancer
+P01048,02138,80,Female,Heart Disease
+P01049,02115,18,Male,Heart Disease
+P01050,02138,55,Male,Diabetes
+P01051,02115,43,Male,Heart Disease
+P01052,02108,53,Male,Cancer
+P01053,02118,35,Female,Diabetes
+P01054,02114,44,Female,Asthma
+P01055,02121,55,Male,Diabetes
+P01056,02142,90,Female,Hypertension
+P01057,02113,57,Female,Obesity
+P01058,02142,32,Female,Heart Disease
+P01059,02143,38,Male,Asthma
+P01060,02109,38,Female,Asthma
+P01061,02115,18,Female,Heart Disease
+P01062,02120,40,Female,Hypertension
+P01063,02113,55,Male,Diabetes
+P01064,02142,25,Male,Asthma
+P01065,02143,60,Female,Cancer
+P01066,02111,52,Male,Hypertension
+P01067,02140,33,Female,Asthma
+P01068,02139,42,Male,Heart Disease
+P01069,02142,68,Female,Asthma
+P01070,02141,56,Female,Arthritis
+P01071,02141,45,Female,Arthritis
+P01072,02140,41,Female,Asthma
+P01073,02138,46,Female,Diabetes
+P01074,02138,37,Male,COPD
+P01075,02120,18,Female,Diabetes
+P01076,02143,75,Male,Cancer
+P01077,02142,47,Female,Heart Disease
+P01078,02110,50,Male,COPD
+P01079,02140,44,Female,Cancer
+P01080,02118,33,Female,Asthma
+P01081,02113,42,Male,Heart Disease
+P01082,02138,21,Male,Asthma
+P01083,02142,79,Female,Asthma
+P01084,02115,26,Male,Cancer
+P01085,02118,29,Male,Diabetes
+P01086,02143,38,Male,Hypertension
+P01087,02109,64,Female,Heart Disease
+P01088,02139,45,Female,Hypertension
+P01089,02121,26,Female,Heart Disease
+P01090,02140,63,Female,Diabetes
+P01091,02118,55,Male,Heart Disease
+P01092,02110,53,Female,Heart Disease
+P01093,02109,55,Male,Heart Disease
+P01094,02108,80,Male,Mental Health
+P01095,02140,77,Male,Hypertension
+P01096,02139,34,Female,Diabetes
+P01097,02140,69,Female,Hypertension
+P01098,02139,50,Male,Cancer
+P01099,02113,52,Female,Mental Health
+P01100,02142,19,Male,Heart Disease
+P01101,02138,42,Male,Diabetes
+P01102,02119,32,Male,Obesity
+P01103,02116,57,Female,Diabetes
+P01104,02118,61,Female,Heart Disease
+P01105,02121,18,Male,Heart Disease
+P01106,02139,44,Female,Heart Disease
+P01107,02142,61,Male,COPD
+P01108,02113,42,Female,Diabetes
+P01109,02111,55,Female,Mental Health
+P01110,02139,50,Male,COPD
+P01111,02114,50,Female,Hypertension
+P01112,02140,40,Female,Heart Disease
+P01113,02140,26,Male,Heart Disease
+P01114,02108,28,Female,Hypertension
+P01115,02109,55,Female,Diabetes
+P01116,02109,45,Male,Cancer
+P01117,02138,42,Male,Diabetes
+P01118,02115,38,Male,Mental Health
+P01119,02140,40,Female,Hypertension
+P01120,02139,60,Female,Cancer
+P01121,02116,39,Female,Arthritis
+P01122,02119,24,Male,Heart Disease
+P01123,02115,56,Male,Heart Disease
+P01124,02114,41,Male,Heart Disease
+P01125,02110,45,Female,Heart Disease
+P01126,02108,69,Female,Hypertension
+P01127,02138,44,Female,Diabetes
+P01128,02142,49,Male,Diabetes
+P01129,02142,27,Female,COPD
+P01130,02140,41,Female,Heart Disease
+P01131,02111,54,Male,Hypertension
+P01132,02108,21,Female,Heart Disease
+P01133,02138,48,Male,Diabetes
+P01134,02140,46,Male,Hypertension
+P01135,02110,45,Male,Mental Health
+P01136,02138,60,Male,Diabetes
+P01137,02115,50,Male,Heart Disease
+P01138,02108,67,Male,Diabetes
+P01139,02108,30,Male,Heart Disease
+P01140,02109,47,Female,Heart Disease
+P01141,02114,46,Female,Cancer
+P01142,02141,28,Female,Heart Disease
+P01143,02110,59,Male,Hypertension
+P01144,02109,79,Male,Cancer
+P01145,02140,44,Male,Diabetes
+P01146,02115,52,Male,Heart Disease
+P01147,02114,46,Female,COPD
+P01148,02110,34,Female,Diabetes
+P01149,02115,18,Female,Asthma
+P01150,02115,34,Female,Diabetes
+P01151,02111,24,Male,Hypertension
+P01152,02115,70,Male,Diabetes
+P01153,02111,43,Female,Diabetes
+P01154,02110,39,Male,Heart Disease
+P01155,02109,58,Male,Diabetes
+P01156,02113,28,Male,Arthritis
+P01157,02139,33,Male,Cancer
+P01158,02116,46,Male,Heart Disease
+P01159,02115,60,Female,Hypertension
+P01160,02138,52,Female,Arthritis
+P01161,02114,48,Male,Cancer
+P01162,02139,46,Male,Heart Disease
+P01163,02141,51,Female,Arthritis
+P01164,02113,48,Male,Diabetes
+P01165,02139,29,Male,Hypertension
+P01166,02114,45,Male,Hypertension
+P01167,02115,28,Male,Arthritis
+P01168,02108,46,Female,Mental Health
+P01169,02138,37,Female,Mental Health
+P01170,02141,83,Male,Heart Disease
+P01171,02109,44,Male,Mental Health
+P01172,02120,23,Male,Heart Disease
+P01173,02110,42,Male,Diabetes
+P01174,02140,52,Female,Hypertension
+P01175,02110,70,Female,Hypertension
+P01176,02108,36,Female,Cancer
+P01177,02113,21,Female,Hypertension
+P01178,02139,57,Female,Mental Health
+P01179,02113,24,Female,Heart Disease
+P01180,02108,38,Male,Diabetes
+P01181,02119,41,Male,Mental Health
+P01182,02141,43,Female,Heart Disease
+P01183,02110,55,Male,Cancer
+P01184,02118,34,Female,Cancer
+P01185,02139,40,Female,Hypertension
+P01186,02118,44,Female,Cancer
+P01187,02110,47,Male,Heart Disease
+P01188,02138,46,Female,Arthritis
+P01189,02141,51,Male,Heart Disease
+P01190,02111,57,Female,Diabetes
+P01191,02138,50,Male,Heart Disease
+P01192,02109,51,Female,Hypertension
+P01193,02141,21,Female,Cancer
+P01194,02109,45,Male,Mental Health
+P01195,02138,52,Male,Asthma
+P01196,02115,55,Female,Hypertension
+P01197,02120,34,Male,Mental Health
+P01198,02119,35,Female,Hypertension
+P01199,02113,36,Male,Hypertension
+P01200,02139,53,Female,Hypertension
+P01201,02113,60,Female,Diabetes
+P01202,02138,38,Male,Arthritis
+P01203,02138,58,Male,Heart Disease
+P01204,02141,46,Female,Hypertension
+P01205,02108,43,Male,Asthma
+P01206,02113,41,Male,Mental Health
+P01207,02110,56,Female,Arthritis
+P01208,02143,49,Male,Hypertension
+P01209,02141,79,Male,Cancer
+P01210,02121,32,Female,Diabetes
+P01211,02143,52,Male,Hypertension
+P01212,02143,37,Male,Mental Health
+P01213,02139,31,Male,Mental Health
+P01214,02114,44,Female,Arthritis
+P01215,02111,47,Female,Heart Disease
+P01216,02140,88,Female,Arthritis
+P01217,02138,42,Male,Mental Health
+P01218,02110,28,Male,Diabetes
+P01219,02110,49,Male,Hypertension
+P01220,02141,18,Male,Asthma
+P01221,02119,43,Female,Hypertension
+P01222,02139,45,Male,COPD
+P01223,02143,56,Male,Hypertension
+P01224,02118,59,Male,Cancer
+P01225,02142,37,Female,Asthma
+P01226,02110,42,Female,Hypertension
+P01227,02142,33,Female,Arthritis
+P01228,02141,28,Female,Hypertension
+P01229,02120,49,Female,Diabetes
+P01230,02142,25,Male,Heart Disease
+P01231,02116,38,Male,Diabetes
+P01232,02140,30,Female,Asthma
+P01233,02140,53,Female,Mental Health
+P01234,02138,72,Female,Diabetes
+P01235,02110,25,Female,Diabetes
+P01236,02142,18,Female,Heart Disease
+P01237,02115,43,Female,Cancer
+P01238,02143,45,Female,Obesity
+P01239,02119,48,Female,Cancer
+P01240,02139,38,Male,Cancer
+P01241,02115,41,Female,Hypertension
+P01242,02113,50,Female,Heart Disease
+P01243,02113,60,Male,Asthma
+P01244,02115,18,Female,Cancer
+P01245,02113,39,Female,Cancer
+P01246,02109,48,Male,Arthritis
+P01247,02139,31,Female,Asthma
+P01248,02138,70,Male,Asthma
+P01249,02118,35,Female,Mental Health
+P01250,02109,44,Female,COPD
+P01251,02114,53,Male,Hypertension
+P01252,02108,36,Male,Heart Disease
+P01253,02139,18,Female,Hypertension
+P01254,02139,38,Male,Asthma
+P01255,02110,60,Male,Heart Disease
+P01256,02143,39,Female,Heart Disease
+P01257,02140,32,Male,Heart Disease
+P01258,02108,58,Male,Asthma
+P01259,02138,40,Female,Hypertension
+P01260,02109,37,Female,Diabetes
+P01261,02140,47,Female,Heart Disease
+P01262,02114,56,Female,Asthma
+P01263,02141,80,Male,Diabetes
+P01264,02143,57,Male,Diabetes
+P01265,02138,62,Male,Cancer
+P01266,02138,37,Female,Hypertension
+P01267,02142,29,Female,Diabetes
+P01268,02143,45,Female,Cancer
+P01269,02109,46,Female,Diabetes
+P01270,02141,28,Female,Asthma
+P01271,02111,42,Male,Heart Disease
+P01272,02115,50,Male,Heart Disease
+P01273,02113,50,Male,Asthma
+P01274,02138,52,Male,Cancer
+P01275,02108,49,Female,Heart Disease
+P01276,02139,37,Male,Heart Disease
+P01277,02140,37,Female,Arthritis
+P01278,02120,27,Female,Asthma
+P01279,02139,71,Male,Diabetes
+P01280,02108,45,Male,Cancer
+P01281,02109,41,Male,Heart Disease
+P01282,02111,31,Male,Hypertension
+P01283,02108,89,Female,Heart Disease
+P01284,02138,28,Male,Diabetes
+P01285,02141,38,Female,Heart Disease
+P01286,02108,51,Female,Hypertension
+P01287,02138,54,Female,Diabetes
+P01288,02142,59,Female,Diabetes
+P01289,02138,72,Male,Heart Disease
+P01290,02138,52,Male,Diabetes
+P01291,02142,29,Male,Asthma
+P01292,02139,41,Male,Diabetes
+P01293,02109,49,Female,Cancer
+P01294,02110,76,Female,Diabetes
+P01295,02114,24,Male,Diabetes
+P01296,02140,63,Male,Hypertension
+P01297,02139,47,Male,Obesity
+P01298,02139,57,Female,Heart Disease
+P01299,02110,43,Female,Heart Disease
+P01300,02111,32,Female,Cancer
+P01301,02138,56,Female,Mental Health
+P01302,02118,54,Male,COPD
+P01303,02138,59,Male,Hypertension
+P01304,02108,44,Male,Hypertension
+P01305,02111,36,Male,Cancer
+P01306,02115,21,Female,Hypertension
+P01307,02111,57,Female,Cancer
+P01308,02114,51,Female,Arthritis
+P01309,02141,30,Female,Asthma
+P01310,02114,36,Male,Hypertension
+P01311,02138,37,Male,Hypertension
+P01312,02116,22,Female,Cancer
+P01313,02108,32,Female,Hypertension
+P01314,02114,27,Male,Hypertension
+P01315,02143,38,Female,Heart Disease
+P01316,02110,33,Female,Heart Disease
+P01317,02108,20,Male,Hypertension
+P01318,02111,75,Female,Arthritis
+P01319,02138,63,Male,Diabetes
+P01320,02138,33,Female,Hypertension
+P01321,02140,49,Female,Diabetes
+P01322,02139,51,Female,Heart Disease
+P01323,02115,62,Male,Obesity
+P01324,02140,32,Male,Arthritis
+P01325,02120,61,Male,Heart Disease
+P01326,02141,36,Male,Cancer
+P01327,02139,24,Female,Diabetes
+P01328,02113,55,Female,COPD
+P01329,02110,64,Male,Diabetes
+P01330,02108,83,Male,Heart Disease
+P01331,02108,27,Male,Hypertension
+P01332,02111,55,Male,Arthritis
+P01333,02140,38,Male,Heart Disease
+P01334,02121,56,Male,Cancer
+P01335,02120,22,Female,Heart Disease
+P01336,02110,26,Male,Mental Health
+P01337,02140,33,Female,Heart Disease
+P01338,02110,46,Female,Mental Health
+P01339,02138,35,Male,Hypertension
+P01340,02138,54,Female,Diabetes
+P01341,02140,60,Female,Obesity
+P01342,02143,53,Female,COPD
+P01343,02115,69,Male,Cancer
+P01344,02111,51,Male,Heart Disease
+P01345,02113,26,Female,Hypertension
+P01346,02143,65,Female,Hypertension
+P01347,02141,35,Male,Hypertension
+P01348,02142,58,Male,Hypertension
+P01349,02120,68,Male,Heart Disease
+P01350,02138,51,Male,Cancer
+P01351,02115,22,Female,Cancer
+P01352,02109,31,Male,Heart Disease
+P01353,02143,64,Male,Hypertension
+P01354,02111,42,Female,Hypertension
+P01355,02108,46,Male,Cancer
+P01356,02115,56,Female,Heart Disease
+P01357,02116,55,Female,Cancer
+P01358,02143,49,Male,Diabetes
+P01359,02141,41,Female,Hypertension
+P01360,02109,40,Female,Asthma
+P01361,02116,57,Male,Cancer
+P01362,02140,53,Male,Heart Disease
+P01363,02109,41,Female,Hypertension
+P01364,02110,61,Female,Obesity
+P01365,02111,43,Female,Heart Disease
+P01366,02139,32,Male,Arthritis
+P01367,02111,33,Female,Cancer
+P01368,02116,30,Male,Asthma
+P01369,02139,40,Female,Diabetes
+P01370,02140,63,Female,Diabetes
+P01371,02120,32,Female,Mental Health
+P01372,02139,47,Female,Diabetes
+P01373,02115,35,Female,Heart Disease
+P01374,02108,41,Female,Cancer
+P01375,02140,22,Male,Heart Disease
+P01376,02115,41,Female,Asthma
+P01377,02143,42,Female,Cancer
+P01378,02108,53,Male,Arthritis
+P01379,02142,48,Female,Asthma
+P01380,02109,27,Male,Heart Disease
+P01381,02139,61,Female,Diabetes
+P01382,02142,48,Female,Asthma
+P01383,02119,47,Male,Diabetes
+P01384,02140,44,Female,Obesity
+P01385,02110,37,Male,Asthma
+P01386,02141,48,Female,Heart Disease
+P01387,02113,52,Male,Arthritis
+P01388,02139,18,Male,Heart Disease
+P01389,02119,36,Male,Heart Disease
+P01390,02143,41,Male,Asthma
+P01391,02140,48,Female,Arthritis
+P01392,02138,62,Female,Hypertension
+P01393,02139,33,Male,Diabetes
+P01394,02108,37,Male,Diabetes
+P01395,02141,37,Male,Diabetes
+P01396,02114,32,Female,Diabetes
+P01397,02143,39,Female,Heart Disease
+P01398,02140,56,Male,Cancer
+P01399,02109,29,Female,Mental Health
+P01400,02111,51,Male,Diabetes
+P01401,02139,19,Female,Heart Disease
+P01402,02139,36,Female,Arthritis
+P01403,02138,40,Female,Asthma
+P01404,02111,70,Female,Mental Health
+P01405,02110,40,Female,Heart Disease
+P01406,02143,18,Female,Heart Disease
+P01407,02115,18,Female,Hypertension
+P01408,02114,45,Male,Cancer
+P01409,02109,54,Male,Hypertension
+P01410,02115,50,Male,Hypertension
+P01411,02140,47,Female,Heart Disease
+P01412,02139,62,Male,Hypertension
+P01413,02140,36,Male,Cancer
+P01414,02138,58,Male,Diabetes
+P01415,02108,20,Male,Cancer
+P01416,02118,31,Female,Hypertension
+P01417,02138,18,Female,Diabetes
+P01418,02139,40,Female,Diabetes
+P01419,02143,44,Female,Diabetes
+P01420,02118,46,Female,Heart Disease
+P01421,02141,45,Female,Cancer
+P01422,02108,31,Male,Arthritis
+P01423,02138,42,Female,Diabetes
+P01424,02139,22,Male,Heart Disease
+P01425,02120,65,Male,COPD
+P01426,02119,40,Female,Diabetes
+P01427,02138,37,Male,Heart Disease
+P01428,02119,68,Male,Diabetes
+P01429,02110,26,Male,Asthma
+P01430,02115,28,Male,Diabetes
+P01431,02143,28,Male,Hypertension
+P01432,02108,43,Male,Diabetes
+P01433,02108,51,Female,Heart Disease
+P01434,02110,56,Female,Diabetes
+P01435,02139,83,Male,Asthma
+P01436,02138,18,Female,Cancer
+P01437,02141,54,Male,Heart Disease
+P01438,02111,36,Male,Heart Disease
+P01439,02140,36,Male,Cancer
+P01440,02110,35,Female,Asthma
+P01441,02119,31,Male,Diabetes
+P01442,02138,70,Female,Hypertension
+P01443,02110,57,Female,Heart Disease
+P01444,02143,45,Female,Diabetes
+P01445,02115,65,Female,Heart Disease
+P01446,02139,22,Female,Asthma
+P01447,02111,25,Male,Diabetes
+P01448,02115,18,Male,Asthma
+P01449,02118,34,Female,Cancer
+P01450,02110,47,Female,Arthritis
+P01451,02108,46,Male,Diabetes
+P01452,02109,47,Male,Heart Disease
+P01453,02115,23,Male,Obesity
+P01454,02109,57,Male,Cancer
+P01455,02138,48,Male,Arthritis
+P01456,02118,55,Female,Heart Disease
+P01457,02110,18,Female,Diabetes
+P01458,02110,49,Female,Asthma
+P01459,02140,27,Female,Heart Disease
+P01460,02110,39,Female,Hypertension
+P01461,02142,53,Male,Diabetes
+P01462,02110,46,Male,Heart Disease
+P01463,02139,32,Female,Heart Disease
+P01464,02110,45,Female,Diabetes
+P01465,02121,22,Male,Heart Disease
+P01466,02138,62,Female,Cancer
+P01467,02120,41,Male,Heart Disease
+P01468,02142,61,Male,Diabetes
+P01469,02115,37,Male,Arthritis
+P01470,02113,37,Male,Hypertension
+P01471,02109,33,Female,Diabetes
+P01472,02111,58,Female,Asthma
+P01473,02115,34,Male,Mental Health
+P01474,02142,54,Female,Heart Disease
+P01475,02141,39,Female,Diabetes
+P01476,02110,18,Female,Cancer
+P01477,02114,36,Female,Diabetes
+P01478,02113,27,Male,Asthma
+P01479,02114,45,Female,Obesity
+P01480,02143,27,Male,Mental Health
+P01481,02114,58,Female,Diabetes
+P01482,02139,43,Male,Heart Disease
+P01483,02108,42,Female,Obesity
+P01484,02138,54,Female,Hypertension
+P01485,02141,59,Male,Heart Disease
+P01486,02142,44,Male,Cancer
+P01487,02142,33,Female,Diabetes
+P01488,02111,18,Female,Diabetes
+P01489,02142,34,Male,Arthritis
+P01490,02143,35,Female,Heart Disease
+P01491,02140,46,Male,Heart Disease
+P01492,02142,39,Male,Diabetes
+P01493,02140,55,Male,Cancer
+P01494,02138,35,Male,Heart Disease
+P01495,02109,44,Female,Hypertension
+P01496,02110,62,Female,Cancer
+P01497,02109,50,Male,Arthritis
+P01498,02143,44,Female,Heart Disease
+P01499,02142,35,Male,Asthma
+P01500,02115,35,Female,Heart Disease
+P01501,02108,32,Male,Cancer
+P01502,02143,36,Female,Diabetes
+P01503,02138,56,Female,Heart Disease
+P01504,02141,41,Male,Cancer
+P01505,02142,24,Female,Heart Disease
+P01506,02142,71,Male,Heart Disease
+P01507,02109,49,Male,Diabetes
+P01508,02108,23,Male,Cancer
+P01509,02109,38,Male,Heart Disease
+P01510,02113,46,Male,Heart Disease
+P01511,02114,70,Male,Heart Disease
+P01512,02111,28,Male,Hypertension
+P01513,02119,59,Male,Diabetes
+P01514,02138,65,Female,Heart Disease
+P01515,02140,35,Female,Heart Disease
+P01516,02138,40,Male,Diabetes
+P01517,02110,29,Male,Asthma
+P01518,02116,41,Male,Cancer
+P01519,02140,44,Female,Arthritis
+P01520,02118,54,Female,Heart Disease
+P01521,02138,61,Male,Obesity
+P01522,02118,33,Male,Diabetes
+P01523,02142,18,Male,COPD
+P01524,02139,44,Male,Diabetes
+P01525,02108,49,Female,Hypertension
+P01526,02140,48,Female,Diabetes
+P01527,02141,40,Male,Diabetes
+P01528,02141,46,Female,Arthritis
+P01529,02114,67,Male,Asthma
+P01530,02108,50,Male,COPD
+P01531,02141,39,Female,Cancer
+P01532,02109,37,Female,Hypertension
+P01533,02111,42,Male,Heart Disease
+P01534,02141,69,Male,COPD
+P01535,02142,42,Female,Hypertension
+P01536,02139,44,Female,Cancer
+P01537,02139,37,Male,Diabetes
+P01538,02110,61,Male,Hypertension
+P01539,02139,74,Male,Mental Health
+P01540,02108,51,Female,Heart Disease
+P01541,02111,46,Female,Diabetes
+P01542,02139,45,Male,Heart Disease
+P01543,02109,18,Female,Asthma
+P01544,02140,56,Female,Heart Disease
+P01545,02119,47,Male,Heart Disease
+P01546,02108,51,Male,Diabetes
+P01547,02114,34,Female,Hypertension
+P01548,02108,39,Female,Diabetes
+P01549,02138,38,Female,Heart Disease
+P01550,02110,60,Female,Obesity
+P01551,02119,39,Male,Obesity
+P01552,02109,76,Male,Diabetes
+P01553,02114,51,Female,Asthma
+P01554,02116,25,Male,Hypertension
+P01555,02140,43,Female,Heart Disease
+P01556,02140,35,Female,Diabetes
+P01557,02109,18,Female,Hypertension
+P01558,02142,68,Male,Diabetes
+P01559,02115,55,Female,Diabetes
+P01560,02116,52,Female,Asthma
+P01561,02142,47,Female,Hypertension
+P01562,02140,24,Female,Cancer
+P01563,02113,37,Male,Heart Disease
+P01564,02141,57,Male,Hypertension
+P01565,02114,29,Male,Diabetes
+P01566,02143,18,Male,Hypertension
+P01567,02110,41,Female,Asthma
+P01568,02138,42,Female,Asthma
+P01569,02109,47,Female,Diabetes
+P01570,02143,55,Female,Cancer
+P01571,02109,54,Male,Mental Health
+P01572,02139,48,Female,Cancer
+P01573,02111,62,Male,Heart Disease
+P01574,02115,22,Male,Cancer
+P01575,02140,52,Female,Heart Disease
+P01576,02138,54,Female,Arthritis
+P01577,02138,26,Female,Hypertension
+P01578,02110,22,Male,Diabetes
+P01579,02109,33,Female,Heart Disease
+P01580,02108,35,Male,Diabetes
+P01581,02140,56,Male,Mental Health
+P01582,02142,35,Female,Heart Disease
+P01583,02109,32,Female,Hypertension
+P01584,02108,35,Female,Mental Health
+P01585,02120,61,Female,Diabetes
+P01586,02139,45,Female,Diabetes
+P01587,02111,42,Female,Hypertension
+P01588,02142,43,Female,Hypertension
+P01589,02143,64,Female,Heart Disease
+P01590,02111,33,Female,Heart Disease
+P01591,02111,64,Female,Cancer
+P01592,02121,48,Male,Mental Health
+P01593,02139,42,Female,Heart Disease
+P01594,02139,82,Female,Heart Disease
+P01595,02111,29,Male,Diabetes
+P01596,02109,39,Female,Asthma
+P01597,02141,26,Male,Diabetes
+P01598,02138,59,Female,Arthritis
+P01599,02138,70,Female,Heart Disease
+P01600,02116,70,Male,Mental Health
+P01601,02140,63,Male,Hypertension
+P01602,02141,42,Female,Cancer
+P01603,02140,39,Male,Diabetes
+P01604,02142,19,Male,Asthma
+P01605,02138,75,Male,Heart Disease
+P01606,02108,52,Female,Heart Disease
+P01607,02138,37,Female,Diabetes
+P01608,02114,64,Female,Arthritis
+P01609,02140,30,Male,Asthma
+P01610,02108,51,Female,Hypertension
+P01611,02116,42,Female,Hypertension
+P01612,02110,54,Male,Heart Disease
+P01613,02108,44,Female,Arthritis
+P01614,02141,23,Female,Asthma
+P01615,02141,46,Female,Cancer
+P01616,02110,60,Male,Hypertension
+P01617,02121,44,Male,Obesity
+P01618,02110,56,Male,Arthritis
+P01619,02108,29,Male,Cancer
+P01620,02111,44,Female,Diabetes
+P01621,02143,35,Male,Cancer
+P01622,02138,56,Female,Hypertension
+P01623,02109,45,Male,Diabetes
+P01624,02119,55,Male,Diabetes
+P01625,02139,61,Female,Diabetes
+P01626,02111,55,Male,Hypertension
+P01627,02140,49,Female,Diabetes
+P01628,02108,30,Male,Diabetes
+P01629,02138,44,Male,Asthma
+P01630,02143,37,Female,Hypertension
+P01631,02113,39,Female,Heart Disease
+P01632,02141,39,Male,Diabetes
+P01633,02110,30,Male,Arthritis
+P01634,02114,18,Female,Asthma
+P01635,02118,34,Female,Diabetes
+P01636,02140,47,Female,Mental Health
+P01637,02142,24,Male,Heart Disease
+P01638,02139,45,Female,Obesity
+P01639,02121,73,Male,Heart Disease
+P01640,02118,60,Male,Heart Disease
+P01641,02108,69,Female,Diabetes
+P01642,02115,50,Male,Diabetes
+P01643,02108,62,Male,Hypertension
+P01644,02109,34,Male,Asthma
+P01645,02138,35,Male,Arthritis
+P01646,02113,18,Female,Diabetes
+P01647,02139,62,Female,Diabetes
+P01648,02114,68,Male,Heart Disease
+P01649,02113,36,Female,Heart Disease
+P01650,02111,41,Female,Cancer
+P01651,02138,33,Female,Heart Disease
+P01652,02141,50,Male,Asthma
+P01653,02140,61,Female,Hypertension
+P01654,02142,18,Female,Heart Disease
+P01655,02138,51,Male,Hypertension
+P01656,02118,40,Male,Heart Disease
+P01657,02108,46,Male,Diabetes
+P01658,02141,51,Female,Asthma
+P01659,02142,42,Male,Hypertension
+P01660,02143,43,Female,Heart Disease
+P01661,02109,41,Male,Asthma
+P01662,02108,59,Female,Heart Disease
+P01663,02116,51,Male,Asthma
+P01664,02108,48,Female,Hypertension
+P01665,02121,25,Female,Hypertension
+P01666,02115,39,Male,Arthritis
+P01667,02140,58,Male,Cancer
+P01668,02118,45,Male,Heart Disease
+P01669,02139,54,Female,Diabetes
+P01670,02114,71,Female,Arthritis
+P01671,02142,60,Male,Heart Disease
+P01672,02115,46,Male,Hypertension
+P01673,02115,37,Male,Asthma
+P01674,02114,18,Female,Cancer
+P01675,02114,42,Female,Asthma
+P01676,02141,40,Female,Asthma
+P01677,02138,50,Male,Cancer
+P01678,02142,42,Male,Arthritis
+P01679,02139,40,Female,Cancer
+P01680,02111,18,Male,Diabetes
+P01681,02141,30,Female,Hypertension
+P01682,02120,52,Male,Cancer
+P01683,02110,70,Male,Arthritis
+P01684,02114,43,Female,Diabetes
+P01685,02139,49,Female,Diabetes
+P01686,02115,59,Female,Mental Health
+P01687,02118,32,Male,Hypertension
+P01688,02108,50,Male,Heart Disease
+P01689,02109,33,Female,Cancer
+P01690,02113,57,Female,COPD
+P01691,02139,47,Female,Arthritis
+P01692,02108,49,Male,Asthma
+P01693,02142,33,Female,Heart Disease
+P01694,02139,55,Female,Arthritis
+P01695,02142,76,Female,Hypertension
+P01696,02138,29,Female,Arthritis
+P01697,02138,39,Male,Diabetes
+P01698,02139,48,Female,Heart Disease
+P01699,02119,56,Female,Hypertension
+P01700,02108,36,Female,Diabetes
+P01701,02119,18,Female,Cancer
+P01702,02143,65,Female,Obesity
+P01703,02141,56,Female,Cancer
+P01704,02108,18,Male,Arthritis
+P01705,02143,35,Male,Hypertension
+P01706,02139,68,Male,Asthma
+P01707,02110,66,Male,Arthritis
+P01708,02140,59,Male,Cancer
+P01709,02109,42,Male,Hypertension
+P01710,02110,46,Male,Cancer
+P01711,02139,43,Male,Cancer
+P01712,02138,61,Male,Diabetes
+P01713,02113,31,Male,Asthma
+P01714,02143,32,Female,Obesity
+P01715,02138,60,Female,Hypertension
+P01716,02121,44,Male,Cancer
+P01717,02138,65,Female,Asthma
+P01718,02111,34,Female,Cancer
+P01719,02120,44,Male,Hypertension
+P01720,02140,31,Female,Arthritis
+P01721,02139,45,Female,Diabetes
+P01722,02139,22,Female,Heart Disease
+P01723,02141,37,Male,Arthritis
+P01724,02139,23,Female,Cancer
+P01725,02111,55,Male,Arthritis
+P01726,02138,55,Female,Heart Disease
+P01727,02108,19,Female,Heart Disease
+P01728,02121,65,Female,Mental Health
+P01729,02114,82,Female,Heart Disease
+P01730,02109,45,Male,Asthma
+P01731,02141,35,Female,Arthritis
+P01732,02109,87,Female,Cancer
+P01733,02108,25,Male,Heart Disease
+P01734,02143,45,Female,Cancer
+P01735,02139,47,Male,Arthritis
+P01736,02116,65,Male,Diabetes
+P01737,02143,50,Female,Diabetes
+P01738,02140,37,Male,Diabetes
+P01739,02142,30,Female,Heart Disease
+P01740,02142,39,Male,Arthritis
+P01741,02114,29,Male,Arthritis
+P01742,02111,45,Female,COPD
+P01743,02113,36,Male,Hypertension
+P01744,02138,22,Female,Asthma
+P01745,02142,63,Female,Heart Disease
+P01746,02108,37,Female,Cancer
+P01747,02138,25,Female,Cancer
+P01748,02140,42,Female,Mental Health
+P01749,02113,46,Male,Arthritis
+P01750,02139,18,Female,Mental Health
+P01751,02108,49,Male,Arthritis
+P01752,02140,29,Female,Arthritis
+P01753,02138,70,Female,Heart Disease
+P01754,02140,52,Female,Arthritis
+P01755,02120,39,Female,Cancer
+P01756,02114,33,Female,Diabetes
+P01757,02119,43,Female,Heart Disease
+P01758,02108,54,Female,Cancer
+P01759,02139,44,Male,Diabetes
+P01760,02108,41,Male,Hypertension
+P01761,02143,45,Female,Cancer
+P01762,02115,35,Female,Mental Health
+P01763,02138,39,Male,Arthritis
+P01764,02108,18,Male,Hypertension
+P01765,02139,59,Male,Diabetes
+P01766,02141,49,Female,Heart Disease
+P01767,02111,33,Female,Diabetes
+P01768,02143,73,Male,Heart Disease
+P01769,02142,46,Male,Obesity
+P01770,02142,29,Male,Hypertension
+P01771,02143,57,Male,Heart Disease
+P01772,02113,50,Male,Diabetes
+P01773,02116,50,Female,Hypertension
+P01774,02119,38,Female,Hypertension
+P01775,02113,51,Male,Heart Disease
+P01776,02141,41,Male,Obesity
+P01777,02110,53,Male,Diabetes
+P01778,02143,18,Male,Heart Disease
+P01779,02140,38,Male,Heart Disease
+P01780,02115,70,Male,Hypertension
+P01781,02138,33,Male,Heart Disease
+P01782,02116,35,Female,Heart Disease
+P01783,02143,38,Female,Diabetes
+P01784,02110,26,Female,Cancer
+P01785,02110,18,Male,Heart Disease
+P01786,02116,41,Female,Diabetes
+P01787,02110,47,Female,Diabetes
+P01788,02109,44,Male,Heart Disease
+P01789,02138,42,Male,Hypertension
+P01790,02108,45,Female,Heart Disease
+P01791,02139,60,Male,Heart Disease
+P01792,02111,42,Male,Hypertension
+P01793,02108,36,Female,Heart Disease
+P01794,02110,40,Female,Heart Disease
+P01795,02138,53,Male,Diabetes
+P01796,02138,66,Female,Mental Health
+P01797,02111,35,Female,Asthma
+P01798,02138,46,Male,Asthma
+P01799,02138,50,Female,Arthritis
+P01800,02138,30,Male,Obesity
+P01801,02119,45,Male,Asthma
+P01802,02111,23,Female,Cancer
+P01803,02142,18,Male,Diabetes
+P01804,02141,50,Male,Heart Disease
+P01805,02141,39,Male,Cancer
+P01806,02113,48,Female,COPD
+P01807,02110,44,Female,Hypertension
+P01808,02139,30,Male,Asthma
+P01809,02139,44,Female,Hypertension
+P01810,02138,26,Male,Diabetes
+P01811,02110,65,Female,Diabetes
+P01812,02113,24,Male,Hypertension
+P01813,02140,42,Female,Diabetes
+P01814,02138,29,Female,Asthma
+P01815,02138,53,Female,Arthritis
+P01816,02119,40,Male,Arthritis
+P01817,02141,37,Female,Heart Disease
+P01818,02113,57,Male,Arthritis
+P01819,02109,45,Female,Diabetes
+P01820,02142,52,Male,Diabetes
+P01821,02140,30,Male,Asthma
+P01822,02139,23,Male,Diabetes
+P01823,02109,46,Male,Heart Disease
+P01824,02113,40,Female,Diabetes
+P01825,02110,54,Female,Asthma
+P01826,02108,43,Female,Diabetes
+P01827,02138,48,Female,Cancer
+P01828,02119,20,Female,Cancer
+P01829,02114,73,Male,Asthma
+P01830,02141,42,Male,Arthritis
+P01831,02120,55,Male,Diabetes
+P01832,02109,32,Male,Heart Disease
+P01833,02109,49,Male,Diabetes
+P01834,02113,25,Male,Diabetes
+P01835,02114,51,Male,Cancer
+P01836,02110,39,Male,Heart Disease
+P01837,02139,45,Female,Diabetes
+P01838,02141,55,Male,Asthma
+P01839,02118,26,Female,Cancer
+P01840,02140,34,Female,Asthma
+P01841,02142,51,Female,Asthma
+P01842,02143,76,Male,Asthma
+P01843,02143,42,Male,Cancer
+P01844,02109,53,Male,Diabetes
+P01845,02118,43,Male,COPD
+P01846,02140,74,Male,Hypertension
+P01847,02139,18,Female,Heart Disease
+P01848,02140,46,Female,Diabetes
+P01849,02116,20,Female,Cancer
+P01850,02110,18,Male,Mental Health
+P01851,02141,49,Male,Heart Disease
+P01852,02114,47,Female,Heart Disease
+P01853,02115,40,Male,Arthritis
+P01854,02115,43,Female,Mental Health
+P01855,02116,90,Female,Diabetes
+P01856,02140,41,Male,Diabetes
+P01857,02113,52,Male,Cancer
+P01858,02143,35,Male,Diabetes
+P01859,02115,49,Male,Arthritis
+P01860,02111,41,Male,Heart Disease
+P01861,02113,38,Male,Heart Disease
+P01862,02110,72,Male,Heart Disease
+P01863,02139,62,Female,Diabetes
+P01864,02108,47,Female,Heart Disease
+P01865,02120,18,Male,Heart Disease
+P01866,02118,39,Female,Asthma
+P01867,02138,85,Female,Heart Disease
+P01868,02139,41,Female,Mental Health
+P01869,02139,61,Female,Diabetes
+P01870,02111,66,Male,Cancer
+P01871,02114,48,Male,Heart Disease
+P01872,02140,32,Female,Heart Disease
+P01873,02108,18,Female,Hypertension
+P01874,02115,55,Female,Hypertension
+P01875,02111,32,Female,Asthma
+P01876,02108,47,Female,Asthma
+P01877,02109,26,Male,Cancer
+P01878,02108,41,Male,Diabetes
+P01879,02141,45,Male,Arthritis
+P01880,02109,49,Female,Cancer
+P01881,02110,28,Female,COPD
+P01882,02115,62,Female,Asthma
+P01883,02110,36,Female,Heart Disease
+P01884,02113,19,Female,Diabetes
+P01885,02139,43,Female,Hypertension
+P01886,02143,45,Female,Asthma
+P01887,02138,47,Male,Hypertension
+P01888,02140,65,Female,Asthma
+P01889,02111,41,Female,Diabetes
+P01890,02121,43,Male,Heart Disease
+P01891,02138,28,Male,Heart Disease
+P01892,02142,57,Female,Hypertension
+P01893,02114,47,Male,Cancer
+P01894,02140,38,Male,Diabetes
+P01895,02108,18,Male,Cancer
+P01896,02111,66,Female,Heart Disease
+P01897,02109,26,Female,Heart Disease
+P01898,02139,36,Male,Cancer
+P01899,02142,50,Male,Diabetes
+P01900,02113,27,Female,Cancer
+P01901,02108,22,Female,Arthritis
+P01902,02138,18,Female,Arthritis
+P01903,02113,55,Male,Heart Disease
+P01904,02138,36,Male,Hypertension
+P01905,02113,88,Male,Asthma
+P01906,02140,30,Female,Asthma
+P01907,02119,31,Male,Asthma
+P01908,02142,36,Male,Heart Disease
+P01909,02141,48,Male,Heart Disease
+P01910,02139,37,Male,Hypertension
+P01911,02141,54,Female,Asthma
+P01912,02115,30,Male,Diabetes
+P01913,02121,24,Female,Heart Disease
+P01914,02142,18,Female,Cancer
+P01915,02143,18,Male,Diabetes
+P01916,02111,37,Female,Heart Disease
+P01917,02116,40,Female,Heart Disease
+P01918,02109,35,Female,Diabetes
+P01919,02142,63,Male,Hypertension
+P01920,02142,63,Male,Diabetes
+P01921,02111,39,Male,Heart Disease
+P01922,02138,18,Female,Heart Disease
+P01923,02109,36,Female,Diabetes
+P01924,02142,36,Female,Cancer
+P01925,02114,35,Male,Heart Disease
+P01926,02138,34,Male,Hypertension
+P01927,02109,35,Female,Heart Disease
+P01928,02108,39,Female,Heart Disease
+P01929,02110,35,Female,Heart Disease
+P01930,02138,48,Male,Heart Disease
+P01931,02109,50,Male,Cancer
+P01932,02109,31,Male,Hypertension
+P01933,02109,64,Male,Arthritis
+P01934,02109,30,Male,Heart Disease
+P01935,02110,20,Male,Heart Disease
+P01936,02114,50,Male,Diabetes
+P01937,02140,32,Male,Asthma
+P01938,02114,49,Male,Diabetes
+P01939,02108,18,Female,Diabetes
+P01940,02138,65,Male,Diabetes
+P01941,02138,55,Female,Heart Disease
+P01942,02141,22,Female,Mental Health
+P01943,02113,22,Female,Hypertension
+P01944,02111,70,Female,Asthma
+P01945,02113,33,Male,Cancer
+P01946,02108,32,Female,Hypertension
+P01947,02143,18,Female,Heart Disease
+P01948,02139,39,Female,Cancer
+P01949,02141,41,Male,Heart Disease
+P01950,02143,55,Male,Diabetes
+P01951,02138,24,Male,Cancer
+P01952,02140,22,Female,Asthma
+P01953,02109,51,Female,Cancer
+P01954,02111,60,Male,Cancer
+P01955,02121,21,Female,Heart Disease
+P01956,02118,61,Female,Diabetes
+P01957,02110,45,Male,Heart Disease
+P01958,02143,61,Female,Cancer
+P01959,02110,43,Female,Obesity
+P01960,02113,18,Male,Diabetes
+P01961,02139,42,Female,Heart Disease
+P01962,02142,60,Male,Hypertension
+P01963,02115,31,Female,Arthritis
+P01964,02142,39,Female,Hypertension
+P01965,02109,42,Female,Heart Disease
+P01966,02109,18,Male,Obesity
+P01967,02139,70,Male,Arthritis
+P01968,02142,31,Male,Heart Disease
+P01969,02141,52,Female,Mental Health
+P01970,02138,43,Male,Hypertension
+P01971,02138,63,Female,Diabetes
+P01972,02115,51,Male,Hypertension
+P01973,02141,41,Male,Arthritis
+P01974,02108,31,Male,Cancer
+P01975,02141,56,Female,Heart Disease
+P01976,02118,18,Female,Obesity
+P01977,02140,54,Male,Heart Disease
+P01978,02143,28,Male,Asthma
+P01979,02115,63,Female,Cancer
+P01980,02115,47,Male,Heart Disease
+P01981,02139,54,Female,Heart Disease
+P01982,02114,46,Female,Arthritis
+P01983,02143,18,Female,Diabetes
+P01984,02108,32,Female,Cancer
+P01985,02139,55,Female,Hypertension
+P01986,02138,47,Female,Asthma
+P01987,02111,62,Female,Hypertension
+P01988,02108,51,Female,Diabetes
+P01989,02143,30,Male,Diabetes
+P01990,02111,33,Male,Arthritis
+P01991,02113,46,Male,Hypertension
+P01992,02139,18,Female,Heart Disease
+P01993,02109,70,Female,Mental Health
+P01994,02139,51,Male,Asthma
+P01995,02113,63,Male,Heart Disease
+P01996,02110,21,Male,COPD
+P01997,02119,63,Female,Cancer
+P01998,02138,78,Female,Heart Disease
+P01999,02138,25,Female,Heart Disease
+P02000,02141,56,Male,Cancer
+P02001,02140,45,Female,Asthma
+P02002,02140,21,Male,Heart Disease
+P02003,02116,52,Female,Diabetes
+P02004,02140,57,Male,Diabetes
+P02005,02141,35,Female,Hypertension
+P02006,02113,62,Male,Heart Disease
+P02007,02143,19,Male,Heart Disease
+P02008,02113,22,Female,Cancer
+P02009,02138,47,Male,Asthma
+P02010,02108,45,Male,Hypertension
+P02011,02138,34,Female,Diabetes
+P02012,02138,57,Female,Diabetes
+P02013,02116,52,Male,Diabetes
+P02014,02139,57,Female,Obesity
+P02015,02108,43,Female,Asthma
+P02016,02142,54,Male,Heart Disease
+P02017,02141,38,Male,Diabetes
+P02018,02116,75,Male,Hypertension
+P02019,02138,32,Female,Cancer
+P02020,02110,76,Male,Hypertension
+P02021,02119,45,Male,Asthma
+P02022,02109,24,Female,Asthma
+P02023,02118,65,Female,Hypertension
+P02024,02138,46,Male,Arthritis
+P02025,02142,57,Female,Asthma
+P02026,02140,63,Male,Asthma
+P02027,02111,50,Male,Obesity
+P02028,02120,36,Female,Diabetes
+P02029,02140,59,Female,Diabetes
+P02030,02110,45,Male,Arthritis
+P02031,02140,55,Female,Asthma
+P02032,02109,18,Female,Mental Health
+P02033,02143,51,Male,Heart Disease
+P02034,02120,35,Female,Cancer
+P02035,02109,69,Male,Heart Disease
+P02036,02141,54,Female,Hypertension
+P02037,02139,48,Female,Heart Disease
+P02038,02139,52,Male,Heart Disease
+P02039,02140,30,Male,Heart Disease
+P02040,02140,69,Male,Cancer
+P02041,02115,74,Male,Diabetes
+P02042,02109,50,Male,Heart Disease
+P02043,02108,68,Male,Diabetes
+P02044,02139,36,Female,Heart Disease
+P02045,02115,33,Male,Mental Health
+P02046,02111,45,Female,Diabetes
+P02047,02138,51,Female,Diabetes
+P02048,02111,39,Male,Arthritis
+P02049,02108,53,Female,Cancer
+P02050,02138,49,Male,Cancer
+P02051,02143,30,Male,Cancer
+P02052,02108,52,Female,Mental Health
+P02053,02139,57,Male,Heart Disease
+P02054,02118,47,Female,COPD
+P02055,02115,62,Female,Arthritis
+P02056,02110,26,Female,Hypertension
+P02057,02143,52,Female,Cancer
+P02058,02142,27,Female,Cancer
+P02059,02110,28,Male,Heart Disease
+P02060,02108,35,Male,Heart Disease
+P02061,02138,30,Female,Obesity
+P02062,02108,36,Male,Hypertension
+P02063,02114,41,Male,Diabetes
+P02064,02143,57,Male,Asthma
+P02065,02138,40,Female,Hypertension
+P02066,02113,21,Male,Heart Disease
+P02067,02140,62,Female,Asthma
+P02068,02140,32,Male,Asthma
+P02069,02139,44,Male,Heart Disease
+P02070,02141,51,Male,Obesity
+P02071,02113,47,Male,Heart Disease
+P02072,02108,61,Female,Hypertension
+P02073,02140,52,Male,Heart Disease
+P02074,02115,32,Male,Cancer
+P02075,02115,77,Female,Diabetes
+P02076,02115,47,Female,Diabetes
+P02077,02140,42,Male,Arthritis
+P02078,02143,59,Male,Heart Disease
+P02079,02120,48,Female,Asthma
+P02080,02113,50,Female,Hypertension
+P02081,02138,82,Male,COPD
+P02082,02138,40,Male,Hypertension
+P02083,02143,40,Male,Heart Disease
+P02084,02116,46,Male,Heart Disease
+P02085,02108,61,Female,Arthritis
+P02086,02108,22,Female,Arthritis
+P02087,02139,18,Male,Diabetes
+P02088,02110,36,Female,Cancer
+P02089,02114,20,Male,Hypertension
+P02090,02142,38,Male,Obesity
+P02091,02113,52,Male,Mental Health
+P02092,02119,31,Male,COPD
+P02093,02140,23,Female,Arthritis
+P02094,02108,46,Male,Mental Health
+P02095,02141,57,Male,Heart Disease
+P02096,02114,19,Female,Arthritis
+P02097,02109,57,Female,Cancer
+P02098,02110,57,Female,Obesity
+P02099,02114,59,Female,Hypertension
+P02100,02142,63,Male,Heart Disease
+P02101,02116,78,Female,Hypertension
+P02102,02108,39,Female,Cancer
+P02103,02139,46,Female,Heart Disease
+P02104,02111,38,Female,Diabetes
+P02105,02114,45,Male,Hypertension
+P02106,02141,67,Female,Diabetes
+P02107,02115,24,Male,Diabetes
+P02108,02116,32,Male,Heart Disease
+P02109,02141,65,Male,Mental Health
+P02110,02120,60,Female,Asthma
+P02111,02139,39,Male,Heart Disease
+P02112,02140,57,Female,Asthma
+P02113,02139,50,Male,Asthma
+P02114,02116,67,Female,Heart Disease
+P02115,02110,46,Male,Diabetes
+P02116,02139,60,Female,Cancer
+P02117,02143,84,Female,Hypertension
+P02118,02109,53,Male,Asthma
+P02119,02138,45,Male,Diabetes
+P02120,02116,55,Female,Heart Disease
+P02121,02114,39,Female,Obesity
+P02122,02108,80,Female,Heart Disease
+P02123,02119,47,Male,Cancer
+P02124,02142,40,Female,Heart Disease
+P02125,02120,32,Male,Diabetes
+P02126,02110,61,Female,Diabetes
+P02127,02110,58,Female,Heart Disease
+P02128,02139,37,Male,Diabetes
+P02129,02116,53,Female,Heart Disease
+P02130,02143,22,Female,Hypertension
+P02131,02139,47,Female,Cancer
+P02132,02138,51,Male,Heart Disease
+P02133,02108,70,Male,Arthritis
+P02134,02108,33,Female,Heart Disease
+P02135,02111,25,Male,Heart Disease
+P02136,02116,31,Male,Cancer
+P02137,02138,24,Female,Hypertension
+P02138,02111,65,Male,Hypertension
+P02139,02139,68,Female,Heart Disease
+P02140,02115,49,Male,Asthma
+P02141,02114,63,Male,Cancer
+P02142,02108,47,Female,Heart Disease
+P02143,02111,43,Female,Diabetes
+P02144,02141,40,Female,Asthma
+P02145,02143,40,Female,Hypertension
+P02146,02114,21,Female,Heart Disease
+P02147,02143,48,Male,Diabetes
+P02148,02142,44,Male,Heart Disease
+P02149,02108,56,Male,Hypertension
+P02150,02114,46,Female,Arthritis
+P02151,02141,42,Male,Diabetes
+P02152,02139,31,Male,Diabetes
+P02153,02111,46,Male,Mental Health
+P02154,02114,56,Male,Hypertension
+P02155,02139,27,Male,Hypertension
+P02156,02140,46,Female,Diabetes
+P02157,02139,48,Male,Cancer
+P02158,02141,34,Female,Hypertension
+P02159,02143,36,Female,Diabetes
+P02160,02113,48,Male,COPD
+P02161,02110,27,Female,Arthritis
+P02162,02109,50,Male,Asthma
+P02163,02142,31,Female,Hypertension
+P02164,02115,60,Female,Hypertension
+P02165,02143,80,Female,Heart Disease
+P02166,02120,32,Female,Diabetes
+P02167,02110,53,Male,Asthma
+P02168,02139,34,Male,Hypertension
+P02169,02110,60,Female,Arthritis
+P02170,02141,26,Male,Heart Disease
+P02171,02110,52,Male,Hypertension
+P02172,02138,31,Male,Cancer
+P02173,02139,41,Female,Hypertension
+P02174,02115,29,Male,Arthritis
+P02175,02140,57,Female,COPD
+P02176,02115,32,Male,Heart Disease
+P02177,02141,53,Male,Heart Disease
+P02178,02110,39,Female,Heart Disease
+P02179,02111,43,Male,Cancer
+P02180,02108,47,Female,Diabetes
+P02181,02141,33,Male,Asthma
+P02182,02140,48,Male,Diabetes
+P02183,02138,67,Male,Cancer
+P02184,02141,33,Female,Asthma
+P02185,02110,62,Female,Hypertension
+P02186,02118,67,Female,Hypertension
+P02187,02115,32,Male,Heart Disease
+P02188,02113,23,Female,Diabetes
+P02189,02113,49,Female,Hypertension
+P02190,02110,36,Female,Hypertension
+P02191,02140,73,Female,Mental Health
+P02192,02116,45,Female,Mental Health
+P02193,02110,32,Male,Arthritis
+P02194,02109,27,Female,Diabetes
+P02195,02139,61,Male,Cancer
+P02196,02143,36,Female,Diabetes
+P02197,02143,45,Male,Heart Disease
+P02198,02115,59,Male,Diabetes
+P02199,02108,37,Male,Heart Disease
+P02200,02142,44,Male,Diabetes
+P02201,02120,44,Male,Hypertension
+P02202,02139,55,Female,Obesity
+P02203,02143,53,Female,Diabetes
+P02204,02138,41,Female,Mental Health
+P02205,02111,45,Female,Heart Disease
+P02206,02116,39,Male,Heart Disease
+P02207,02141,22,Female,Hypertension
+P02208,02115,48,Male,Cancer
+P02209,02141,73,Female,Heart Disease
+P02210,02116,31,Male,Heart Disease
+P02211,02113,33,Male,Hypertension
+P02212,02114,31,Male,Diabetes
+P02213,02138,55,Male,Cancer
+P02214,02119,51,Male,Hypertension
+P02215,02111,42,Male,Heart Disease
+P02216,02141,31,Female,Arthritis
+P02217,02114,46,Female,Diabetes
+P02218,02141,21,Male,Asthma
+P02219,02115,47,Male,Asthma
+P02220,02139,58,Female,Obesity
+P02221,02111,26,Male,Hypertension
+P02222,02108,22,Female,Cancer
+P02223,02138,68,Male,Diabetes
+P02224,02140,35,Female,Cancer
+P02225,02138,62,Female,Hypertension
+P02226,02143,42,Female,Diabetes
+P02227,02141,42,Female,Arthritis
+P02228,02109,51,Male,Heart Disease
+P02229,02141,31,Male,Arthritis
+P02230,02141,46,Female,Arthritis
+P02231,02113,39,Female,Hypertension
+P02232,02138,25,Male,Hypertension
+P02233,02116,50,Female,Diabetes
+P02234,02115,41,Male,COPD
+P02235,02110,42,Male,Heart Disease
+P02236,02109,26,Female,Hypertension
+P02237,02116,68,Male,Cancer
+P02238,02139,58,Female,Mental Health
+P02239,02138,59,Male,Asthma
+P02240,02140,40,Male,Cancer
+P02241,02114,19,Female,Heart Disease
+P02242,02138,74,Female,Diabetes
+P02243,02109,44,Male,Heart Disease
+P02244,02121,33,Male,Arthritis
+P02245,02115,51,Male,Asthma
+P02246,02108,62,Male,Asthma
+P02247,02138,44,Female,Cancer
+P02248,02115,64,Female,Hypertension
+P02249,02109,61,Male,Heart Disease
+P02250,02139,28,Male,Diabetes
+P02251,02138,34,Female,Heart Disease
+P02252,02116,59,Female,Asthma
+P02253,02110,18,Female,Heart Disease
+P02254,02114,42,Female,Cancer
+P02255,02115,23,Male,Cancer
+P02256,02109,37,Female,Hypertension
+P02257,02108,40,Female,Heart Disease
+P02258,02143,39,Female,Diabetes
+P02259,02141,36,Male,Diabetes
+P02260,02143,28,Male,Cancer
+P02261,02113,79,Male,Heart Disease
+P02262,02109,73,Female,Arthritis
+P02263,02116,27,Male,Asthma
+P02264,02143,68,Male,Heart Disease
+P02265,02109,39,Female,Cancer
+P02266,02110,46,Male,Cancer
+P02267,02109,44,Male,Asthma
+P02268,02111,35,Male,Heart Disease
+P02269,02140,59,Male,Heart Disease
+P02270,02108,46,Male,Heart Disease
+P02271,02139,37,Female,Diabetes
+P02272,02142,25,Female,Asthma
+P02273,02108,31,Male,Asthma
+P02274,02110,20,Male,Mental Health
+P02275,02119,45,Female,Heart Disease
+P02276,02109,27,Male,Heart Disease
+P02277,02113,41,Male,Cancer
+P02278,02108,65,Female,Diabetes
+P02279,02110,62,Male,Diabetes
+P02280,02138,44,Male,Hypertension
+P02281,02140,43,Male,Heart Disease
+P02282,02142,73,Female,Cancer
+P02283,02143,52,Male,Diabetes
+P02284,02138,40,Male,Cancer
+P02285,02139,23,Male,Arthritis
+P02286,02141,50,Female,Heart Disease
+P02287,02120,57,Male,Mental Health
+P02288,02141,35,Male,Hypertension
+P02289,02108,49,Female,Mental Health
+P02290,02140,39,Female,Heart Disease
+P02291,02109,42,Male,Cancer
+P02292,02141,18,Male,Diabetes
+P02293,02140,41,Female,Asthma
+P02294,02108,59,Female,Cancer
+P02295,02138,35,Male,Hypertension
+P02296,02138,45,Male,Mental Health
+P02297,02140,33,Male,Diabetes
+P02298,02138,50,Male,Heart Disease
+P02299,02139,41,Female,Cancer
+P02300,02141,30,Male,Cancer
+P02301,02114,64,Female,Diabetes
+P02302,02109,58,Female,Hypertension
+P02303,02108,35,Male,Obesity
+P02304,02141,52,Male,Asthma
+P02305,02118,53,Female,Heart Disease
+P02306,02142,54,Male,Heart Disease
+P02307,02138,19,Female,Obesity
+P02308,02109,60,Female,Asthma
+P02309,02139,36,Male,Mental Health
+P02310,02141,39,Male,Diabetes
+P02311,02108,84,Male,Asthma
+P02312,02115,49,Female,Cancer
+P02313,02108,39,Female,Diabetes
+P02314,02111,18,Female,Hypertension
+P02315,02121,65,Female,Cancer
+P02316,02139,24,Male,Hypertension
+P02317,02141,29,Female,Arthritis
+P02318,02142,40,Female,Arthritis
+P02319,02143,66,Female,Arthritis
+P02320,02142,56,Male,Asthma
+P02321,02116,42,Female,Hypertension
+P02322,02111,49,Female,Diabetes
+P02323,02109,35,Female,Arthritis
+P02324,02141,47,Female,Hypertension
+P02325,02114,46,Female,Heart Disease
+P02326,02119,59,Female,Hypertension
+P02327,02114,59,Female,Heart Disease
+P02328,02138,52,Female,Cancer
+P02329,02110,39,Male,Diabetes
+P02330,02138,56,Male,Diabetes
+P02331,02140,43,Male,Obesity
+P02332,02138,28,Female,Asthma
+P02333,02109,38,Female,Asthma
+P02334,02110,46,Female,Cancer
+P02335,02139,58,Male,Arthritis
+P02336,02142,42,Male,Asthma
+P02337,02143,26,Male,Hypertension
+P02338,02142,45,Male,Obesity
+P02339,02139,46,Female,Heart Disease
+P02340,02142,47,Male,Mental Health
+P02341,02113,58,Female,Diabetes
+P02342,02138,60,Female,Hypertension
+P02343,02138,36,Male,Heart Disease
+P02344,02142,35,Female,Hypertension
+P02345,02118,29,Male,Cancer
+P02346,02110,55,Male,COPD
+P02347,02110,66,Female,Obesity
+P02348,02142,40,Female,Obesity
+P02349,02109,41,Male,Diabetes
+P02350,02138,67,Male,COPD
+P02351,02110,52,Male,Hypertension
+P02352,02116,51,Male,Arthritis
+P02353,02109,27,Female,Heart Disease
+P02354,02115,55,Female,Hypertension
+P02355,02111,31,Male,Obesity
+P02356,02139,27,Female,Mental Health
+P02357,02116,39,Male,Cancer
+P02358,02138,36,Male,Asthma
+P02359,02108,41,Female,Heart Disease
+P02360,02139,23,Female,Asthma
+P02361,02138,59,Female,Cancer
+P02362,02143,61,Female,Heart Disease
+P02363,02141,18,Female,Heart Disease
+P02364,02108,59,Male,Heart Disease
+P02365,02109,32,Female,Asthma
+P02366,02138,57,Female,Heart Disease
+P02367,02139,43,Male,Hypertension
+P02368,02108,45,Female,Diabetes
+P02369,02141,42,Female,Hypertension
+P02370,02111,63,Male,Cancer
+P02371,02110,26,Female,Cancer
+P02372,02115,54,Male,Hypertension
+P02373,02111,61,Female,Hypertension
+P02374,02143,55,Male,Diabetes
+P02375,02110,79,Female,Arthritis
+P02376,02141,37,Male,Diabetes
+P02377,02141,59,Male,Diabetes
+P02378,02113,43,Male,Asthma
+P02379,02143,63,Female,Diabetes
+P02380,02114,44,Female,Arthritis
+P02381,02114,39,Female,Diabetes
+P02382,02115,64,Female,Cancer
+P02383,02116,37,Male,Heart Disease
+P02384,02143,23,Male,Diabetes
+P02385,02141,37,Female,Diabetes
+P02386,02109,54,Male,Asthma
+P02387,02142,65,Female,Obesity
+P02388,02109,46,Female,Hypertension
+P02389,02111,64,Male,Arthritis
+P02390,02110,24,Male,Cancer
+P02391,02142,38,Female,Obesity
+P02392,02139,40,Male,Asthma
+P02393,02143,43,Male,Heart Disease
+P02394,02139,46,Male,Cancer
+P02395,02116,55,Female,Hypertension
+P02396,02141,38,Female,Heart Disease
+P02397,02139,47,Male,Diabetes
+P02398,02138,44,Male,Mental Health
+P02399,02110,31,Male,Mental Health
+P02400,02110,43,Female,Asthma
+P02401,02141,42,Male,COPD
+P02402,02138,42,Male,Asthma
+P02403,02142,45,Female,Heart Disease
+P02404,02141,46,Female,Diabetes
+P02405,02110,38,Female,Heart Disease
+P02406,02109,64,Female,Heart Disease
+P02407,02142,27,Male,Heart Disease
+P02408,02140,34,Male,Hypertension
+P02409,02120,86,Male,Arthritis
+P02410,02143,29,Male,Arthritis
+P02411,02110,24,Female,Cancer
+P02412,02139,56,Female,Mental Health
+P02413,02108,18,Female,Hypertension
+P02414,02138,41,Male,Arthritis
+P02415,02108,77,Female,Hypertension
+P02416,02119,21,Female,Diabetes
+P02417,02142,18,Male,Mental Health
+P02418,02138,22,Female,Diabetes
+P02419,02138,58,Male,Hypertension
+P02420,02142,61,Male,Diabetes
+P02421,02139,37,Female,Cancer
+P02422,02138,55,Female,COPD
+P02423,02113,65,Male,Heart Disease
+P02424,02143,71,Male,Arthritis
+P02425,02141,41,Female,Heart Disease
+P02426,02116,18,Female,Diabetes
+P02427,02139,32,Female,Heart Disease
+P02428,02119,38,Male,Asthma
+P02429,02141,41,Male,Heart Disease
+P02430,02116,42,Male,Hypertension
+P02431,02109,61,Male,Diabetes
+P02432,02114,64,Male,Heart Disease
+P02433,02120,42,Male,Asthma
+P02434,02141,61,Female,Heart Disease
+P02435,02119,50,Male,Heart Disease
+P02436,02142,45,Female,Diabetes
+P02437,02142,58,Male,Hypertension
+P02438,02141,46,Male,Cancer
+P02439,02108,75,Male,Heart Disease
+P02440,02139,23,Female,Heart Disease
+P02441,02108,37,Male,Diabetes
+P02442,02108,43,Female,Diabetes
+P02443,02113,51,Female,Arthritis
+P02444,02115,64,Female,Asthma
+P02445,02143,44,Male,Cancer
+P02446,02141,23,Female,Diabetes
+P02447,02140,57,Female,Cancer
+P02448,02140,56,Male,Arthritis
+P02449,02138,18,Female,Hypertension
+P02450,02141,44,Female,Asthma
+P02451,02141,21,Female,Asthma
+P02452,02119,35,Female,Hypertension
+P02453,02108,31,Female,Diabetes
+P02454,02141,57,Female,Asthma
+P02455,02109,46,Male,Heart Disease
+P02456,02139,25,Female,Asthma
+P02457,02143,58,Female,Asthma
+P02458,02109,23,Female,Arthritis
+P02459,02108,49,Female,Hypertension
+P02460,02142,32,Male,Heart Disease
+P02461,02121,39,Male,Heart Disease
+P02462,02116,52,Male,Asthma
+P02463,02109,52,Male,Arthritis
+P02464,02109,65,Male,Cancer
+P02465,02109,43,Female,Heart Disease
+P02466,02140,49,Male,Mental Health
+P02467,02142,38,Female,COPD
+P02468,02138,47,Female,Diabetes
+P02469,02143,51,Male,Hypertension
+P02470,02108,43,Male,Asthma
+P02471,02140,18,Female,Asthma
+P02472,02119,49,Female,Obesity
+P02473,02116,50,Female,Heart Disease
+P02474,02111,34,Female,Hypertension
+P02475,02108,25,Female,Cancer
+P02476,02115,67,Female,Arthritis
+P02477,02139,52,Female,Arthritis
+P02478,02114,41,Female,Obesity
+P02479,02139,27,Female,Hypertension
+P02480,02114,32,Male,Arthritis
+P02481,02141,64,Female,Diabetes
+P02482,02115,47,Male,Diabetes
+P02483,02118,36,Female,Diabetes
+P02484,02139,52,Male,Asthma
+P02485,02143,32,Male,COPD
+P02486,02120,67,Male,Diabetes
+P02487,02108,65,Male,Heart Disease
+P02488,02115,38,Male,Asthma
+P02489,02109,35,Female,Cancer
+P02490,02142,18,Male,Obesity
+P02491,02141,22,Male,Diabetes
+P02492,02140,24,Male,Heart Disease
+P02493,02113,47,Female,Hypertension
+P02494,02142,40,Male,Heart Disease
+P02495,02108,24,Male,Diabetes
+P02496,02108,40,Female,Heart Disease
+P02497,02109,52,Female,Heart Disease
+P02498,02115,52,Male,Heart Disease
+P02499,02120,18,Male,Obesity
+P02500,02142,43,Male,Diabetes
+P02501,02114,24,Female,Diabetes
+P02502,02113,58,Male,Arthritis
+P02503,02109,56,Female,Cancer
+P02504,02119,31,Male,Cancer
+P02505,02140,33,Female,Cancer
+P02506,02139,38,Male,Arthritis
+P02507,02115,18,Male,Arthritis
+P02508,02143,50,Male,Cancer
+P02509,02115,40,Male,Arthritis
+P02510,02116,59,Male,Hypertension
+P02511,02138,28,Female,Diabetes
+P02512,02116,35,Female,Arthritis
+P02513,02143,22,Male,Hypertension
+P02514,02108,29,Female,Mental Health
+P02515,02109,27,Female,Heart Disease
+P02516,02118,59,Female,Diabetes
+P02517,02138,34,Male,Mental Health
+P02518,02143,46,Female,Heart Disease
+P02519,02110,39,Male,Mental Health
+P02520,02111,25,Female,Obesity
+P02521,02111,42,Male,Arthritis
+P02522,02139,53,Male,Hypertension
+P02523,02141,26,Male,Cancer
+P02524,02142,57,Male,Arthritis
+P02525,02114,32,Female,Asthma
+P02526,02141,37,Male,Cancer
+P02527,02140,52,Female,COPD
+P02528,02119,35,Male,Cancer
+P02529,02138,45,Male,Obesity
+P02530,02121,40,Female,Heart Disease
+P02531,02110,46,Female,Heart Disease
+P02532,02114,18,Male,Hypertension
+P02533,02141,18,Male,Diabetes
+P02534,02138,54,Female,Asthma
+P02535,02111,60,Male,Heart Disease
+P02536,02115,31,Female,Obesity
+P02537,02113,41,Female,Diabetes
+P02538,02139,49,Male,Diabetes
+P02539,02113,55,Male,Diabetes
+P02540,02113,18,Male,Hypertension
+P02541,02110,31,Male,Heart Disease
+P02542,02113,40,Female,Heart Disease
+P02543,02115,55,Female,Asthma
+P02544,02109,82,Female,Heart Disease
+P02545,02138,41,Female,Heart Disease
+P02546,02108,23,Male,Asthma
+P02547,02138,51,Female,Heart Disease
+P02548,02142,64,Male,Diabetes
+P02549,02142,46,Female,Heart Disease
+P02550,02138,31,Male,Diabetes
+P02551,02141,59,Female,Cancer
+P02552,02139,54,Female,Heart Disease
+P02553,02114,29,Male,Arthritis
+P02554,02118,50,Male,Mental Health
+P02555,02138,59,Female,Heart Disease
+P02556,02119,62,Male,COPD
+P02557,02108,44,Female,Diabetes
+P02558,02141,39,Female,Heart Disease
+P02559,02138,63,Female,Heart Disease
+P02560,02108,26,Male,Diabetes
+P02561,02114,51,Female,Cancer
+P02562,02111,24,Male,Diabetes
+P02563,02138,60,Male,Arthritis
+P02564,02138,41,Female,Cancer
+P02565,02142,64,Female,Diabetes
+P02566,02141,52,Male,Asthma
+P02567,02140,26,Male,Mental Health
+P02568,02141,66,Female,Heart Disease
+P02569,02114,68,Female,Diabetes
+P02570,02118,58,Female,Hypertension
+P02571,02142,33,Male,Hypertension
+P02572,02116,40,Female,Hypertension
+P02573,02141,47,Female,Diabetes
+P02574,02143,34,Female,Cancer
+P02575,02140,70,Female,Cancer
+P02576,02110,47,Male,Hypertension
+P02577,02120,18,Female,Heart Disease
+P02578,02109,50,Male,Hypertension
+P02579,02142,39,Male,Diabetes
+P02580,02110,43,Female,Hypertension
+P02581,02139,39,Female,Mental Health
+P02582,02116,57,Female,Hypertension
+P02583,02108,61,Female,Heart Disease
+P02584,02143,49,Male,Diabetes
+P02585,02109,39,Female,Arthritis
+P02586,02109,44,Male,Asthma
+P02587,02138,45,Female,Hypertension
+P02588,02110,32,Male,Heart Disease
+P02589,02140,53,Female,Hypertension
+P02590,02111,51,Male,Hypertension
+P02591,02114,68,Female,COPD
+P02592,02114,63,Female,Cancer
+P02593,02108,34,Male,Cancer
+P02594,02108,57,Female,Hypertension
+P02595,02139,30,Female,Diabetes
+P02596,02113,55,Female,Asthma
+P02597,02141,37,Female,Hypertension
+P02598,02108,29,Male,COPD
+P02599,02141,49,Male,Hypertension
+P02600,02139,18,Male,Heart Disease
+P02601,02109,18,Male,Cancer
+P02602,02138,42,Male,Heart Disease
+P02603,02113,46,Female,Diabetes
+P02604,02141,39,Male,Diabetes
+P02605,02138,21,Male,Asthma
+P02606,02108,32,Male,Hypertension
+P02607,02138,50,Female,Heart Disease
+P02608,02141,53,Female,Cancer
+P02609,02111,44,Male,Diabetes
+P02610,02138,62,Female,Mental Health
+P02611,02115,50,Male,Hypertension
+P02612,02138,33,Female,Cancer
+P02613,02140,40,Female,Heart Disease
+P02614,02113,23,Male,Asthma
+P02615,02141,43,Female,Asthma
+P02616,02139,61,Female,Mental Health
+P02617,02142,55,Male,Heart Disease
+P02618,02141,66,Female,Diabetes
+P02619,02115,40,Male,Cancer
+P02620,02141,65,Male,Heart Disease
+P02621,02113,42,Male,Diabetes
+P02622,02116,67,Male,Mental Health
+P02623,02143,44,Male,Diabetes
+P02624,02116,55,Female,COPD
+P02625,02142,67,Male,Heart Disease
+P02626,02119,42,Male,Cancer
+P02627,02138,48,Female,Hypertension
+P02628,02110,64,Female,Hypertension
+P02629,02108,43,Female,Obesity
+P02630,02142,25,Female,Heart Disease
+P02631,02110,77,Female,Arthritis
+P02632,02111,37,Female,Cancer
+P02633,02138,47,Female,Diabetes
+P02634,02139,62,Female,Mental Health
+P02635,02111,35,Male,Diabetes
+P02636,02110,29,Male,Asthma
+P02637,02119,48,Female,Diabetes
+P02638,02113,18,Male,Arthritis
+P02639,02119,40,Male,Cancer
+P02640,02111,48,Female,Heart Disease
+P02641,02141,40,Female,Cancer
+P02642,02139,21,Male,Heart Disease
+P02643,02113,68,Female,Diabetes
+P02644,02110,46,Female,Heart Disease
+P02645,02138,66,Female,Heart Disease
+P02646,02142,41,Female,Heart Disease
+P02647,02119,31,Female,Hypertension
+P02648,02108,49,Female,Hypertension
+P02649,02143,41,Male,Hypertension
+P02650,02143,27,Female,Heart Disease
+P02651,02140,67,Female,Cancer
+P02652,02142,35,Female,Cancer
+P02653,02142,18,Female,Diabetes
+P02654,02138,64,Male,Arthritis
+P02655,02113,37,Female,Cancer
+P02656,02142,35,Male,Cancer
+P02657,02114,18,Male,Diabetes
+P02658,02115,71,Male,Heart Disease
+P02659,02140,25,Male,Arthritis
+P02660,02110,45,Female,Arthritis
+P02661,02143,58,Male,Heart Disease
+P02662,02116,51,Male,Diabetes
+P02663,02140,44,Female,Cancer
+P02664,02110,19,Male,Cancer
+P02665,02109,32,Male,Arthritis
+P02666,02141,47,Male,Heart Disease
+P02667,02139,33,Male,Diabetes
+P02668,02110,48,Male,Heart Disease
+P02669,02111,55,Male,Diabetes
+P02670,02141,59,Female,Heart Disease
+P02671,02110,26,Male,Arthritis
+P02672,02142,77,Male,Hypertension
+P02673,02111,56,Female,Arthritis
+P02674,02140,44,Male,Heart Disease
+P02675,02116,61,Female,Heart Disease
+P02676,02141,80,Female,Diabetes
+P02677,02142,23,Male,Diabetes
+P02678,02138,41,Female,Asthma
+P02679,02139,18,Male,Diabetes
+P02680,02108,47,Male,Heart Disease
+P02681,02140,50,Female,Heart Disease
+P02682,02115,44,Female,Heart Disease
+P02683,02138,35,Female,Asthma
+P02684,02142,18,Female,Diabetes
+P02685,02141,50,Male,Asthma
+P02686,02138,66,Female,Cancer
+P02687,02139,36,Female,Heart Disease
+P02688,02142,51,Female,Heart Disease
+P02689,02108,21,Female,Asthma
+P02690,02142,51,Female,Asthma
+P02691,02108,39,Male,Diabetes
+P02692,02109,33,Female,Heart Disease
+P02693,02138,33,Male,Heart Disease
+P02694,02143,39,Male,Diabetes
+P02695,02119,50,Female,Heart Disease
+P02696,02108,25,Male,Heart Disease
+P02697,02110,39,Female,Diabetes
+P02698,02141,44,Male,Heart Disease
+P02699,02113,28,Female,Heart Disease
+P02700,02113,71,Male,Arthritis
+P02701,02108,32,Male,Hypertension
+P02702,02120,34,Male,Mental Health
+P02703,02139,30,Female,Diabetes
+P02704,02138,71,Male,Cancer
+P02705,02113,53,Female,Heart Disease
+P02706,02114,30,Male,Cancer
+P02707,02139,61,Male,Heart Disease
+P02708,02140,48,Male,Heart Disease
+P02709,02138,48,Male,Mental Health
+P02710,02141,39,Female,Hypertension
+P02711,02113,33,Female,Mental Health
+P02712,02108,50,Male,Diabetes
+P02713,02141,36,Female,Diabetes
+P02714,02142,72,Female,Diabetes
+P02715,02138,25,Male,Cancer
+P02716,02141,68,Male,Hypertension
+P02717,02110,43,Female,Mental Health
+P02718,02120,49,Male,Heart Disease
+P02719,02115,57,Male,Cancer
+P02720,02138,35,Male,Diabetes
+P02721,02116,57,Female,Heart Disease
+P02722,02113,18,Male,Hypertension
+P02723,02113,34,Male,Hypertension
+P02724,02143,31,Male,Heart Disease
+P02725,02142,26,Male,Heart Disease
+P02726,02141,41,Male,Diabetes
+P02727,02138,50,Female,Diabetes
+P02728,02140,55,Male,Diabetes
+P02729,02140,48,Female,Heart Disease
+P02730,02108,35,Male,Heart Disease
+P02731,02113,50,Female,Obesity
+P02732,02143,46,Female,Mental Health
+P02733,02138,59,Male,Hypertension
+P02734,02119,56,Female,COPD
+P02735,02118,45,Female,Cancer
+P02736,02113,31,Female,Heart Disease
+P02737,02121,35,Male,Heart Disease
+P02738,02108,36,Female,Mental Health
+P02739,02119,40,Female,Cancer
+P02740,02138,49,Female,Arthritis
+P02741,02142,55,Female,Arthritis
+P02742,02140,44,Male,Diabetes
+P02743,02140,45,Female,Heart Disease
+P02744,02139,47,Female,Heart Disease
+P02745,02109,37,Female,Heart Disease
+P02746,02113,31,Male,Heart Disease
+P02747,02109,18,Female,Diabetes
+P02748,02139,34,Male,Heart Disease
+P02749,02114,52,Female,Heart Disease
+P02750,02110,34,Male,Diabetes
+P02751,02142,41,Male,Diabetes
+P02752,02110,51,Female,Hypertension
+P02753,02140,52,Male,Diabetes
+P02754,02141,28,Female,Cancer
+P02755,02116,59,Female,Mental Health
+P02756,02141,61,Male,Heart Disease
+P02757,02143,28,Male,Heart Disease
+P02758,02116,32,Female,Arthritis
+P02759,02111,62,Male,Hypertension
+P02760,02138,42,Female,Asthma
+P02761,02139,18,Female,Heart Disease
+P02762,02138,24,Male,Arthritis
+P02763,02110,41,Male,Mental Health
+P02764,02143,27,Male,Cancer
+P02765,02139,38,Female,Heart Disease
+P02766,02119,45,Male,Arthritis
+P02767,02108,66,Male,Asthma
+P02768,02140,40,Female,Asthma
+P02769,02108,61,Female,Heart Disease
+P02770,02110,66,Male,Asthma
+P02771,02138,66,Male,Heart Disease
+P02772,02141,49,Female,Heart Disease
+P02773,02114,18,Female,Hypertension
+P02774,02143,51,Female,Diabetes
+P02775,02108,60,Female,Cancer
+P02776,02143,43,Female,Cancer
+P02777,02138,71,Female,Heart Disease
+P02778,02139,57,Female,Cancer
+P02779,02143,53,Female,Mental Health
+P02780,02140,61,Female,Heart Disease
+P02781,02138,50,Male,Hypertension
+P02782,02115,18,Male,Diabetes
+P02783,02120,37,Female,Hypertension
+P02784,02114,62,Male,Diabetes
+P02785,02115,32,Female,Diabetes
+P02786,02140,41,Male,Heart Disease
+P02787,02119,29,Female,COPD
+P02788,02140,71,Male,Cancer
+P02789,02119,70,Female,Hypertension
+P02790,02121,31,Female,Diabetes
+P02791,02111,47,Male,Hypertension
+P02792,02120,34,Female,Diabetes
+P02793,02109,54,Male,Diabetes
+P02794,02140,52,Male,Hypertension
+P02795,02143,57,Male,Diabetes
+P02796,02109,49,Male,Heart Disease
+P02797,02138,89,Female,Hypertension
+P02798,02109,29,Male,Arthritis
+P02799,02120,19,Female,Heart Disease
+P02800,02140,39,Male,Heart Disease
+P02801,02114,21,Female,Heart Disease
+P02802,02116,22,Male,Obesity
+P02803,02118,29,Female,Arthritis
+P02804,02119,31,Female,Hypertension
+P02805,02108,30,Female,Mental Health
+P02806,02120,52,Male,Diabetes
+P02807,02113,37,Female,COPD
+P02808,02139,42,Male,Diabetes
+P02809,02143,58,Male,Heart Disease
+P02810,02111,33,Male,Cancer
+P02811,02140,41,Male,Diabetes
+P02812,02110,50,Male,Cancer
+P02813,02110,18,Female,Diabetes
+P02814,02139,18,Male,Cancer
+P02815,02109,50,Male,Diabetes
+P02816,02113,52,Male,Heart Disease
+P02817,02108,75,Female,Mental Health
+P02818,02138,47,Female,Arthritis
+P02819,02138,57,Male,Obesity
+P02820,02142,42,Female,Cancer
+P02821,02118,49,Female,Cancer
+P02822,02140,70,Male,Hypertension
+P02823,02110,18,Female,Heart Disease
+P02824,02140,51,Female,Heart Disease
+P02825,02141,77,Female,Diabetes
+P02826,02115,49,Male,Arthritis
+P02827,02111,69,Male,Heart Disease
+P02828,02138,35,Male,Mental Health
+P02829,02143,44,Female,Hypertension
+P02830,02138,45,Female,Cancer
+P02831,02108,18,Male,Heart Disease
+P02832,02110,27,Male,Diabetes
+P02833,02139,28,Female,Obesity
+P02834,02141,57,Female,Diabetes
+P02835,02142,58,Female,Diabetes
+P02836,02116,49,Female,Heart Disease
+P02837,02121,57,Female,Heart Disease
+P02838,02138,42,Male,Heart Disease
+P02839,02113,63,Male,Cancer
+P02840,02142,45,Male,Hypertension
+P02841,02142,45,Female,Hypertension
+P02842,02113,41,Male,Heart Disease
+P02843,02116,55,Female,Asthma
+P02844,02119,38,Male,Asthma
+P02845,02109,59,Male,Heart Disease
+P02846,02142,28,Female,Diabetes
+P02847,02113,28,Male,Heart Disease
+P02848,02140,55,Male,Asthma
+P02849,02109,43,Female,Asthma
+P02850,02142,38,Male,Mental Health
+P02851,02110,58,Female,Heart Disease
+P02852,02140,35,Female,Hypertension
+P02853,02140,41,Female,Heart Disease
+P02854,02116,65,Female,Diabetes
+P02855,02139,68,Male,Hypertension
+P02856,02108,68,Female,Heart Disease
+P02857,02140,40,Male,Cancer
+P02858,02138,63,Male,Hypertension
+P02859,02138,30,Male,Arthritis
+P02860,02139,31,Male,Diabetes
+P02861,02115,18,Female,Mental Health
+P02862,02141,70,Male,COPD
+P02863,02119,32,Female,Mental Health
+P02864,02109,43,Male,Asthma
+P02865,02143,31,Male,Asthma
+P02866,02109,55,Female,Hypertension
+P02867,02108,39,Male,Heart Disease
+P02868,02113,25,Female,Cancer
+P02869,02141,51,Male,Cancer
+P02870,02142,23,Male,COPD
+P02871,02116,32,Female,Hypertension
+P02872,02118,18,Female,Diabetes
+P02873,02116,23,Male,Cancer
+P02874,02142,47,Male,Obesity
+P02875,02113,18,Male,Heart Disease
+P02876,02143,22,Female,Diabetes
+P02877,02108,44,Female,Hypertension
+P02878,02140,36,Female,Heart Disease
+P02879,02109,74,Male,Heart Disease
+P02880,02139,72,Female,Diabetes
+P02881,02141,31,Female,Arthritis
+P02882,02115,53,Female,Heart Disease
+P02883,02140,56,Female,Diabetes
+P02884,02138,36,Female,Asthma
+P02885,02138,22,Male,Obesity
+P02886,02118,44,Female,COPD
+P02887,02108,42,Female,Diabetes
+P02888,02142,38,Male,Obesity
+P02889,02114,51,Male,Heart Disease
+P02890,02115,33,Female,Asthma
+P02891,02141,27,Male,Cancer
+P02892,02111,46,Female,Heart Disease
+P02893,02113,50,Male,Hypertension
+P02894,02110,27,Male,Heart Disease
+P02895,02139,58,Male,Arthritis
+P02896,02115,18,Male,Diabetes
+P02897,02108,36,Male,Cancer
+P02898,02141,41,Female,Heart Disease
+P02899,02143,35,Female,Heart Disease
+P02900,02138,36,Female,COPD
+P02901,02139,73,Male,Asthma
+P02902,02113,32,Female,Obesity
+P02903,02138,81,Female,Diabetes
+P02904,02142,51,Female,Heart Disease
+P02905,02108,46,Female,Hypertension
+P02906,02138,52,Male,Hypertension
+P02907,02120,82,Male,Heart Disease
+P02908,02140,30,Male,Asthma
+P02909,02141,28,Male,Diabetes
+P02910,02141,33,Female,Heart Disease
+P02911,02140,45,Male,Diabetes
+P02912,02138,19,Female,Hypertension
+P02913,02111,45,Female,Asthma
+P02914,02119,70,Female,Hypertension
+P02915,02140,47,Female,Hypertension
+P02916,02110,40,Male,Heart Disease
+P02917,02113,35,Female,Mental Health
+P02918,02115,58,Male,Mental Health
+P02919,02143,32,Female,Cancer
+P02920,02141,72,Female,Heart Disease
+P02921,02141,74,Female,Hypertension
+P02922,02111,48,Male,Cancer
+P02923,02114,44,Female,COPD
+P02924,02139,60,Male,COPD
+P02925,02142,61,Male,Arthritis
+P02926,02116,32,Female,Heart Disease
+P02927,02114,37,Male,Obesity
+P02928,02120,25,Female,Cancer
+P02929,02113,51,Male,Asthma
+P02930,02142,54,Female,Diabetes
+P02931,02109,24,Male,Diabetes
+P02932,02110,38,Female,Hypertension
+P02933,02138,24,Female,Heart Disease
+P02934,02108,31,Female,Diabetes
+P02935,02111,53,Male,Arthritis
+P02936,02139,33,Female,Heart Disease
+P02937,02113,40,Male,Heart Disease
+P02938,02109,20,Male,Heart Disease
+P02939,02119,47,Male,Diabetes
+P02940,02138,44,Female,COPD
+P02941,02140,34,Male,Heart Disease
+P02942,02109,42,Female,Heart Disease
+P02943,02141,47,Female,Mental Health
+P02944,02111,32,Male,Arthritis
+P02945,02113,22,Female,Heart Disease
+P02946,02139,72,Male,Asthma
+P02947,02108,35,Female,Cancer
+P02948,02108,43,Male,Asthma
+P02949,02142,60,Female,Hypertension
+P02950,02118,90,Male,COPD
+P02951,02114,26,Male,Heart Disease
+P02952,02111,51,Male,Heart Disease
+P02953,02111,34,Male,Diabetes
+P02954,02143,36,Male,Diabetes
+P02955,02118,34,Male,Mental Health
+P02956,02111,28,Female,Hypertension
+P02957,02111,44,Female,Heart Disease
+P02958,02115,22,Female,Diabetes
+P02959,02141,59,Female,Diabetes
+P02960,02114,45,Female,Obesity
+P02961,02140,51,Female,Hypertension
+P02962,02141,38,Female,Cancer
+P02963,02141,39,Male,Cancer
+P02964,02120,49,Female,Asthma
+P02965,02115,27,Male,Cancer
+P02966,02111,39,Female,Heart Disease
+P02967,02111,32,Female,Arthritis
+P02968,02109,31,Male,Asthma
+P02969,02118,18,Female,Asthma
+P02970,02108,65,Male,COPD
+P02971,02142,34,Male,Asthma
+P02972,02139,62,Male,Arthritis
+P02973,02113,61,Female,Obesity
+P02974,02111,25,Female,Heart Disease
+P02975,02142,28,Female,Hypertension
+P02976,02138,83,Male,Hypertension
+P02977,02115,71,Female,Diabetes
+P02978,02138,44,Female,Arthritis
+P02979,02111,48,Male,Asthma
+P02980,02120,35,Female,Asthma
+P02981,02143,51,Male,COPD
+P02982,02140,34,Male,Diabetes
+P02983,02111,18,Male,Asthma
+P02984,02114,25,Female,Hypertension
+P02985,02108,45,Male,Diabetes
+P02986,02119,28,Male,Heart Disease
+P02987,02138,43,Male,Arthritis
+P02988,02108,28,Male,Hypertension
+P02989,02111,33,Male,Arthritis
+P02990,02115,57,Male,Hypertension
+P02991,02139,48,Female,Heart Disease
+P02992,02114,44,Male,Diabetes
+P02993,02108,58,Female,Diabetes
+P02994,02142,52,Female,Obesity
+P02995,02139,66,Male,Heart Disease
+P02996,02115,38,Male,COPD
+P02997,02139,38,Female,COPD
+P02998,02141,25,Male,COPD
+P02999,02141,38,Male,Hypertension
+P03000,02115,59,Male,Obesity
+P03001,02110,64,Female,Diabetes
+P03002,02114,59,Female,Heart Disease
+P03003,02140,18,Female,Heart Disease
+P03004,02109,61,Female,Mental Health
+P03005,02109,18,Male,Heart Disease
+P03006,02115,58,Male,Hypertension
+P03007,02116,39,Male,Heart Disease
+P03008,02138,55,Male,Diabetes
+P03009,02110,25,Male,Heart Disease
+P03010,02138,62,Male,Arthritis
+P03011,02108,23,Male,Hypertension
+P03012,02141,34,Male,Mental Health
+P03013,02141,30,Male,Cancer
+P03014,02142,18,Female,Obesity
+P03015,02109,46,Female,Hypertension
+P03016,02141,72,Female,Cancer
+P03017,02111,85,Male,Hypertension
+P03018,02142,46,Male,Hypertension
+P03019,02138,61,Male,Arthritis
+P03020,02113,48,Male,Cancer
+P03021,02141,52,Male,Asthma
+P03022,02143,39,Female,Asthma
+P03023,02110,47,Female,Heart Disease
+P03024,02141,53,Male,Cancer
+P03025,02138,36,Male,Heart Disease
+P03026,02142,43,Male,Hypertension
+P03027,02118,44,Male,Cancer
+P03028,02110,57,Male,COPD
+P03029,02110,29,Male,Heart Disease
+P03030,02110,44,Male,Heart Disease
+P03031,02140,73,Male,Heart Disease
+P03032,02142,62,Male,Diabetes
+P03033,02113,65,Male,Arthritis
+P03034,02139,45,Male,Arthritis
+P03035,02141,49,Female,Asthma
+P03036,02141,60,Male,Arthritis
+P03037,02143,68,Female,Diabetes
+P03038,02120,18,Female,Heart Disease
+P03039,02138,25,Female,Heart Disease
+P03040,02108,64,Female,Arthritis
+P03041,02139,40,Female,Asthma
+P03042,02120,34,Female,Cancer
+P03043,02139,26,Male,Diabetes
+P03044,02142,36,Male,Diabetes
+P03045,02111,23,Female,Obesity
+P03046,02111,76,Female,Heart Disease
+P03047,02143,44,Female,Asthma
+P03048,02141,44,Female,Diabetes
+P03049,02142,53,Female,Heart Disease
+P03050,02140,59,Female,Asthma
+P03051,02140,59,Female,Diabetes
+P03052,02108,61,Female,Asthma
+P03053,02140,35,Female,Cancer
+P03054,02141,40,Female,Hypertension
+P03055,02110,56,Female,Asthma
+P03056,02119,37,Female,Hypertension
+P03057,02109,44,Male,Diabetes
+P03058,02138,50,Male,Asthma
+P03059,02138,56,Female,Hypertension
+P03060,02119,18,Female,Heart Disease
+P03061,02141,55,Male,Mental Health
+P03062,02138,41,Male,Hypertension
+P03063,02109,55,Female,Arthritis
+P03064,02109,56,Female,Arthritis
+P03065,02110,69,Female,Diabetes
+P03066,02140,65,Female,Hypertension
+P03067,02138,65,Male,Diabetes
+P03068,02119,66,Male,Diabetes
+P03069,02140,49,Male,Arthritis
+P03070,02110,45,Female,Asthma
+P03071,02111,58,Male,Heart Disease
+P03072,02109,55,Female,Cancer
+P03073,02141,40,Female,COPD
+P03074,02141,51,Female,Hypertension
+P03075,02109,44,Female,Asthma
+P03076,02115,32,Male,Asthma
+P03077,02118,64,Female,Diabetes
+P03078,02139,45,Male,Diabetes
+P03079,02139,75,Male,Asthma
+P03080,02118,20,Male,Hypertension
+P03081,02111,36,Male,Hypertension
+P03082,02116,45,Female,Cancer
+P03083,02140,62,Female,Asthma
+P03084,02109,50,Male,Diabetes
+P03085,02111,49,Male,Heart Disease
+P03086,02110,28,Female,Diabetes
+P03087,02142,27,Female,Hypertension
+P03088,02138,49,Male,Diabetes
+P03089,02109,24,Female,Hypertension
+P03090,02140,37,Female,Heart Disease
+P03091,02143,52,Female,Hypertension
+P03092,02119,30,Male,Diabetes
+P03093,02142,69,Female,Hypertension
+P03094,02115,63,Female,Diabetes
+P03095,02139,21,Female,Diabetes
+P03096,02110,31,Female,Mental Health
+P03097,02120,18,Female,Heart Disease
+P03098,02139,33,Male,Cancer
+P03099,02138,56,Female,Mental Health
+P03100,02143,38,Female,Hypertension
+P03101,02138,51,Female,Arthritis
+P03102,02113,22,Male,Heart Disease
+P03103,02116,56,Male,Hypertension
+P03104,02143,36,Female,Hypertension
+P03105,02140,45,Female,Heart Disease
+P03106,02143,43,Male,Diabetes
+P03107,02111,25,Female,Diabetes
+P03108,02138,27,Male,Cancer
+P03109,02109,59,Female,Mental Health
+P03110,02109,50,Female,Heart Disease
+P03111,02110,60,Male,Diabetes
+P03112,02140,49,Female,Diabetes
+P03113,02111,47,Female,Hypertension
+P03114,02138,19,Male,Asthma
+P03115,02140,40,Female,Diabetes
+P03116,02115,44,Male,Heart Disease
+P03117,02111,74,Female,Cancer
+P03118,02138,55,Male,Arthritis
+P03119,02140,68,Male,Hypertension
+P03120,02140,53,Male,Hypertension
+P03121,02141,34,Male,Heart Disease
+P03122,02140,46,Female,Heart Disease
+P03123,02138,48,Male,Heart Disease
+P03124,02143,30,Male,Diabetes
+P03125,02111,39,Female,Mental Health
+P03126,02109,41,Female,Hypertension
+P03127,02110,69,Female,Heart Disease
+P03128,02138,18,Female,Diabetes
+P03129,02119,63,Female,Diabetes
+P03130,02115,30,Male,Cancer
+P03131,02114,24,Male,Diabetes
+P03132,02114,62,Female,Diabetes
+P03133,02118,55,Male,Hypertension
+P03134,02108,63,Male,Heart Disease
+P03135,02140,57,Male,Heart Disease
+P03136,02109,75,Male,Heart Disease
+P03137,02113,53,Female,Diabetes
+P03138,02111,42,Female,Heart Disease
+P03139,02108,50,Female,Diabetes
+P03140,02138,63,Female,Asthma
+P03141,02142,33,Male,Cancer
+P03142,02118,35,Male,Cancer
+P03143,02109,40,Female,Arthritis
+P03144,02108,18,Male,Diabetes
+P03145,02140,47,Male,Arthritis
+P03146,02142,18,Female,Diabetes
+P03147,02116,45,Female,Diabetes
+P03148,02110,57,Male,Diabetes
+P03149,02113,37,Female,Heart Disease
+P03150,02143,70,Female,Obesity
+P03151,02110,23,Male,Heart Disease
+P03152,02140,62,Female,Diabetes
+P03153,02111,55,Male,Diabetes
+P03154,02143,19,Female,Heart Disease
+P03155,02143,85,Female,Heart Disease
+P03156,02110,44,Female,Heart Disease
+P03157,02118,31,Male,Diabetes
+P03158,02138,23,Male,Arthritis
+P03159,02114,41,Male,Diabetes
+P03160,02141,43,Female,Heart Disease
+P03161,02143,46,Male,Cancer
+P03162,02138,40,Male,COPD
+P03163,02141,54,Male,Heart Disease
+P03164,02108,39,Male,Diabetes
+P03165,02138,18,Male,Obesity
+P03166,02108,42,Female,Heart Disease
+P03167,02118,18,Male,Hypertension
+P03168,02139,50,Male,Heart Disease
+P03169,02113,30,Female,Mental Health
+P03170,02142,47,Female,COPD
+P03171,02110,64,Male,Asthma
+P03172,02140,30,Male,Diabetes
+P03173,02139,60,Female,Diabetes
+P03174,02139,38,Male,Heart Disease
+P03175,02138,71,Female,Arthritis
+P03176,02139,39,Male,Mental Health
+P03177,02110,32,Male,Diabetes
+P03178,02116,55,Male,Cancer
+P03179,02114,38,Female,Heart Disease
+P03180,02110,32,Female,Diabetes
+P03181,02139,37,Male,Cancer
+P03182,02141,44,Female,Diabetes
+P03183,02141,65,Male,Diabetes
+P03184,02140,18,Male,Heart Disease
+P03185,02108,45,Female,Asthma
+P03186,02108,54,Male,Arthritis
+P03187,02142,47,Female,Obesity
+P03188,02142,64,Female,Cancer
+P03189,02114,43,Female,Hypertension
+P03190,02113,42,Female,Diabetes
+P03191,02141,53,Male,COPD
+P03192,02116,46,Male,Hypertension
+P03193,02119,39,Male,Cancer
+P03194,02141,52,Male,Cancer
+P03195,02142,35,Female,Arthritis
+P03196,02108,35,Male,Heart Disease
+P03197,02118,37,Female,Heart Disease
+P03198,02115,65,Male,Cancer
+P03199,02139,18,Female,Arthritis
+P03200,02142,50,Female,Cancer
+P03201,02108,45,Female,Diabetes
+P03202,02108,19,Male,Diabetes
+P03203,02140,49,Female,Asthma
+P03204,02115,52,Male,Asthma
+P03205,02110,53,Male,Cancer
+P03206,02115,18,Male,Diabetes
+P03207,02115,65,Female,Mental Health
+P03208,02113,33,Male,Hypertension
+P03209,02143,55,Female,Asthma
+P03210,02109,56,Female,Heart Disease
+P03211,02139,31,Male,Diabetes
+P03212,02110,54,Female,Arthritis
+P03213,02139,39,Female,Heart Disease
+P03214,02111,18,Male,Hypertension
+P03215,02140,62,Female,Hypertension
+P03216,02139,33,Male,Asthma
+P03217,02139,32,Female,Diabetes
+P03218,02138,38,Male,Heart Disease
+P03219,02111,49,Male,Mental Health
+P03220,02111,44,Female,Hypertension
+P03221,02108,53,Male,Heart Disease
+P03222,02139,24,Male,Heart Disease
+P03223,02138,33,Male,COPD
+P03224,02138,43,Male,Heart Disease
+P03225,02139,73,Female,Cancer
+P03226,02116,43,Female,Diabetes
+P03227,02140,61,Female,Arthritis
+P03228,02142,45,Female,Asthma
+P03229,02139,37,Male,Hypertension
+P03230,02140,41,Male,Heart Disease
+P03231,02108,42,Female,Arthritis
+P03232,02109,54,Female,Diabetes
+P03233,02140,65,Male,Mental Health
+P03234,02138,50,Male,Hypertension
+P03235,02142,62,Female,Cancer
+P03236,02140,30,Female,Heart Disease
+P03237,02140,38,Female,Asthma
+P03238,02119,34,Male,Diabetes
+P03239,02109,49,Female,Diabetes
+P03240,02108,39,Male,Heart Disease
+P03241,02142,55,Male,Heart Disease
+P03242,02143,31,Female,Heart Disease
+P03243,02108,45,Male,Diabetes
+P03244,02111,55,Male,Arthritis
+P03245,02111,18,Female,Diabetes
+P03246,02139,76,Female,Asthma
+P03247,02108,40,Female,Heart Disease
+P03248,02142,18,Male,Hypertension
+P03249,02115,47,Male,Hypertension
+P03250,02110,45,Female,Obesity
+P03251,02108,43,Female,Arthritis
+P03252,02139,59,Female,Hypertension
+P03253,02109,56,Male,Asthma
+P03254,02139,49,Male,Heart Disease
+P03255,02141,51,Female,Hypertension
+P03256,02139,43,Female,Heart Disease
+P03257,02111,71,Male,Diabetes
+P03258,02140,22,Male,Heart Disease
+P03259,02142,47,Female,Cancer
+P03260,02116,45,Male,Hypertension
+P03261,02140,57,Male,Asthma
+P03262,02108,32,Male,Hypertension
+P03263,02142,18,Female,Heart Disease
+P03264,02138,47,Male,Asthma
+P03265,02114,49,Female,Arthritis
+P03266,02138,67,Male,Mental Health
+P03267,02143,25,Female,Hypertension
+P03268,02109,62,Male,Asthma
+P03269,02109,80,Female,Asthma
+P03270,02110,39,Female,Heart Disease
+P03271,02140,25,Female,Heart Disease
+P03272,02138,38,Female,Heart Disease
+P03273,02111,45,Female,Diabetes
+P03274,02108,53,Female,Hypertension
+P03275,02115,36,Female,COPD
+P03276,02114,68,Female,Diabetes
+P03277,02115,28,Male,Asthma
+P03278,02108,18,Female,Cancer
+P03279,02141,61,Male,Heart Disease
+P03280,02114,18,Male,Heart Disease
+P03281,02143,41,Male,Hypertension
+P03282,02139,90,Male,Cancer
+P03283,02115,44,Female,COPD
+P03284,02116,28,Female,Diabetes
+P03285,02143,44,Female,Arthritis
+P03286,02138,44,Female,Diabetes
+P03287,02142,47,Female,Cancer
+P03288,02114,54,Female,Hypertension
+P03289,02116,29,Male,Heart Disease
+P03290,02140,70,Female,Heart Disease
+P03291,02138,48,Female,Heart Disease
+P03292,02115,55,Female,Diabetes
+P03293,02142,35,Female,Asthma
+P03294,02108,64,Female,Heart Disease
+P03295,02119,41,Male,Cancer
+P03296,02138,49,Male,Diabetes
+P03297,02110,31,Female,Asthma
+P03298,02138,30,Female,Asthma
+P03299,02142,55,Female,Asthma
+P03300,02114,38,Male,Hypertension
+P03301,02143,32,Male,Diabetes
+P03302,02121,35,Female,Asthma
+P03303,02108,55,Male,Heart Disease
+P03304,02141,35,Female,Diabetes
+P03305,02140,43,Male,Heart Disease
+P03306,02142,45,Male,Cancer
+P03307,02142,18,Female,Cancer
+P03308,02138,22,Male,Cancer
+P03309,02142,50,Female,Diabetes
+P03310,02143,33,Female,Heart Disease
+P03311,02111,60,Male,Mental Health
+P03312,02110,59,Female,Hypertension
+P03313,02111,55,Female,Diabetes
+P03314,02138,72,Male,Hypertension
+P03315,02140,43,Male,Heart Disease
+P03316,02110,54,Male,Heart Disease
+P03317,02108,36,Female,Diabetes
+P03318,02138,81,Female,Heart Disease
+P03319,02114,74,Female,Heart Disease
+P03320,02113,45,Female,Arthritis
+P03321,02108,50,Female,Hypertension
+P03322,02138,65,Female,Hypertension
+P03323,02113,42,Female,Cancer
+P03324,02109,35,Male,Obesity
+P03325,02113,58,Female,Heart Disease
+P03326,02113,46,Female,Arthritis
+P03327,02114,47,Female,Hypertension
+P03328,02108,32,Female,Heart Disease
+P03329,02139,19,Male,Diabetes
+P03330,02110,48,Female,Hypertension
+P03331,02109,58,Male,Cancer
+P03332,02113,41,Female,Heart Disease
+P03333,02139,66,Male,Hypertension
+P03334,02140,34,Female,Cancer
+P03335,02116,29,Female,Diabetes
+P03336,02113,43,Female,Arthritis
+P03337,02116,43,Male,Arthritis
+P03338,02113,56,Female,Hypertension
+P03339,02109,33,Female,Obesity
+P03340,02110,65,Female,Heart Disease
+P03341,02116,74,Male,Heart Disease
+P03342,02109,44,Female,Diabetes
+P03343,02110,63,Male,Cancer
+P03344,02139,29,Female,Cancer
+P03345,02143,61,Male,Hypertension
+P03346,02111,60,Female,Heart Disease
+P03347,02141,57,Female,Heart Disease
+P03348,02140,44,Male,Arthritis
+P03349,02141,18,Female,Arthritis
+P03350,02140,35,Female,Cancer
+P03351,02140,35,Male,Cancer
+P03352,02143,30,Female,Hypertension
+P03353,02116,46,Male,Heart Disease
+P03354,02108,38,Male,Diabetes
+P03355,02139,32,Male,Cancer
+P03356,02138,29,Female,Hypertension
+P03357,02111,34,Male,Heart Disease
+P03358,02142,61,Female,Obesity
+P03359,02114,35,Female,Arthritis
+P03360,02110,37,Male,Diabetes
+P03361,02114,38,Female,Cancer
+P03362,02141,50,Male,Mental Health
+P03363,02111,51,Female,Heart Disease
+P03364,02140,18,Male,Hypertension
+P03365,02118,60,Male,Hypertension
+P03366,02110,66,Female,Diabetes
+P03367,02141,29,Female,Arthritis
+P03368,02140,30,Male,Diabetes
+P03369,02140,38,Female,Heart Disease
+P03370,02111,33,Male,Heart Disease
+P03371,02140,48,Female,Heart Disease
+P03372,02109,18,Female,Diabetes
+P03373,02140,28,Male,Cancer
+P03374,02110,68,Male,Heart Disease
+P03375,02114,31,Male,Cancer
+P03376,02113,63,Male,Cancer
+P03377,02113,50,Male,Diabetes
+P03378,02139,18,Female,Cancer
+P03379,02138,54,Female,Cancer
+P03380,02111,43,Male,Hypertension
+P03381,02142,38,Female,Diabetes
+P03382,02143,48,Female,Cancer
+P03383,02138,52,Female,Obesity
+P03384,02140,55,Female,Diabetes
+P03385,02138,62,Female,Diabetes
+P03386,02115,51,Male,Hypertension
+P03387,02140,24,Male,Heart Disease
+P03388,02108,37,Male,Hypertension
+P03389,02138,89,Male,Diabetes
+P03390,02110,55,Male,Heart Disease
+P03391,02141,80,Female,Hypertension
+P03392,02116,65,Male,Heart Disease
+P03393,02116,48,Female,Diabetes
+P03394,02141,49,Male,Heart Disease
+P03395,02116,44,Female,Heart Disease
+P03396,02121,18,Female,Arthritis
+P03397,02114,45,Male,Mental Health
+P03398,02115,63,Male,Heart Disease
+P03399,02140,36,Female,Hypertension
+P03400,02109,51,Male,Diabetes
+P03401,02138,57,Male,Hypertension
+P03402,02138,31,Male,Diabetes
+P03403,02121,38,Female,Diabetes
+P03404,02141,29,Female,Cancer
+P03405,02113,32,Female,Heart Disease
+P03406,02114,25,Female,Heart Disease
+P03407,02115,31,Female,Asthma
+P03408,02121,66,Female,Cancer
+P03409,02140,31,Female,Hypertension
+P03410,02138,46,Male,Hypertension
+P03411,02142,37,Male,Hypertension
+P03412,02139,62,Female,Diabetes
+P03413,02138,64,Female,Diabetes
+P03414,02142,57,Male,Hypertension
+P03415,02113,49,Male,Hypertension
+P03416,02109,41,Female,Cancer
+P03417,02141,27,Female,Cancer
+P03418,02110,74,Male,Diabetes
+P03419,02140,33,Female,Diabetes
+P03420,02138,54,Female,Diabetes
+P03421,02113,60,Female,Hypertension
+P03422,02109,36,Male,Hypertension
+P03423,02113,60,Male,Arthritis
+P03424,02138,56,Male,Cancer
+P03425,02115,70,Male,Arthritis
+P03426,02109,37,Female,Cancer
+P03427,02109,25,Male,Obesity
+P03428,02109,37,Female,Cancer
+P03429,02115,48,Male,Obesity
+P03430,02109,45,Male,Heart Disease
+P03431,02109,39,Female,Heart Disease
+P03432,02121,18,Female,Hypertension
+P03433,02113,52,Male,COPD
+P03434,02143,74,Female,Diabetes
+P03435,02111,51,Female,Heart Disease
+P03436,02142,54,Female,Hypertension
+P03437,02140,53,Female,Cancer
+P03438,02109,50,Male,Diabetes
+P03439,02118,58,Female,Cancer
+P03440,02118,50,Female,Obesity
+P03441,02141,40,Male,Arthritis
+P03442,02108,33,Male,Diabetes
+P03443,02140,41,Female,Diabetes
+P03444,02121,49,Male,Diabetes
+P03445,02120,40,Male,Diabetes
+P03446,02110,49,Female,Heart Disease
+P03447,02114,51,Male,Asthma
+P03448,02111,57,Male,Diabetes
+P03449,02109,64,Female,Arthritis
+P03450,02138,46,Female,Mental Health
+P03451,02143,25,Male,Heart Disease
+P03452,02110,39,Female,COPD
+P03453,02110,45,Female,Cancer
+P03454,02142,18,Female,Hypertension
+P03455,02118,65,Male,Diabetes
+P03456,02139,47,Male,Hypertension
+P03457,02108,50,Male,Diabetes
+P03458,02111,65,Female,Cancer
+P03459,02111,35,Female,Heart Disease
+P03460,02110,53,Female,Cancer
+P03461,02141,43,Female,Diabetes
+P03462,02139,42,Female,Heart Disease
+P03463,02110,33,Male,Hypertension
+P03464,02109,69,Female,Hypertension
+P03465,02139,39,Female,Diabetes
+P03466,02111,55,Female,Heart Disease
+P03467,02143,18,Male,Arthritis
+P03468,02110,62,Female,Cancer
+P03469,02115,60,Male,Heart Disease
+P03470,02139,46,Male,Hypertension
+P03471,02138,41,Female,Hypertension
+P03472,02113,51,Female,Heart Disease
+P03473,02109,79,Male,Cancer
+P03474,02111,18,Female,Asthma
+P03475,02115,56,Male,Asthma
+P03476,02114,31,Male,Heart Disease
+P03477,02119,44,Male,Arthritis
+P03478,02108,41,Female,Diabetes
+P03479,02108,38,Female,Mental Health
+P03480,02142,44,Female,Heart Disease
+P03481,02139,27,Female,Hypertension
+P03482,02109,60,Male,Hypertension
+P03483,02141,18,Male,Heart Disease
+P03484,02118,53,Female,Asthma
+P03485,02109,40,Male,Cancer
+P03486,02109,27,Female,Heart Disease
+P03487,02142,48,Female,Cancer
+P03488,02138,21,Female,Hypertension
+P03489,02138,45,Male,Heart Disease
+P03490,02143,23,Female,COPD
+P03491,02138,51,Female,Arthritis
+P03492,02109,31,Male,Diabetes
+P03493,02116,38,Female,Hypertension
+P03494,02116,49,Male,Diabetes
+P03495,02110,33,Male,Asthma
+P03496,02140,44,Male,Mental Health
+P03497,02115,22,Male,Diabetes
+P03498,02116,54,Female,Asthma
+P03499,02140,71,Male,Hypertension
+P03500,02111,86,Male,Diabetes
+P03501,02141,46,Male,Mental Health
+P03502,02114,56,Male,Hypertension
+P03503,02121,18,Male,Hypertension
+P03504,02138,67,Male,Cancer
+P03505,02116,56,Female,Diabetes
+P03506,02109,37,Female,Diabetes
+P03507,02120,63,Female,Mental Health
+P03508,02143,41,Female,Cancer
+P03509,02115,38,Male,Arthritis
+P03510,02138,52,Female,Diabetes
+P03511,02141,29,Female,Hypertension
+P03512,02138,60,Male,Obesity
+P03513,02120,29,Female,Diabetes
+P03514,02114,29,Male,Heart Disease
+P03515,02115,31,Male,Hypertension
+P03516,02118,56,Female,Diabetes
+P03517,02138,35,Male,Heart Disease
+P03518,02142,24,Male,Arthritis
+P03519,02138,35,Male,COPD
+P03520,02140,44,Male,Hypertension
+P03521,02140,27,Male,Asthma
+P03522,02143,27,Female,Arthritis
+P03523,02140,76,Female,Cancer
+P03524,02139,32,Female,Heart Disease
+P03525,02139,40,Male,Heart Disease
+P03526,02139,39,Female,Heart Disease
+P03527,02120,38,Female,Heart Disease
+P03528,02113,54,Male,Diabetes
+P03529,02119,59,Female,Diabetes
+P03530,02143,40,Female,Heart Disease
+P03531,02141,26,Female,Heart Disease
+P03532,02114,64,Male,Hypertension
+P03533,02141,43,Male,Diabetes
+P03534,02141,70,Female,Asthma
+P03535,02140,18,Female,Heart Disease
+P03536,02139,47,Female,Arthritis
+P03537,02140,73,Female,Obesity
+P03538,02142,39,Female,Cancer
+P03539,02110,41,Male,Asthma
+P03540,02138,49,Female,Mental Health
+P03541,02140,36,Male,Heart Disease
+P03542,02114,40,Female,COPD
+P03543,02139,39,Female,Asthma
+P03544,02141,35,Male,Asthma
+P03545,02115,63,Female,Diabetes
+P03546,02139,51,Male,Hypertension
+P03547,02138,48,Male,Cancer
+P03548,02108,57,Male,Cancer
+P03549,02141,41,Male,Cancer
+P03550,02109,33,Male,Heart Disease
+P03551,02114,35,Male,Diabetes
+P03552,02139,45,Female,Diabetes
+P03553,02109,29,Female,Diabetes
+P03554,02108,37,Female,Heart Disease
+P03555,02139,37,Male,Heart Disease
+P03556,02109,76,Female,Diabetes
+P03557,02141,18,Female,Hypertension
+P03558,02108,42,Male,Heart Disease
+P03559,02138,70,Female,Mental Health
+P03560,02143,46,Male,Asthma
+P03561,02141,56,Female,Asthma
+P03562,02114,46,Male,Heart Disease
+P03563,02138,34,Male,Cancer
+P03564,02142,18,Female,Hypertension
+P03565,02143,48,Male,COPD
+P03566,02111,33,Male,Asthma
+P03567,02109,32,Female,Hypertension
+P03568,02110,37,Female,Arthritis
+P03569,02113,71,Female,Heart Disease
+P03570,02115,81,Male,Heart Disease
+P03571,02141,48,Male,Cancer
+P03572,02108,38,Female,Heart Disease
+P03573,02115,27,Male,Heart Disease
+P03574,02120,52,Male,Asthma
+P03575,02116,71,Female,Diabetes
+P03576,02142,41,Male,Cancer
+P03577,02140,18,Male,Mental Health
+P03578,02108,55,Male,Diabetes
+P03579,02113,59,Male,Heart Disease
+P03580,02108,21,Male,Heart Disease
+P03581,02108,47,Male,Heart Disease
+P03582,02115,51,Male,Heart Disease
+P03583,02142,43,Female,Heart Disease
+P03584,02115,33,Female,Diabetes
+P03585,02142,60,Male,Diabetes
+P03586,02141,38,Female,Cancer
+P03587,02143,22,Male,Arthritis
+P03588,02113,18,Male,Asthma
+P03589,02139,63,Male,Hypertension
+P03590,02140,54,Female,Heart Disease
+P03591,02119,46,Female,Cancer
+P03592,02139,38,Female,Diabetes
+P03593,02109,37,Male,Heart Disease
+P03594,02109,28,Male,Arthritis
+P03595,02108,38,Female,Diabetes
+P03596,02110,18,Male,Heart Disease
+P03597,02140,33,Female,Arthritis
+P03598,02108,40,Female,Mental Health
+P03599,02142,54,Female,Diabetes
+P03600,02110,44,Female,Diabetes
+P03601,02139,56,Female,Hypertension
+P03602,02109,65,Female,Asthma
+P03603,02139,60,Female,Heart Disease
+P03604,02141,52,Male,Hypertension
+P03605,02140,45,Female,Obesity
+P03606,02139,30,Male,Diabetes
+P03607,02114,56,Male,Mental Health
+P03608,02141,70,Male,Obesity
+P03609,02118,50,Male,Diabetes
+P03610,02119,73,Female,Asthma
+P03611,02109,22,Female,Heart Disease
+P03612,02139,27,Male,Asthma
+P03613,02142,57,Male,Asthma
+P03614,02114,48,Female,Heart Disease
+P03615,02142,64,Female,Cancer
+P03616,02138,44,Female,Asthma
+P03617,02108,31,Male,Diabetes
+P03618,02115,41,Female,Heart Disease
+P03619,02114,22,Female,Heart Disease
+P03620,02139,28,Male,Hypertension
+P03621,02110,59,Male,Obesity
+P03622,02140,58,Male,Arthritis
+P03623,02140,50,Male,Diabetes
+P03624,02115,19,Female,Hypertension
+P03625,02140,39,Male,Diabetes
+P03626,02140,26,Male,Heart Disease
+P03627,02138,62,Male,Hypertension
+P03628,02115,36,Male,Hypertension
+P03629,02114,28,Female,Hypertension
+P03630,02109,45,Male,Obesity
+P03631,02113,35,Female,Cancer
+P03632,02139,67,Male,Cancer
+P03633,02143,33,Female,Heart Disease
+P03634,02142,24,Female,COPD
+P03635,02138,18,Female,Asthma
+P03636,02108,44,Female,Arthritis
+P03637,02118,36,Female,Diabetes
+P03638,02138,23,Male,Hypertension
+P03639,02141,62,Female,Hypertension
+P03640,02140,55,Female,Heart Disease
+P03641,02140,44,Female,Cancer
+P03642,02116,65,Male,Mental Health
+P03643,02143,54,Male,Heart Disease
+P03644,02143,32,Female,Heart Disease
+P03645,02113,29,Male,Asthma
+P03646,02139,57,Male,Diabetes
+P03647,02108,50,Male,Cancer
+P03648,02143,47,Female,Cancer
+P03649,02109,32,Female,Diabetes
+P03650,02121,54,Female,Asthma
+P03651,02113,33,Male,Hypertension
+P03652,02142,43,Male,Arthritis
+P03653,02114,66,Male,Asthma
+P03654,02139,35,Female,Arthritis
+P03655,02138,21,Female,Heart Disease
+P03656,02140,29,Male,Heart Disease
+P03657,02141,59,Female,Heart Disease
+P03658,02108,48,Female,Diabetes
+P03659,02109,43,Male,Arthritis
+P03660,02116,37,Male,Hypertension
+P03661,02108,52,Female,Arthritis
+P03662,02108,32,Male,Diabetes
+P03663,02138,49,Female,Diabetes
+P03664,02138,34,Male,Arthritis
+P03665,02108,31,Female,Diabetes
+P03666,02143,35,Female,Asthma
+P03667,02115,39,Female,Heart Disease
+P03668,02139,44,Female,Mental Health
+P03669,02138,48,Female,Hypertension
+P03670,02143,18,Female,Asthma
+P03671,02140,32,Male,Heart Disease
+P03672,02138,39,Male,Hypertension
+P03673,02111,67,Female,Mental Health
+P03674,02139,28,Female,Arthritis
+P03675,02109,47,Male,Heart Disease
+P03676,02141,67,Male,Diabetes
+P03677,02139,25,Female,Diabetes
+P03678,02142,50,Male,Heart Disease
+P03679,02114,32,Female,Asthma
+P03680,02142,37,Female,Heart Disease
+P03681,02113,32,Female,Diabetes
+P03682,02139,34,Male,Cancer
+P03683,02113,85,Male,Hypertension
+P03684,02140,57,Male,Asthma
+P03685,02110,61,Male,Obesity
+P03686,02109,52,Female,Heart Disease
+P03687,02118,20,Female,Cancer
+P03688,02142,50,Male,Heart Disease
+P03689,02138,61,Male,Diabetes
+P03690,02138,32,Male,Heart Disease
+P03691,02114,59,Female,Heart Disease
+P03692,02108,55,Male,Diabetes
+P03693,02113,72,Female,Diabetes
+P03694,02140,38,Female,Arthritis
+P03695,02141,28,Female,Asthma
+P03696,02138,39,Female,Obesity
+P03697,02119,66,Male,Hypertension
+P03698,02110,18,Female,Heart Disease
+P03699,02118,18,Male,Diabetes
+P03700,02140,46,Female,Diabetes
+P03701,02109,38,Male,Diabetes
+P03702,02110,45,Female,Cancer
+P03703,02141,59,Male,Hypertension
+P03704,02115,36,Female,Diabetes
+P03705,02118,18,Male,Heart Disease
+P03706,02116,75,Female,Heart Disease
+P03707,02111,30,Female,Heart Disease
+P03708,02141,29,Male,Heart Disease
+P03709,02141,61,Female,Asthma
+P03710,02119,39,Female,Heart Disease
+P03711,02138,44,Male,Asthma
+P03712,02111,52,Female,Diabetes
+P03713,02111,61,Female,Heart Disease
+P03714,02109,39,Female,Asthma
+P03715,02121,67,Male,Hypertension
+P03716,02141,18,Male,Heart Disease
+P03717,02141,56,Female,Arthritis
+P03718,02138,32,Male,Heart Disease
+P03719,02143,65,Female,Heart Disease
+P03720,02140,47,Male,Asthma
+P03721,02141,34,Male,Cancer
+P03722,02115,54,Female,Diabetes
+P03723,02118,58,Female,Heart Disease
+P03724,02139,54,Female,Arthritis
+P03725,02142,29,Male,Diabetes
+P03726,02118,37,Male,Heart Disease
+P03727,02138,44,Male,Hypertension
+P03728,02138,44,Female,Mental Health
+P03729,02139,56,Female,Heart Disease
+P03730,02109,18,Female,Asthma
+P03731,02139,50,Male,Hypertension
+P03732,02119,40,Female,Diabetes
+P03733,02143,32,Male,Asthma
+P03734,02108,33,Female,Obesity
+P03735,02140,41,Male,Heart Disease
+P03736,02143,18,Female,Heart Disease
+P03737,02110,34,Male,Mental Health
+P03738,02113,31,Male,Cancer
+P03739,02113,52,Male,Diabetes
+P03740,02109,32,Male,Hypertension
+P03741,02116,41,Male,Asthma
+P03742,02114,68,Male,Asthma
+P03743,02113,59,Male,Mental Health
+P03744,02138,58,Female,Diabetes
+P03745,02138,37,Male,Diabetes
+P03746,02140,53,Female,Cancer
+P03747,02110,41,Male,Diabetes
+P03748,02142,42,Female,Hypertension
+P03749,02142,51,Female,Diabetes
+P03750,02116,36,Male,Heart Disease
+P03751,02116,67,Female,Hypertension
+P03752,02116,42,Male,Cancer
+P03753,02141,54,Female,Asthma
+P03754,02111,66,Female,Hypertension
+P03755,02141,60,Male,Heart Disease
+P03756,02140,23,Male,Diabetes
+P03757,02139,51,Male,Asthma
+P03758,02141,57,Male,Diabetes
+P03759,02143,58,Female,Cancer
+P03760,02115,28,Male,Hypertension
+P03761,02139,35,Male,Heart Disease
+P03762,02111,59,Male,Asthma
+P03763,02108,33,Male,Heart Disease
+P03764,02141,40,Male,Hypertension
+P03765,02108,68,Female,Heart Disease
+P03766,02141,44,Male,Heart Disease
+P03767,02109,34,Female,Hypertension
+P03768,02143,31,Male,Hypertension
+P03769,02139,49,Male,Cancer
+P03770,02139,25,Female,Asthma
+P03771,02108,41,Male,Asthma
+P03772,02116,49,Male,Diabetes
+P03773,02141,64,Female,Cancer
+P03774,02111,55,Female,Hypertension
+P03775,02110,34,Male,Diabetes
+P03776,02118,62,Female,Hypertension
+P03777,02114,40,Female,Mental Health
+P03778,02109,26,Male,Heart Disease
+P03779,02110,42,Male,Mental Health
+P03780,02116,66,Male,Heart Disease
+P03781,02142,47,Male,Diabetes
+P03782,02141,45,Female,Diabetes
+P03783,02138,69,Female,Cancer
+P03784,02114,23,Female,Heart Disease
+P03785,02114,25,Male,Arthritis
+P03786,02139,20,Male,Arthritis
+P03787,02109,50,Female,Cancer
+P03788,02143,47,Male,Hypertension
+P03789,02139,68,Female,Mental Health
+P03790,02120,48,Female,Arthritis
+P03791,02140,38,Female,Hypertension
+P03792,02138,45,Male,Cancer
+P03793,02109,46,Male,Hypertension
+P03794,02111,19,Female,Hypertension
+P03795,02138,85,Female,Diabetes
+P03796,02110,52,Female,Hypertension
+P03797,02108,48,Male,Heart Disease
+P03798,02139,54,Female,Diabetes
+P03799,02139,55,Female,Cancer
+P03800,02109,42,Male,Obesity
+P03801,02141,35,Female,Obesity
+P03802,02118,53,Female,Hypertension
+P03803,02114,50,Male,Cancer
+P03804,02120,32,Male,Heart Disease
+P03805,02140,66,Female,Cancer
+P03806,02119,49,Male,Heart Disease
+P03807,02143,55,Female,Diabetes
+P03808,02141,65,Male,Cancer
+P03809,02138,45,Male,Diabetes
+P03810,02138,49,Female,Heart Disease
+P03811,02111,57,Female,Arthritis
+P03812,02143,34,Male,Diabetes
+P03813,02140,45,Female,Heart Disease
+P03814,02109,46,Male,Heart Disease
+P03815,02140,30,Male,Diabetes
+P03816,02109,79,Male,Heart Disease
+P03817,02142,23,Male,Asthma
+P03818,02114,25,Female,Diabetes
+P03819,02114,64,Female,Asthma
+P03820,02143,55,Female,Heart Disease
+P03821,02142,29,Female,Hypertension
+P03822,02142,54,Male,Cancer
+P03823,02114,67,Female,Cancer
+P03824,02141,44,Female,Cancer
+P03825,02140,83,Female,Mental Health
+P03826,02138,19,Female,Heart Disease
+P03827,02143,55,Female,Hypertension
+P03828,02108,62,Male,Arthritis
+P03829,02115,58,Female,Heart Disease
+P03830,02140,41,Female,Heart Disease
+P03831,02142,40,Female,Heart Disease
+P03832,02114,51,Male,Cancer
+P03833,02114,57,Female,Diabetes
+P03834,02142,54,Female,Heart Disease
+P03835,02143,60,Male,Hypertension
+P03836,02141,29,Female,Cancer
+P03837,02118,41,Male,Heart Disease
+P03838,02139,30,Male,Diabetes
+P03839,02118,39,Male,Cancer
+P03840,02110,60,Female,Mental Health
+P03841,02108,46,Male,Cancer
+P03842,02138,84,Female,Asthma
+P03843,02143,47,Male,Diabetes
+P03844,02142,45,Male,Diabetes
+P03845,02139,46,Male,Hypertension
+P03846,02110,35,Male,Asthma
+P03847,02120,44,Female,Hypertension
+P03848,02109,61,Female,Arthritis
+P03849,02111,46,Male,COPD
+P03850,02138,33,Male,Heart Disease
+P03851,02142,31,Female,Heart Disease
+P03852,02139,38,Male,Heart Disease
+P03853,02109,46,Female,Diabetes
+P03854,02118,62,Female,Heart Disease
+P03855,02110,24,Male,Arthritis
+P03856,02138,40,Male,Heart Disease
+P03857,02142,47,Female,Diabetes
+P03858,02108,18,Male,Heart Disease
+P03859,02142,32,Male,Mental Health
+P03860,02115,34,Male,Cancer
+P03861,02114,33,Female,Mental Health
+P03862,02109,47,Female,Obesity
+P03863,02142,42,Male,Hypertension
+P03864,02140,36,Female,Heart Disease
+P03865,02139,51,Male,Heart Disease
+P03866,02142,70,Female,Heart Disease
+P03867,02142,69,Male,Cancer
+P03868,02110,18,Female,Heart Disease
+P03869,02110,53,Female,Heart Disease
+P03870,02138,42,Male,Cancer
+P03871,02142,47,Male,Cancer
+P03872,02139,39,Male,Cancer
+P03873,02139,46,Male,Diabetes
+P03874,02114,47,Male,Asthma
+P03875,02138,36,Female,Hypertension
+P03876,02142,31,Female,Heart Disease
+P03877,02139,38,Male,Asthma
+P03878,02115,48,Female,Obesity
+P03879,02108,53,Female,Heart Disease
+P03880,02140,57,Female,Diabetes
+P03881,02108,37,Male,Hypertension
+P03882,02111,49,Male,Heart Disease
+P03883,02119,59,Female,Arthritis
+P03884,02140,62,Male,Diabetes
+P03885,02116,44,Female,Asthma
+P03886,02118,41,Female,Cancer
+P03887,02116,47,Male,Hypertension
+P03888,02110,27,Male,Heart Disease
+P03889,02109,42,Female,Heart Disease
+P03890,02142,56,Female,Heart Disease
+P03891,02113,54,Female,Heart Disease
+P03892,02108,40,Male,Diabetes
+P03893,02110,48,Female,Arthritis
+P03894,02143,32,Female,Diabetes
+P03895,02111,55,Female,Asthma
+P03896,02114,43,Male,Diabetes
+P03897,02139,40,Male,Asthma
+P03898,02115,39,Male,Obesity
+P03899,02108,44,Female,Heart Disease
+P03900,02115,38,Female,Arthritis
+P03901,02143,54,Female,Cancer
+P03902,02142,39,Female,Asthma
+P03903,02116,68,Male,Cancer
+P03904,02140,66,Male,Diabetes
+P03905,02115,31,Male,Heart Disease
+P03906,02108,46,Male,Heart Disease
+P03907,02108,35,Female,Hypertension
+P03908,02141,40,Female,COPD
+P03909,02109,75,Male,Asthma
+P03910,02141,40,Female,Diabetes
+P03911,02138,50,Female,Arthritis
+P03912,02141,53,Male,Asthma
+P03913,02138,29,Male,Diabetes
+P03914,02120,32,Male,Heart Disease
+P03915,02119,26,Male,Heart Disease
+P03916,02142,31,Female,Arthritis
+P03917,02111,18,Male,Arthritis
+P03918,02141,53,Male,Diabetes
+P03919,02110,75,Female,Diabetes
+P03920,02114,47,Female,Asthma
+P03921,02118,23,Male,Mental Health
+P03922,02142,35,Female,Asthma
+P03923,02113,38,Male,Cancer
+P03924,02140,29,Male,Heart Disease
+P03925,02121,57,Female,Hypertension
+P03926,02138,57,Male,Heart Disease
+P03927,02109,27,Female,Asthma
+P03928,02110,55,Male,Diabetes
+P03929,02110,67,Male,Arthritis
+P03930,02139,73,Female,Diabetes
+P03931,02118,87,Male,Arthritis
+P03932,02139,31,Female,Diabetes
+P03933,02109,87,Female,Diabetes
+P03934,02140,39,Female,Cancer
+P03935,02141,36,Female,Heart Disease
+P03936,02108,49,Male,Mental Health
+P03937,02142,36,Female,Hypertension
+P03938,02139,50,Female,Hypertension
+P03939,02139,25,Female,Arthritis
+P03940,02142,41,Female,Arthritis
+P03941,02113,64,Female,Hypertension
+P03942,02116,44,Male,Mental Health
+P03943,02138,47,Female,Heart Disease
+P03944,02142,52,Male,Heart Disease
+P03945,02139,62,Male,Hypertension
+P03946,02138,20,Female,Diabetes
+P03947,02110,53,Male,Hypertension
+P03948,02109,40,Male,Diabetes
+P03949,02139,47,Male,Diabetes
+P03950,02140,60,Female,Arthritis
+P03951,02138,27,Male,Hypertension
+P03952,02115,29,Female,COPD
+P03953,02120,18,Male,Asthma
+P03954,02139,36,Female,Diabetes
+P03955,02140,64,Male,Diabetes
+P03956,02115,43,Female,Diabetes
+P03957,02118,24,Male,Arthritis
+P03958,02142,37,Female,Heart Disease
+P03959,02138,22,Female,Heart Disease
+P03960,02138,28,Female,Mental Health
+P03961,02109,50,Female,Cancer
+P03962,02142,27,Male,Heart Disease
+P03963,02138,61,Female,Heart Disease
+P03964,02109,43,Female,Arthritis
+P03965,02138,46,Female,Arthritis
+P03966,02113,40,Female,Diabetes
+P03967,02141,56,Female,Diabetes
+P03968,02138,56,Female,Arthritis
+P03969,02109,50,Male,Asthma
+P03970,02142,53,Female,Asthma
+P03971,02120,41,Female,Hypertension
+P03972,02108,53,Female,Mental Health
+P03973,02141,39,Male,Diabetes
+P03974,02111,45,Female,Heart Disease
+P03975,02141,40,Female,Cancer
+P03976,02116,38,Male,Hypertension
+P03977,02142,34,Female,Arthritis
+P03978,02108,52,Male,Heart Disease
+P03979,02138,64,Female,Arthritis
+P03980,02143,62,Male,Diabetes
+P03981,02115,26,Male,Cancer
+P03982,02114,64,Male,Heart Disease
+P03983,02140,40,Female,Cancer
+P03984,02140,54,Male,Cancer
+P03985,02114,31,Female,Diabetes
+P03986,02118,47,Female,Heart Disease
+P03987,02138,49,Female,Hypertension
+P03988,02143,22,Male,Arthritis
+P03989,02141,54,Female,Diabetes
+P03990,02115,65,Female,Diabetes
+P03991,02138,42,Male,Diabetes
+P03992,02140,65,Male,Mental Health
+P03993,02113,42,Male,Diabetes
+P03994,02138,57,Female,Heart Disease
+P03995,02108,18,Male,Asthma
+P03996,02143,81,Male,Cancer
+P03997,02141,67,Female,Heart Disease
+P03998,02142,40,Female,COPD
+P03999,02108,18,Female,Cancer
+P04000,02139,49,Female,Hypertension
+P04001,02109,23,Male,Diabetes
+P04002,02114,51,Female,Arthritis
+P04003,02113,51,Male,Heart Disease
+P04004,02139,30,Female,Diabetes
+P04005,02139,61,Female,Heart Disease
+P04006,02140,57,Male,Asthma
+P04007,02142,59,Female,Hypertension
+P04008,02142,45,Female,Cancer
+P04009,02110,23,Male,Heart Disease
+P04010,02138,59,Female,Cancer
+P04011,02138,40,Female,Asthma
+P04012,02142,24,Female,Diabetes
+P04013,02111,65,Female,Asthma
+P04014,02140,76,Female,Diabetes
+P04015,02110,44,Male,Asthma
+P04016,02140,77,Male,Heart Disease
+P04017,02116,46,Male,Hypertension
+P04018,02116,39,Male,Obesity
+P04019,02141,35,Female,COPD
+P04020,02140,69,Male,Diabetes
+P04021,02142,33,Male,Diabetes
+P04022,02140,56,Male,Heart Disease
+P04023,02110,36,Female,Arthritis
+P04024,02114,38,Female,Hypertension
+P04025,02110,60,Male,Diabetes
+P04026,02114,39,Female,Heart Disease
+P04027,02142,38,Male,Mental Health
+P04028,02139,61,Female,Hypertension
+P04029,02111,68,Male,Diabetes
+P04030,02142,54,Female,Diabetes
+P04031,02110,35,Female,Diabetes
+P04032,02141,37,Female,Cancer
+P04033,02138,46,Male,Mental Health
+P04034,02121,49,Female,Arthritis
+P04035,02139,30,Female,Hypertension
+P04036,02120,55,Female,Arthritis
+P04037,02120,46,Male,Diabetes
+P04038,02114,19,Male,Diabetes
+P04039,02110,31,Female,COPD
+P04040,02109,37,Male,Diabetes
+P04041,02115,43,Male,Diabetes
+P04042,02141,73,Male,COPD
+P04043,02143,48,Female,Heart Disease
+P04044,02109,32,Male,Asthma
+P04045,02142,48,Female,Mental Health
+P04046,02143,39,Male,Hypertension
+P04047,02141,49,Male,Heart Disease
+P04048,02109,53,Male,Diabetes
+P04049,02115,63,Male,Heart Disease
+P04050,02140,44,Female,Diabetes
+P04051,02118,69,Female,Asthma
+P04052,02110,58,Female,Diabetes
+P04053,02114,34,Male,Diabetes
+P04054,02108,78,Female,Hypertension
+P04055,02113,49,Female,Hypertension
+P04056,02138,32,Female,Arthritis
+P04057,02114,69,Female,Diabetes
+P04058,02138,76,Male,Arthritis
+P04059,02116,44,Female,Hypertension
+P04060,02121,37,Male,Diabetes
+P04061,02141,42,Male,Diabetes
+P04062,02140,55,Female,Diabetes
+P04063,02113,64,Female,Cancer
+P04064,02140,53,Female,Heart Disease
+P04065,02115,46,Male,Mental Health
+P04066,02139,67,Male,Hypertension
+P04067,02139,40,Male,Mental Health
+P04068,02120,60,Female,Heart Disease
+P04069,02110,40,Male,Diabetes
+P04070,02115,51,Female,Heart Disease
+P04071,02141,43,Male,Diabetes
+P04072,02110,44,Female,Arthritis
+P04073,02109,39,Female,Heart Disease
+P04074,02109,65,Male,Diabetes
+P04075,02110,34,Male,Heart Disease
+P04076,02109,33,Female,Diabetes
+P04077,02143,76,Female,Arthritis
+P04078,02141,59,Female,Cancer
+P04079,02113,18,Female,Asthma
+P04080,02140,36,Male,Diabetes
+P04081,02111,18,Female,Mental Health
+P04082,02140,30,Male,Cancer
+P04083,02109,18,Female,Diabetes
+P04084,02113,42,Male,Diabetes
+P04085,02140,27,Female,Mental Health
+P04086,02138,45,Male,Hypertension
+P04087,02139,20,Male,Cancer
+P04088,02109,46,Male,Diabetes
+P04089,02115,38,Female,Heart Disease
+P04090,02138,67,Female,Asthma
+P04091,02111,66,Female,Cancer
+P04092,02141,56,Male,Hypertension
+P04093,02143,40,Female,Cancer
+P04094,02118,74,Female,Heart Disease
+P04095,02141,21,Male,Asthma
+P04096,02143,23,Male,Mental Health
+P04097,02138,43,Female,Arthritis
+P04098,02138,78,Male,Diabetes
+P04099,02140,41,Male,Diabetes
+P04100,02138,42,Female,Asthma
+P04101,02110,23,Male,Hypertension
+P04102,02143,59,Female,Hypertension
+P04103,02108,59,Female,Mental Health
+P04104,02139,56,Female,Hypertension
+P04105,02141,35,Female,Hypertension
+P04106,02110,34,Male,Heart Disease
+P04107,02119,25,Female,Heart Disease
+P04108,02138,46,Male,Heart Disease
+P04109,02116,28,Female,Mental Health
+P04110,02109,27,Female,Diabetes
+P04111,02109,38,Female,Hypertension
+P04112,02108,37,Female,Arthritis
+P04113,02138,36,Male,Cancer
+P04114,02138,51,Male,Cancer
+P04115,02109,46,Female,Diabetes
+P04116,02141,40,Male,Arthritis
+P04117,02116,47,Female,Heart Disease
+P04118,02142,30,Male,Heart Disease
+P04119,02139,46,Female,Heart Disease
+P04120,02111,47,Male,Diabetes
+P04121,02141,22,Female,Diabetes
+P04122,02108,59,Female,Cancer
+P04123,02111,31,Male,Heart Disease
+P04124,02116,46,Male,Cancer
+P04125,02114,62,Male,Heart Disease
+P04126,02110,58,Male,Heart Disease
+P04127,02110,45,Male,Hypertension
+P04128,02118,39,Male,Mental Health
+P04129,02141,59,Female,Arthritis
+P04130,02138,55,Male,Obesity
+P04131,02141,35,Female,Cancer
+P04132,02140,33,Female,Cancer
+P04133,02110,18,Male,Cancer
+P04134,02110,47,Male,Cancer
+P04135,02109,43,Female,Heart Disease
+P04136,02138,62,Male,Hypertension
+P04137,02111,50,Female,Diabetes
+P04138,02141,65,Female,Diabetes
+P04139,02110,34,Male,Hypertension
+P04140,02108,62,Female,Heart Disease
+P04141,02141,37,Male,Diabetes
+P04142,02139,56,Male,Heart Disease
+P04143,02138,23,Female,Obesity
+P04144,02115,48,Female,Heart Disease
+P04145,02116,18,Female,Diabetes
+P04146,02110,40,Female,Arthritis
+P04147,02139,51,Female,Hypertension
+P04148,02142,37,Female,Heart Disease
+P04149,02111,29,Male,Diabetes
+P04150,02113,57,Female,Heart Disease
+P04151,02139,43,Female,Heart Disease
+P04152,02138,37,Male,Heart Disease
+P04153,02111,45,Female,Diabetes
+P04154,02142,84,Male,Asthma
+P04155,02140,62,Female,Hypertension
+P04156,02138,62,Female,Cancer
+P04157,02108,51,Female,Heart Disease
+P04158,02115,47,Male,Diabetes
+P04159,02119,18,Female,Arthritis
+P04160,02109,34,Male,Heart Disease
+P04161,02108,37,Female,Arthritis
+P04162,02138,18,Female,Hypertension
+P04163,02108,27,Female,Arthritis
+P04164,02142,18,Female,Diabetes
+P04165,02109,44,Female,Diabetes
+P04166,02142,57,Male,Asthma
+P04167,02140,61,Male,Asthma
+P04168,02138,51,Female,Heart Disease
+P04169,02141,30,Female,Obesity
+P04170,02138,18,Male,Heart Disease
+P04171,02139,18,Female,Heart Disease
+P04172,02120,25,Male,Hypertension
+P04173,02143,31,Male,Asthma
+P04174,02108,42,Female,Obesity
+P04175,02115,29,Male,Diabetes
+P04176,02121,50,Male,Heart Disease
+P04177,02109,41,Male,Cancer
+P04178,02114,45,Female,Diabetes
+P04179,02141,62,Female,Diabetes
+P04180,02141,27,Female,Hypertension
+P04181,02142,51,Male,Heart Disease
+P04182,02110,44,Female,Hypertension
+P04183,02110,39,Female,Diabetes
+P04184,02141,58,Female,Cancer
+P04185,02139,58,Female,Cancer
+P04186,02110,30,Male,Heart Disease
+P04187,02139,42,Male,Heart Disease
+P04188,02109,49,Male,Diabetes
+P04189,02111,40,Male,Heart Disease
+P04190,02111,53,Female,Cancer
+P04191,02113,49,Female,COPD
+P04192,02115,72,Female,Cancer
+P04193,02108,22,Male,Cancer
+P04194,02111,43,Male,Diabetes
+P04195,02109,31,Male,Diabetes
+P04196,02139,54,Male,Mental Health
+P04197,02138,20,Male,Obesity
+P04198,02141,50,Female,Hypertension
+P04199,02143,35,Male,Diabetes
+P04200,02109,33,Female,Asthma
+P04201,02115,23,Male,Heart Disease
+P04202,02140,38,Female,Asthma
+P04203,02139,61,Female,Asthma
+P04204,02119,44,Male,Heart Disease
+P04205,02139,54,Female,Obesity
+P04206,02143,69,Female,COPD
+P04207,02109,48,Female,Mental Health
+P04208,02108,36,Female,Hypertension
+P04209,02138,52,Male,Heart Disease
+P04210,02138,36,Female,Hypertension
+P04211,02139,37,Female,Diabetes
+P04212,02109,22,Male,Heart Disease
+P04213,02108,58,Male,Diabetes
+P04214,02140,39,Female,Cancer
+P04215,02110,47,Male,Heart Disease
+P04216,02114,29,Female,Diabetes
+P04217,02138,51,Female,Heart Disease
+P04218,02108,33,Female,Asthma
+P04219,02110,42,Male,Cancer
+P04220,02140,58,Male,Heart Disease
+P04221,02141,56,Male,Obesity
+P04222,02109,44,Female,Heart Disease
+P04223,02116,18,Female,Hypertension
+P04224,02114,89,Female,Asthma
+P04225,02109,71,Female,Asthma
+P04226,02111,55,Male,Heart Disease
+P04227,02142,33,Male,Mental Health
+P04228,02110,43,Female,Mental Health
+P04229,02143,36,Female,Hypertension
+P04230,02139,63,Male,Hypertension
+P04231,02111,48,Male,Heart Disease
+P04232,02108,33,Male,Hypertension
+P04233,02142,37,Male,Diabetes
+P04234,02116,61,Female,Asthma
+P04235,02138,69,Female,Diabetes
+P04236,02141,67,Female,Cancer
+P04237,02138,56,Female,Heart Disease
+P04238,02113,41,Female,Heart Disease
+P04239,02111,18,Female,Heart Disease
+P04240,02141,49,Male,Heart Disease
+P04241,02110,44,Female,Hypertension
+P04242,02142,47,Male,Asthma
+P04243,02113,45,Male,Cancer
+P04244,02143,25,Male,Hypertension
+P04245,02142,53,Female,Cancer
+P04246,02118,54,Male,Diabetes
+P04247,02140,55,Male,Diabetes
+P04248,02139,59,Male,Diabetes
+P04249,02109,54,Female,Cancer
+P04250,02119,38,Female,Heart Disease
+P04251,02142,43,Female,Heart Disease
+P04252,02138,46,Male,Hypertension
+P04253,02141,46,Male,Mental Health
+P04254,02108,59,Female,Cancer
+P04255,02139,54,Male,Asthma
+P04256,02110,76,Female,Cancer
+P04257,02121,78,Female,Hypertension
+P04258,02143,46,Female,Cancer
+P04259,02142,18,Female,Arthritis
+P04260,02142,63,Male,Heart Disease
+P04261,02139,36,Male,Diabetes
+P04262,02116,32,Female,Heart Disease
+P04263,02142,39,Male,Hypertension
+P04264,02142,38,Male,Arthritis
+P04265,02110,54,Male,Diabetes
+P04266,02143,21,Male,Diabetes
+P04267,02110,28,Male,Arthritis
+P04268,02138,50,Male,Hypertension
+P04269,02114,54,Female,Hypertension
+P04270,02118,54,Female,Arthritis
+P04271,02110,33,Female,Hypertension
+P04272,02119,30,Female,Cancer
+P04273,02139,37,Male,Heart Disease
+P04274,02143,48,Male,Heart Disease
+P04275,02109,67,Male,Diabetes
+P04276,02109,18,Female,Hypertension
+P04277,02142,41,Female,Obesity
+P04278,02141,25,Male,Obesity
+P04279,02139,20,Male,Arthritis
+P04280,02142,59,Female,Diabetes
+P04281,02139,53,Female,Obesity
+P04282,02111,51,Female,Cancer
+P04283,02140,58,Male,Diabetes
+P04284,02138,37,Male,Cancer
+P04285,02108,38,Female,Heart Disease
+P04286,02109,77,Female,Heart Disease
+P04287,02115,41,Female,Arthritis
+P04288,02109,56,Female,Cancer
+P04289,02141,45,Female,Diabetes
+P04290,02114,18,Female,Hypertension
+P04291,02108,18,Male,Mental Health
+P04292,02138,36,Male,Cancer
+P04293,02109,60,Female,Diabetes
+P04294,02116,56,Male,Heart Disease
+P04295,02142,58,Female,Diabetes
+P04296,02141,30,Female,Obesity
+P04297,02139,69,Female,Diabetes
+P04298,02139,30,Male,Hypertension
+P04299,02143,48,Male,Hypertension
+P04300,02109,44,Female,Arthritis
+P04301,02138,42,Female,Cancer
+P04302,02118,65,Female,Cancer
+P04303,02113,34,Male,Diabetes
+P04304,02109,24,Male,Heart Disease
+P04305,02114,45,Female,Mental Health
+P04306,02138,39,Female,Mental Health
+P04307,02143,90,Female,Mental Health
+P04308,02110,55,Male,Mental Health
+P04309,02114,38,Male,Asthma
+P04310,02113,29,Male,Cancer
+P04311,02141,18,Female,Arthritis
+P04312,02118,29,Female,Cancer
+P04313,02139,46,Male,Heart Disease
+P04314,02115,66,Male,Diabetes
+P04315,02120,61,Female,Obesity
+P04316,02139,48,Male,Diabetes
+P04317,02111,40,Female,Arthritis
+P04318,02138,49,Female,Heart Disease
+P04319,02142,37,Male,Diabetes
+P04320,02108,70,Male,Diabetes
+P04321,02109,42,Female,Heart Disease
+P04322,02118,43,Male,Heart Disease
+P04323,02110,18,Male,Heart Disease
+P04324,02108,42,Female,Arthritis
+P04325,02114,57,Female,Heart Disease
+P04326,02119,28,Female,Diabetes
+P04327,02138,33,Male,Heart Disease
+P04328,02120,56,Male,Cancer
+P04329,02138,22,Male,Cancer
+P04330,02114,60,Male,Cancer
+P04331,02141,37,Female,Diabetes
+P04332,02139,39,Male,Heart Disease
+P04333,02143,28,Female,Asthma
+P04334,02110,50,Male,Asthma
+P04335,02142,81,Male,Heart Disease
+P04336,02138,56,Female,Hypertension
+P04337,02109,32,Male,Heart Disease
+P04338,02116,62,Male,Heart Disease
+P04339,02142,40,Male,Asthma
+P04340,02140,65,Male,Hypertension
+P04341,02143,57,Female,Heart Disease
+P04342,02138,18,Male,Diabetes
+P04343,02114,29,Female,Obesity
+P04344,02114,59,Female,Arthritis
+P04345,02109,47,Female,Arthritis
+P04346,02142,29,Male,Hypertension
+P04347,02114,35,Female,Cancer
+P04348,02108,18,Male,Diabetes
+P04349,02114,43,Female,Heart Disease
+P04350,02110,78,Female,Diabetes
+P04351,02113,57,Male,Hypertension
+P04352,02109,77,Female,Diabetes
+P04353,02142,58,Female,Arthritis
+P04354,02119,60,Female,Heart Disease
+P04355,02108,74,Male,Diabetes
+P04356,02109,50,Female,Heart Disease
+P04357,02140,42,Female,Diabetes
+P04358,02109,60,Male,Heart Disease
+P04359,02109,66,Female,Diabetes
+P04360,02139,37,Male,Diabetes
+P04361,02138,34,Male,Hypertension
+P04362,02109,47,Female,Hypertension
+P04363,02113,57,Female,Diabetes
+P04364,02108,56,Female,Hypertension
+P04365,02140,23,Female,Hypertension
+P04366,02110,73,Male,Diabetes
+P04367,02138,35,Male,Arthritis
+P04368,02143,41,Female,Hypertension
+P04369,02139,31,Male,Diabetes
+P04370,02139,85,Female,Mental Health
+P04371,02140,48,Female,Arthritis
+P04372,02142,32,Male,COPD
+P04373,02138,57,Male,Cancer
+P04374,02142,56,Female,Diabetes
+P04375,02108,42,Female,Diabetes
+P04376,02108,57,Female,Cancer
+P04377,02142,32,Female,COPD
+P04378,02115,37,Female,Cancer
+P04379,02139,18,Male,Arthritis
+P04380,02108,25,Male,Diabetes
+P04381,02138,72,Male,Diabetes
+P04382,02138,69,Male,Mental Health
+P04383,02109,45,Male,Asthma
+P04384,02109,69,Male,COPD
+P04385,02115,42,Male,Asthma
+P04386,02108,41,Male,Diabetes
+P04387,02119,45,Female,Hypertension
+P04388,02138,43,Female,Mental Health
+P04389,02138,41,Male,Hypertension
+P04390,02138,62,Female,Diabetes
+P04391,02139,47,Male,Diabetes
+P04392,02108,55,Female,Hypertension
+P04393,02110,60,Male,Heart Disease
+P04394,02138,50,Female,Asthma
+P04395,02118,30,Male,Heart Disease
+P04396,02115,24,Female,Diabetes
+P04397,02141,47,Male,Asthma
+P04398,02138,42,Female,Hypertension
+P04399,02139,46,Male,Arthritis
+P04400,02139,44,Male,Diabetes
+P04401,02139,83,Female,Obesity
+P04402,02108,25,Male,Heart Disease
+P04403,02140,18,Female,Heart Disease
+P04404,02142,49,Male,Arthritis
+P04405,02120,39,Male,Asthma
+P04406,02110,49,Female,Heart Disease
+P04407,02118,53,Male,COPD
+P04408,02139,64,Male,Hypertension
+P04409,02142,22,Female,Obesity
+P04410,02108,36,Female,Hypertension
+P04411,02138,51,Female,Hypertension
+P04412,02138,56,Male,Diabetes
+P04413,02110,77,Female,Diabetes
+P04414,02110,59,Male,Hypertension
+P04415,02142,44,Male,Hypertension
+P04416,02108,31,Female,Heart Disease
+P04417,02142,36,Male,Diabetes
+P04418,02138,36,Male,Heart Disease
+P04419,02141,54,Male,Arthritis
+P04420,02139,48,Female,Hypertension
+P04421,02138,25,Female,Asthma
+P04422,02119,38,Female,Obesity
+P04423,02109,58,Male,Cancer
+P04424,02111,50,Female,COPD
+P04425,02141,53,Female,Diabetes
+P04426,02142,50,Male,Heart Disease
+P04427,02140,69,Male,Diabetes
+P04428,02138,48,Male,Hypertension
+P04429,02139,39,Male,Arthritis
+P04430,02114,31,Female,Hypertension
+P04431,02110,48,Male,Diabetes
+P04432,02108,18,Male,Asthma
+P04433,02143,42,Female,Hypertension
+P04434,02118,41,Female,Heart Disease
+P04435,02138,24,Female,Hypertension
+P04436,02141,31,Male,Mental Health
+P04437,02141,57,Male,Arthritis
+P04438,02113,48,Male,Hypertension
+P04439,02121,46,Male,Diabetes
+P04440,02140,49,Male,Heart Disease
+P04441,02115,46,Female,Hypertension
+P04442,02115,63,Male,Asthma
+P04443,02140,46,Male,Diabetes
+P04444,02142,23,Male,Heart Disease
+P04445,02142,69,Female,Mental Health
+P04446,02120,50,Female,Arthritis
+P04447,02139,36,Female,Cancer
+P04448,02114,26,Male,Heart Disease
+P04449,02141,50,Male,Heart Disease
+P04450,02111,43,Male,Heart Disease
+P04451,02143,68,Male,Cancer
+P04452,02109,39,Female,Heart Disease
+P04453,02115,32,Female,Arthritis
+P04454,02114,58,Female,COPD
+P04455,02115,58,Female,Diabetes
+P04456,02138,47,Female,Hypertension
+P04457,02111,55,Male,Cancer
+P04458,02139,44,Female,Mental Health
+P04459,02142,48,Male,Arthritis
+P04460,02108,62,Female,Heart Disease
+P04461,02142,54,Male,Heart Disease
+P04462,02108,42,Male,Asthma
+P04463,02121,65,Female,Cancer
+P04464,02139,18,Male,Heart Disease
+P04465,02110,75,Male,Hypertension
+P04466,02142,19,Male,Asthma
+P04467,02139,35,Male,Heart Disease
+P04468,02139,44,Female,Arthritis
+P04469,02118,42,Female,Heart Disease
+P04470,02115,60,Male,Asthma
+P04471,02116,29,Male,Cancer
+P04472,02121,48,Female,Diabetes
+P04473,02140,36,Male,Asthma
+P04474,02142,49,Male,Asthma
+P04475,02110,44,Male,Mental Health
+P04476,02108,46,Female,Diabetes
+P04477,02142,36,Male,Cancer
+P04478,02142,37,Male,Cancer
+P04479,02109,49,Female,Hypertension
+P04480,02109,59,Male,Arthritis
+P04481,02139,36,Female,Heart Disease
+P04482,02143,31,Male,Diabetes
+P04483,02108,54,Male,Hypertension
+P04484,02109,44,Male,Heart Disease
+P04485,02140,57,Male,Mental Health
+P04486,02113,31,Female,Cancer
+P04487,02138,18,Female,Hypertension
+P04488,02142,37,Male,Asthma
+P04489,02113,33,Male,Hypertension
+P04490,02109,43,Male,Hypertension
+P04491,02140,35,Female,Heart Disease
+P04492,02111,56,Female,Diabetes
+P04493,02109,40,Male,Heart Disease
+P04494,02114,47,Female,Cancer
+P04495,02111,47,Female,Hypertension
+P04496,02109,47,Female,Diabetes
+P04497,02108,44,Male,Hypertension
+P04498,02139,52,Male,Heart Disease
+P04499,02140,33,Male,Mental Health
+P04500,02142,65,Female,Heart Disease
+P04501,02109,41,Female,Arthritis
+P04502,02108,25,Female,Hypertension
+P04503,02141,47,Male,Cancer
+P04504,02138,32,Male,Diabetes
+P04505,02108,54,Male,Obesity
+P04506,02141,78,Female,Diabetes
+P04507,02111,33,Male,Hypertension
+P04508,02138,49,Male,COPD
+P04509,02109,18,Female,Arthritis
+P04510,02118,51,Male,Hypertension
+P04511,02139,31,Male,COPD
+P04512,02143,35,Male,Cancer
+P04513,02138,28,Female,Heart Disease
+P04514,02109,55,Female,Diabetes
+P04515,02108,60,Female,Diabetes
+P04516,02142,45,Female,Diabetes
+P04517,02108,32,Female,Asthma
+P04518,02116,68,Female,Hypertension
+P04519,02140,33,Female,Heart Disease
+P04520,02138,18,Female,Arthritis
+P04521,02115,51,Male,Diabetes
+P04522,02109,28,Male,COPD
+P04523,02116,59,Male,Obesity
+P04524,02109,39,Female,Mental Health
+P04525,02114,54,Female,Asthma
+P04526,02143,66,Female,Heart Disease
+P04527,02113,26,Male,Hypertension
+P04528,02116,36,Male,Heart Disease
+P04529,02109,43,Male,Diabetes
+P04530,02139,68,Female,Cancer
+P04531,02140,35,Male,Heart Disease
+P04532,02140,36,Female,Obesity
+P04533,02140,52,Male,Mental Health
+P04534,02141,36,Male,Diabetes
+P04535,02108,47,Female,Hypertension
+P04536,02109,21,Male,Hypertension
+P04537,02143,78,Male,Arthritis
+P04538,02109,24,Female,Cancer
+P04539,02138,40,Male,Diabetes
+P04540,02138,44,Female,Diabetes
+P04541,02139,73,Female,Diabetes
+P04542,02108,25,Male,Obesity
+P04543,02140,74,Female,Heart Disease
+P04544,02141,56,Male,Heart Disease
+P04545,02142,51,Female,Arthritis
+P04546,02114,30,Female,Arthritis
+P04547,02138,53,Female,Arthritis
+P04548,02110,34,Male,Hypertension
+P04549,02110,63,Male,Cancer
+P04550,02114,30,Male,Hypertension
+P04551,02118,43,Female,Heart Disease
+P04552,02138,36,Female,Hypertension
+P04553,02139,30,Male,Heart Disease
+P04554,02116,56,Female,Diabetes
+P04555,02143,53,Male,Mental Health
+P04556,02109,63,Male,Diabetes
+P04557,02110,18,Male,Mental Health
+P04558,02110,60,Male,Diabetes
+P04559,02118,82,Male,Diabetes
+P04560,02121,38,Female,Cancer
+P04561,02111,73,Male,Asthma
+P04562,02141,41,Male,Hypertension
+P04563,02115,24,Female,Arthritis
+P04564,02138,40,Male,Heart Disease
+P04565,02140,60,Female,Mental Health
+P04566,02116,32,Male,Heart Disease
+P04567,02140,35,Female,Arthritis
+P04568,02140,53,Female,Diabetes
+P04569,02139,45,Male,Arthritis
+P04570,02115,53,Female,Cancer
+P04571,02108,48,Female,Heart Disease
+P04572,02110,52,Female,Mental Health
+P04573,02140,38,Male,Heart Disease
+P04574,02113,48,Male,Heart Disease
+P04575,02113,31,Female,Asthma
+P04576,02141,64,Female,Heart Disease
+P04577,02142,35,Male,Heart Disease
+P04578,02140,61,Male,Hypertension
+P04579,02120,41,Male,Arthritis
+P04580,02110,48,Male,Heart Disease
+P04581,02118,37,Male,Hypertension
+P04582,02141,29,Male,Cancer
+P04583,02113,18,Male,Arthritis
+P04584,02113,29,Male,Mental Health
+P04585,02111,40,Female,Asthma
+P04586,02119,48,Male,Cancer
+P04587,02142,60,Male,Diabetes
+P04588,02139,38,Male,Heart Disease
+P04589,02110,31,Female,Cancer
+P04590,02111,23,Female,COPD
+P04591,02109,52,Female,Asthma
+P04592,02140,65,Male,Heart Disease
+P04593,02108,63,Female,Hypertension
+P04594,02141,55,Male,Cancer
+P04595,02143,54,Male,Cancer
+P04596,02110,70,Female,Cancer
+P04597,02113,49,Female,Hypertension
+P04598,02140,54,Female,Heart Disease
+P04599,02142,40,Female,Mental Health
+P04600,02140,24,Female,Cancer
+P04601,02140,34,Male,Heart Disease
+P04602,02113,44,Male,Diabetes
+P04603,02116,45,Male,Mental Health
+P04604,02142,73,Female,Arthritis
+P04605,02113,46,Male,Diabetes
+P04606,02116,62,Female,Heart Disease
+P04607,02115,38,Male,Heart Disease
+P04608,02139,40,Male,Diabetes
+P04609,02119,25,Male,Cancer
+P04610,02142,33,Male,Hypertension
+P04611,02141,52,Female,Cancer
+P04612,02138,45,Male,Cancer
+P04613,02108,59,Male,Heart Disease
+P04614,02139,47,Male,Heart Disease
+P04615,02140,39,Male,Diabetes
+P04616,02141,77,Male,Heart Disease
+P04617,02114,43,Male,Heart Disease
+P04618,02115,62,Female,Cancer
+P04619,02141,38,Male,Asthma
+P04620,02115,55,Male,Asthma
+P04621,02115,58,Female,Asthma
+P04622,02113,48,Male,Cancer
+P04623,02139,18,Male,Asthma
+P04624,02111,45,Female,Diabetes
+P04625,02118,63,Male,COPD
+P04626,02110,52,Female,Heart Disease
+P04627,02141,51,Female,Heart Disease
+P04628,02108,19,Female,Diabetes
+P04629,02110,34,Female,Obesity
+P04630,02108,51,Male,COPD
+P04631,02139,51,Male,Asthma
+P04632,02141,63,Male,Cancer
+P04633,02114,42,Male,Hypertension
+P04634,02115,51,Female,Obesity
+P04635,02139,45,Female,Cancer
+P04636,02119,30,Female,Mental Health
+P04637,02141,18,Female,Diabetes
+P04638,02110,51,Male,Diabetes
+P04639,02113,47,Female,Arthritis
+P04640,02114,35,Female,Heart Disease
+P04641,02118,20,Female,Mental Health
+P04642,02141,54,Male,Hypertension
+P04643,02115,41,Female,Mental Health
+P04644,02139,53,Male,Diabetes
+P04645,02111,72,Female,Cancer
+P04646,02113,18,Female,Hypertension
+P04647,02110,34,Male,Cancer
+P04648,02140,41,Female,Hypertension
+P04649,02115,66,Female,Obesity
+P04650,02139,20,Male,Cancer
+P04651,02138,74,Female,Diabetes
+P04652,02111,47,Female,Mental Health
+P04653,02143,43,Female,Diabetes
+P04654,02115,42,Female,Diabetes
+P04655,02142,38,Male,Heart Disease
+P04656,02139,60,Female,Arthritis
+P04657,02115,28,Male,Diabetes
+P04658,02108,50,Male,Diabetes
+P04659,02139,39,Female,Mental Health
+P04660,02111,33,Female,Asthma
+P04661,02108,83,Female,Heart Disease
+P04662,02109,51,Female,Asthma
+P04663,02143,54,Female,Mental Health
+P04664,02114,62,Male,Heart Disease
+P04665,02114,23,Female,Arthritis
+P04666,02111,71,Male,Hypertension
+P04667,02139,18,Female,Cancer
+P04668,02115,33,Female,Hypertension
+P04669,02110,38,Female,Cancer
+P04670,02111,53,Male,Heart Disease
+P04671,02142,48,Female,Asthma
+P04672,02115,42,Female,Heart Disease
+P04673,02111,44,Female,Hypertension
+P04674,02139,30,Male,Heart Disease
+P04675,02142,22,Female,Arthritis
+P04676,02116,55,Female,Diabetes
+P04677,02138,55,Female,Hypertension
+P04678,02119,68,Female,Diabetes
+P04679,02110,33,Male,Asthma
+P04680,02110,55,Male,Hypertension
+P04681,02141,40,Male,Asthma
+P04682,02140,62,Male,Heart Disease
+P04683,02118,60,Female,Heart Disease
+P04684,02141,48,Male,Hypertension
+P04685,02113,39,Male,Mental Health
+P04686,02142,59,Male,Heart Disease
+P04687,02139,54,Female,Heart Disease
+P04688,02138,34,Male,Heart Disease
+P04689,02108,25,Male,Cancer
+P04690,02120,40,Male,Diabetes
+P04691,02142,67,Male,Arthritis
+P04692,02142,62,Female,Heart Disease
+P04693,02141,28,Male,Heart Disease
+P04694,02108,27,Female,Diabetes
+P04695,02143,64,Female,Cancer
+P04696,02115,27,Female,Cancer
+P04697,02108,52,Female,Heart Disease
+P04698,02108,35,Female,Mental Health
+P04699,02139,69,Female,Diabetes
+P04700,02120,33,Female,Cancer
+P04701,02140,62,Male,Hypertension
+P04702,02138,47,Male,Heart Disease
+P04703,02110,48,Female,Arthritis
+P04704,02109,18,Female,Asthma
+P04705,02142,18,Female,Diabetes
+P04706,02143,41,Female,Hypertension
+P04707,02113,48,Male,Diabetes
+P04708,02140,28,Female,Cancer
+P04709,02114,28,Male,Diabetes
+P04710,02110,53,Male,Arthritis
+P04711,02142,53,Female,Heart Disease
+P04712,02143,42,Male,Heart Disease
+P04713,02140,56,Female,Diabetes
+P04714,02113,27,Female,Heart Disease
+P04715,02108,39,Male,Hypertension
+P04716,02141,69,Female,Heart Disease
+P04717,02109,46,Female,Asthma
+P04718,02121,46,Male,Heart Disease
+P04719,02143,79,Male,Cancer
+P04720,02118,24,Female,Hypertension
+P04721,02141,56,Male,COPD
+P04722,02138,69,Female,COPD
+P04723,02140,40,Male,Arthritis
+P04724,02142,57,Female,Asthma
+P04725,02140,30,Female,Diabetes
+P04726,02138,34,Male,Asthma
+P04727,02116,50,Female,Obesity
+P04728,02115,56,Female,Heart Disease
+P04729,02113,61,Female,Hypertension
+P04730,02139,68,Female,Heart Disease
+P04731,02139,43,Female,Hypertension
+P04732,02138,62,Female,Hypertension
+P04733,02111,39,Female,Hypertension
+P04734,02118,58,Female,Hypertension
+P04735,02143,48,Male,Obesity
+P04736,02139,51,Female,Hypertension
+P04737,02108,51,Male,Arthritis
+P04738,02141,20,Male,Diabetes
+P04739,02142,28,Male,Diabetes
+P04740,02109,46,Male,Hypertension
+P04741,02111,19,Male,Diabetes
+P04742,02139,57,Male,Diabetes
+P04743,02138,58,Male,Hypertension
+P04744,02121,49,Female,Hypertension
+P04745,02140,28,Male,Cancer
+P04746,02138,65,Male,Diabetes
+P04747,02139,75,Male,Diabetes
+P04748,02138,47,Male,Cancer
+P04749,02142,52,Male,Heart Disease
+P04750,02114,48,Female,Diabetes
+P04751,02141,52,Female,Heart Disease
+P04752,02143,43,Female,Heart Disease
+P04753,02110,44,Female,Heart Disease
+P04754,02108,58,Male,Heart Disease
+P04755,02115,80,Male,Heart Disease
+P04756,02115,23,Male,Cancer
+P04757,02138,43,Female,Heart Disease
+P04758,02113,27,Male,Diabetes
+P04759,02143,68,Female,Mental Health
+P04760,02120,36,Male,Asthma
+P04761,02108,23,Male,Diabetes
+P04762,02120,54,Female,Mental Health
+P04763,02113,71,Female,Diabetes
+P04764,02140,54,Female,Heart Disease
+P04765,02108,48,Female,COPD
+P04766,02121,51,Female,Arthritis
+P04767,02115,66,Female,Hypertension
+P04768,02138,31,Female,Cancer
+P04769,02111,43,Male,Cancer
+P04770,02141,38,Female,Heart Disease
+P04771,02138,27,Female,Heart Disease
+P04772,02142,40,Male,Hypertension
+P04773,02140,61,Female,Mental Health
+P04774,02114,53,Female,Heart Disease
+P04775,02141,54,Female,Asthma
+P04776,02114,47,Male,Heart Disease
+P04777,02138,52,Male,Hypertension
+P04778,02141,32,Female,Cancer
+P04779,02140,40,Female,Cancer
+P04780,02140,47,Male,Heart Disease
+P04781,02138,49,Female,Diabetes
+P04782,02139,49,Male,Hypertension
+P04783,02108,42,Female,Heart Disease
+P04784,02141,39,Male,Heart Disease
+P04785,02142,90,Male,Cancer
+P04786,02142,58,Female,Hypertension
+P04787,02115,51,Male,Heart Disease
+P04788,02116,41,Male,Hypertension
+P04789,02108,38,Male,Mental Health
+P04790,02141,43,Male,Heart Disease
+P04791,02139,49,Male,Cancer
+P04792,02119,18,Female,Heart Disease
+P04793,02138,21,Female,Heart Disease
+P04794,02141,35,Female,Heart Disease
+P04795,02141,48,Female,Diabetes
+P04796,02141,41,Male,Asthma
+P04797,02139,67,Male,Diabetes
+P04798,02113,22,Male,Cancer
+P04799,02139,33,Female,Diabetes
+P04800,02110,67,Female,Heart Disease
+P04801,02139,46,Male,Hypertension
+P04802,02138,58,Male,Asthma
+P04803,02116,75,Female,Arthritis
+P04804,02140,34,Female,Arthritis
+P04805,02114,43,Female,Diabetes
+P04806,02108,40,Male,Asthma
+P04807,02138,18,Female,Heart Disease
+P04808,02119,40,Male,Asthma
+P04809,02140,58,Female,Mental Health
+P04810,02115,53,Female,Heart Disease
+P04811,02139,54,Female,Diabetes
+P04812,02115,39,Male,Cancer
+P04813,02138,35,Male,Cancer
+P04814,02108,64,Male,Heart Disease
+P04815,02113,37,Male,Obesity
+P04816,02118,49,Female,Cancer
+P04817,02116,47,Female,Heart Disease
+P04818,02114,66,Male,Heart Disease
+P04819,02116,59,Male,Asthma
+P04820,02140,25,Male,Heart Disease
+P04821,02141,27,Female,Heart Disease
+P04822,02141,53,Female,Hypertension
+P04823,02142,44,Male,Cancer
+P04824,02142,38,Male,Cancer
+P04825,02108,60,Female,Diabetes
+P04826,02139,47,Female,Asthma
+P04827,02111,45,Male,Obesity
+P04828,02139,56,Female,Diabetes
+P04829,02141,39,Female,Cancer
+P04830,02108,68,Female,Mental Health
+P04831,02114,33,Female,Cancer
+P04832,02111,54,Male,Cancer
+P04833,02110,66,Female,Heart Disease
+P04834,02139,24,Male,Hypertension
+P04835,02108,39,Male,Hypertension
+P04836,02138,62,Male,Cancer
+P04837,02142,62,Male,COPD
+P04838,02142,42,Male,Heart Disease
+P04839,02138,33,Female,Heart Disease
+P04840,02141,59,Female,Heart Disease
+P04841,02119,62,Female,Asthma
+P04842,02119,27,Male,Heart Disease
+P04843,02142,26,Male,Cancer
+P04844,02138,48,Female,Diabetes
+P04845,02139,54,Male,Hypertension
+P04846,02142,40,Female,Heart Disease
+P04847,02118,55,Male,Arthritis
+P04848,02139,34,Female,Hypertension
+P04849,02113,18,Male,Mental Health
+P04850,02139,38,Female,Hypertension
+P04851,02120,45,Female,Heart Disease
+P04852,02142,40,Female,Heart Disease
+P04853,02113,27,Female,COPD
+P04854,02141,18,Male,Asthma
+P04855,02109,37,Female,Heart Disease
+P04856,02140,58,Male,Cancer
+P04857,02139,63,Female,Diabetes
+P04858,02118,62,Male,Diabetes
+P04859,02116,32,Female,Heart Disease
+P04860,02116,27,Female,Arthritis
+P04861,02109,52,Male,Heart Disease
+P04862,02114,54,Male,Diabetes
+P04863,02138,51,Male,Diabetes
+P04864,02141,18,Female,Heart Disease
+P04865,02141,31,Male,Hypertension
+P04866,02110,44,Female,Heart Disease
+P04867,02142,52,Female,Diabetes
+P04868,02139,56,Female,Mental Health
+P04869,02109,47,Female,Diabetes
+P04870,02114,49,Male,Diabetes
+P04871,02142,46,Female,Hypertension
+P04872,02139,55,Female,Hypertension
+P04873,02140,49,Female,Asthma
+P04874,02140,45,Female,Heart Disease
+P04875,02141,40,Female,Arthritis
+P04876,02110,46,Male,Asthma
+P04877,02109,52,Female,Asthma
+P04878,02111,49,Female,Heart Disease
+P04879,02142,50,Female,Heart Disease
+P04880,02114,65,Female,Hypertension
+P04881,02140,48,Male,Arthritis
+P04882,02143,35,Female,Hypertension
+P04883,02114,58,Female,Heart Disease
+P04884,02139,24,Male,Heart Disease
+P04885,02139,28,Female,Cancer
+P04886,02116,50,Male,Asthma
+P04887,02141,52,Female,Heart Disease
+P04888,02110,26,Male,Heart Disease
+P04889,02138,39,Female,Diabetes
+P04890,02111,35,Male,Hypertension
+P04891,02141,37,Female,Cancer
+P04892,02138,59,Male,Asthma
+P04893,02109,55,Male,Cancer
+P04894,02140,44,Female,Heart Disease
+P04895,02142,36,Male,Cancer
+P04896,02138,24,Female,COPD
+P04897,02139,66,Female,Mental Health
+P04898,02141,53,Female,Arthritis
+P04899,02138,34,Female,Diabetes
+P04900,02116,55,Male,Asthma
+P04901,02138,43,Male,Arthritis
+P04902,02108,40,Female,Cancer
+P04903,02139,51,Male,Diabetes
+P04904,02141,33,Female,Obesity
+P04905,02118,39,Male,Hypertension
+P04906,02139,46,Female,Heart Disease
+P04907,02119,37,Male,Heart Disease
+P04908,02140,55,Female,Cancer
+P04909,02113,73,Male,Diabetes
+P04910,02108,33,Male,Heart Disease
+P04911,02116,20,Female,Asthma
+P04912,02108,18,Male,Asthma
+P04913,02108,42,Female,Asthma
+P04914,02140,35,Female,Heart Disease
+P04915,02139,48,Male,Cancer
+P04916,02116,46,Female,Heart Disease
+P04917,02141,20,Male,Diabetes
+P04918,02142,18,Female,Diabetes
+P04919,02113,49,Female,Arthritis
+P04920,02141,47,Female,Diabetes
+P04921,02119,38,Male,Heart Disease
+P04922,02111,20,Male,Diabetes
+P04923,02109,52,Female,Hypertension
+P04924,02116,64,Male,Mental Health
+P04925,02138,49,Male,Mental Health
+P04926,02140,32,Female,Heart Disease
+P04927,02143,45,Female,Heart Disease
+P04928,02140,24,Male,Heart Disease
+P04929,02113,60,Male,Asthma
+P04930,02116,46,Male,Heart Disease
+P04931,02143,18,Male,Heart Disease
+P04932,02141,40,Male,Hypertension
+P04933,02119,51,Male,Heart Disease
+P04934,02143,40,Female,Heart Disease
+P04935,02108,40,Female,Diabetes
+P04936,02142,26,Male,Diabetes
+P04937,02116,53,Male,Hypertension
+P04938,02109,35,Female,Obesity
+P04939,02113,18,Male,Heart Disease
+P04940,02114,39,Female,Diabetes
+P04941,02141,59,Female,Mental Health
+P04942,02143,39,Female,Arthritis
+P04943,02115,71,Male,Diabetes
+P04944,02142,51,Female,Cancer
+P04945,02114,50,Female,Heart Disease
+P04946,02118,43,Female,Cancer
+P04947,02109,43,Female,Obesity
+P04948,02113,41,Male,Hypertension
+P04949,02114,40,Male,Hypertension
+P04950,02115,52,Female,Heart Disease
+P04951,02142,30,Female,Cancer
+P04952,02138,28,Female,Hypertension
+P04953,02142,28,Female,Cancer
+P04954,02110,75,Male,Heart Disease
+P04955,02143,52,Male,Hypertension
+P04956,02113,49,Female,Hypertension
+P04957,02142,29,Male,Heart Disease
+P04958,02110,54,Female,Heart Disease
+P04959,02139,43,Male,Diabetes
+P04960,02113,48,Female,Cancer
+P04961,02108,30,Female,Cancer
+P04962,02140,47,Male,Arthritis
+P04963,02141,38,Male,Diabetes
+P04964,02113,33,Female,Mental Health
+P04965,02108,56,Female,Asthma
+P04966,02140,21,Female,Diabetes
+P04967,02119,53,Male,Heart Disease
+P04968,02111,55,Male,Diabetes
+P04969,02119,31,Male,Obesity
+P04970,02143,32,Male,Diabetes
+P04971,02143,41,Female,Diabetes
+P04972,02116,49,Female,Heart Disease
+P04973,02108,42,Male,Asthma
+P04974,02111,51,Male,Diabetes
+P04975,02140,71,Male,Diabetes
+P04976,02143,37,Female,Diabetes
+P04977,02139,19,Female,Diabetes
+P04978,02140,57,Female,Diabetes
+P04979,02138,70,Male,Hypertension
+P04980,02138,50,Female,Asthma
+P04981,02120,28,Male,Asthma
+P04982,02140,43,Male,Asthma
+P04983,02110,28,Female,Heart Disease
+P04984,02115,54,Female,Asthma
+P04985,02108,24,Male,Heart Disease
+P04986,02139,40,Male,Heart Disease
+P04987,02111,29,Male,Mental Health
+P04988,02109,46,Male,Asthma
+P04989,02111,39,Female,Hypertension
+P04990,02113,47,Female,Arthritis
+P04991,02120,45,Male,COPD
+P04992,02109,30,Male,Cancer
+P04993,02141,54,Male,Cancer
+P04994,02110,44,Female,Asthma
+P04995,02138,30,Male,Heart Disease
+P04996,02116,78,Female,Heart Disease
+P04997,02139,52,Male,Asthma
+P04998,02141,42,Female,Diabetes
+P04999,02114,66,Female,Heart Disease
+P05000,02109,72,Female,Diabetes

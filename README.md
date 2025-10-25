@@ -1,195 +1,131 @@
-# Privacy-Preserving Data Anonymization
+## Large-Scale K-Anonymity & L-Diversity Analysis
 
-Python implementations of **k-anonymity** and **ℓ-diversity** privacy-preserving techniques, demonstrating defense against linkage and homogeneity attacks using the Massachusetts GIC case study.
+**Assignment 2 - Privacy Preserving Project**
 
-## Overview
+This project implements and validates k-anonymity and l-diversity privacy-preserving mechanisms on a realistic 5,000-record medical dataset modeled after the Massachusetts GIC case.
 
-This project implements two privacy models:
+### Project Structure
 
-### K-Anonymity
-Protects against **linkage attacks** by ensuring each record is indistinguishable from at least k-1 other records based on quasi-identifying attributes.
-
-### ℓ-Diversity
-Extends k-anonymity to prevent **homogeneity attacks** by ensuring each equivalence class contains at least ℓ distinct values for sensitive attributes.
-
-## Features
-
-### K-Anonymity
-- ✅ K-anonymity algorithm with generalization and suppression
-- ✅ Privacy and utility metrics calculation
-- ✅ Excel export with embedded charts
-- ✅ Defense against linkage attacks
-
-### ℓ-Diversity
-- ✅ Distinct and entropy ℓ-diversity implementations
-- ✅ (k,ℓ)-anonymity combined protection
-- ✅ Homogeneity attack demonstration
-- ✅ Attribute disclosure probability analysis
-- ✅ Excel export with comparative analysis
-
-## Files
-
-### K-Anonymity
-- `k_anonymity_implementation.py` - Core k-anonymity algorithm and analysis
-- `k_anonymity_visualisations.py` - Visualization suite for privacy-utility tradeoffs
-- `export_to_excel.py` - Excel export with charts (recommended)
-
-### ℓ-Diversity
-- `ldiversity_implementation.py` - (k,ℓ)-anonymity algorithm with homogeneity attack demo
-- `ldiversity_visualization.py` - Visualization suite for diversity metrics
-- `export_ldiversity_to_excel.py` - Excel export with comparative analysis (recommended)
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/k-anonymity-implementation.git
-cd k-anonymity-implementation
-
-# Install dependencies
-pip install pandas numpy matplotlib seaborn openpyxl
+```
+Privacy_Assignment/
+├── large_scale_privacy_analysis.py      # Core k-anonymity & l-diversity algorithms
+├── large_scale_privacy_analysis_part2.py # Frontier analysis & statistical validation
+├── visualizations.py                     # Publication-quality figures
+├── main_analysis.py                      # Main execution pipeline
+├── requirements.txt                      # Python dependencies
+└── outputs/                              # Generated results
+    ├── data/
+    │   ├── medical_dataset_5000.csv
+    │   ├── dataset_statistics.json
+    │   └── distributions/
+    ├── results/
+    │   ├── attack_results.json
+    │   ├── frontier_results.csv
+    │   └── statistical_validation.json
+    ├── figures/
+    │   ├── figure8_attack_success_analysis.png
+    │   ├── figure9_privacy_utility_frontier.png
+    │   ├── figure10_attack_success_heatmap.png
+    │   └── figure11_query_accuracy.png
+    ├── tables/
+    │   ├── table10_validation_summary.csv
+    │   └── table11_attack_simulation.csv
+    └── analysis_summary_report.md
 ```
 
-## Usage
-
-### Excel Reports (Recommended)
-
-#### K-Anonymity Report
-```bash
-python3 export_to_excel.py
-```
-
-Generates `k_anonymity_report.xlsx` with:
-- 5 sheets: Original data, K=3/K=5 anonymized, metrics comparison, equivalence classes
-- 4 embedded charts: Privacy protection, re-identification probability, information loss, precision loss
-
-#### ℓ-Diversity Report
-```bash
-python3 export_ldiversity_to_excel.py
-```
-
-Generates `ldiversity_report.xlsx` with:
-- 6 sheets: Original data, k-anon only (vulnerable), (k=3,ℓ=2)/(k=3,ℓ=3) anonymized, metrics, diversity analysis
-- Charts: Attribute disclosure probability, privacy protection levels, diversity metrics
-- Demonstrates homogeneity attack vulnerability and defense
-
-### Python Scripts (Console Output & PNG Charts)
+### Installation
 
 ```bash
-# K-Anonymity
-python3 k_anonymity_implementation.py       # Console output
-python3 k_anonymity_visualisations.py       # Generate PNG charts
-
-# ℓ-Diversity
-python3 ldiversity_implementation.py        # Console output with attack demo
-python3 ldiversity_visualization.py         # Generate PNG charts
+# Install required packages
+pip install -r requirements.txt
 ```
 
-## How It Works
+### Usage
 
-### Generalization Hierarchy
+Run the complete analysis pipeline:
 
-**Age:**
-- Level 0: Exact age (29)
-- Level 1: 5-year ranges (25-29)
-- Level 2: 10-year ranges (20-29)
-- Level 3: 20-year ranges (20-39)
+```bash
+python main_analysis.py
+```
 
-**ZIP Code:**
-- Level 0: Full 5-digit (02138)
-- Level 1: 4-digit prefix (0213*)
-- Level 2: 3-digit prefix (021**)
-- Level 3: 2-digit prefix (02***)
+Expected runtime: 15-25 minutes
 
-**Gender:**
-- Original: Male/Female
-- Generalized: Person
+### Output Files
 
-### Algorithm
+#### Data
+- `medical_dataset_5000.csv`: 5,000-record synthetic medical dataset
+- `dataset_statistics.json`: Dataset characteristics and distributions
+- Distribution plots: Age, ZIP code, and disease distributions
 
-1. Start with original dataset
-2. Apply generalization to quasi-identifiers (Age, ZipCode, Gender)
-3. Calculate equivalence classes
-4. Check if minimum class size ≥ k
-5. If not satisfied, increase generalization level
-6. As last resort, suppress records in small classes
+#### Results
+- `attack_results.json`: Linkage attack simulation results (8+ configurations)
+- `frontier_results.csv`: Privacy-utility metrics for 24 (k,l) configurations
+- `statistical_validation.json`: Confidence intervals from 30 trials × 4 configurations
 
-## Results
+#### Visualizations
+- **Figure 8**: Attack Success Analysis (2×2 grid)
+- **Figure 9**: Privacy-Utility Frontier (scatter plot with Pareto frontier)
+- **Figure 10**: Attack Success Heatmap ((k,l) configurations)
+- **Figure 11**: Query Accuracy Analysis (5 query types)
 
-### Privacy Metrics
+#### Tables
+- **Table 10**: Large-Scale Validation Summary
+- **Table 11**: Attack Simulation Results
 
-| k Value | Re-identification Probability | Privacy Gain |
-|---------|------------------------------|--------------|
-| k=3     | 33.3%                        | 66.7%        |
-| k=5     | 20.0%                        | 80.0%        |
+#### Report
+- `analysis_summary_report.md`: Comprehensive analysis summary with:
+  - Executive summary
+  - Dataset characteristics
+  - Attack simulation results
+  - Privacy-utility tradeoffs
+  - Query accuracy analysis
+  - Statistical validation
+  - Recommendations
 
-### Utility Cost
+### Key Findings
 
-- Age precision loss: ~87%
-- ZipCode precision loss: ~75%
-- Information loss increases with higher k values
+**Recommended Configuration: (k=5, l=3)**
+- Re-identification rate: <20%
+- Information loss: ~40-45%
+- Query accuracy: <5% error on aggregates
+- Pareto-optimal balance of privacy and utility
 
-## Massachusetts GIC Case Study
+### Features
 
-This implementation is based on the famous privacy breach where Latanya Sweeney re-identified Governor William Weld's medical records by linking "anonymized" hospital data with public voter registration records using ZIP code, birth date, and gender.
+✅ Realistic 5,000-record Massachusetts medical dataset
+✅ Complete k-anonymity and l-diversity implementations
+✅ Linkage attack simulation (GIC-style)
+✅ Privacy-utility frontier analysis (24 configurations)
+✅ Statistical validation with confidence intervals
+✅ Publication-quality visualizations (300 DPI)
+✅ Comprehensive results tables
+✅ Detailed analysis summary report
 
-**Key Learning:** Simple removal of direct identifiers (names, SSN) is insufficient for privacy protection.
+### Technical Details
 
-## Privacy-Utility Tradeoff
+**Privacy Mechanisms:**
+- K-anonymity via hierarchical generalization
+- L-diversity for protecting sensitive attributes
+- Suppression for small equivalence classes
 
-Higher k values provide:
-- ✅ **Better privacy** (lower re-identification risk)
-- ❌ **Lower utility** (more information loss)
+**Attack Model:**
+- Auxiliary information: Voter registration (ZipCode, Age, Gender)
+- Target: Anonymized medical records
+- Success criterion: Unique re-identification
 
-## Attack Models & Defenses
+**Evaluation Metrics:**
+- Privacy: Re-identification rate, attribute disclosure, diversity entropy
+- Utility: Information loss, query accuracy, equivalence class metrics
 
-### Linkage Attack
-**Attack:** Link anonymized data with external data using quasi-identifiers
-**Defense:** K-anonymity (each record indistinguishable from k-1 others)
-**Result:** Re-identification probability ≤ 1/k
+### For Assignment Use
 
-### Homogeneity Attack
-**Attack:** Infer sensitive value when all records in equivalence class have same value
-**Defense:** ℓ-diversity (each class has ≥ ℓ distinct sensitive values)
-**Result:** Attribute disclosure probability ≤ 1/ℓ
+Include in your report (Section 3.3 - Large-Scale Validation):
 
-### Combined (k,ℓ)-Anonymity
-Provides comprehensive protection against both identity disclosure and attribute disclosure.
+1. Copy statistics from `dataset_statistics.json`
+2. Reference Figures 8-11
+3. Insert Tables 10 and 11
+4. Quote key findings from `analysis_summary_report.md`
 
-## Limitations
+### License
 
-**K-Anonymity:**
-- Vulnerable to homogeneity attacks
-- Vulnerable to background knowledge attacks
-- Does not protect sensitive attribute diversity
-
-**ℓ-Diversity:**
-- Requires more aggressive generalization
-- Higher information loss than k-anonymity alone
-- Still vulnerable to skewness and similarity attacks
-
-**Stronger models:** t-closeness, differential privacy
-
-## Requirements
-
-- Python 3.8+
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- openpyxl (for Excel export)
-
-## License
-
-MIT License
-
-## References
-
-- Sweeney, L. (2002). "k-anonymity: A model for protecting privacy"
-- Machanavajjhala, A., et al. (2007). "ℓ-diversity: Privacy beyond k-anonymity"
-- Massachusetts GIC case study (Governor Weld re-identification)
-- HIPAA Privacy Rule guidelines
-
-## Author
-
-Privacy Assignment Project - 2025
+Academic use only - Assignment 2, Privacy & Security Course
